@@ -1,9 +1,0 @@
-Figure 1. Human-test threshold sweep for Evo2-GO function prediction. 
-Predicted GO-term probabilities from the best checkpoint (training step 105,000)
-were thresholded over 100 evenly spaced cutoffs from 0.01 to 0.99 and 
-evaluated on the held-out human test set (18,608 genes; 2,186 retained true-path GO terms).
- Precision and recall were computed per gene and averaged across genes; 
- F1 was then computed from the averaged precision and recall at each threshold. 
- The maximum gene-averaged F1 was 0.513 at threshold 0.525, with precision 0.575 and recall 0.463. 
- This threshold sweep defines the reported CAFA-style gene-averaged 
- Fmax and is not a calibrated posterior probability threshold.

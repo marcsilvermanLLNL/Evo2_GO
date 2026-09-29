@@ -1,5 +1,0 @@
-namespace	retained_labels	vocabulary_terms	fraction	namespace_label	namespace_short
-biological_process	298571603	1630	0.46903455577709763	Biological process	BP
-cellular_component	154085711	449	0.24205759115840378	Cellular component	CC
-molecular_function	183889582	686	0.2888773330711098	Molecular function	MF
-other	19428	1	3.051999338878002e-05	Other / missing	Other

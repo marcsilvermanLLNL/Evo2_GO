@@ -1,4 +1,0 @@
-category	terms_with_test_labels	median_global_f1	median_global_precision	median_global_recall	median_term_fmax	total_test_positive_labels
-BP	935	0.0	0.36072289	0.0	0.16129032	621206
-CC	269	0.04848485	0.40789474	0.02580645	0.1875	309491
-MF	427	0.04651163	0.314420125	0.0273224	0.18401937	205959

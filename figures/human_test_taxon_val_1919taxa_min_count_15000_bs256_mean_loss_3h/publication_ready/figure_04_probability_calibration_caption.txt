@@ -1,9 +1,0 @@
-Figure 4. Probability calibration of human-test GO predictions. Predicted probabilities
-for all pairs of held-out human genes and retained GO terms (18,608 genes and 2,766
-terms) were grouped into 20 equal-width score bins. The reliability curve compares each
-bin's mean predicted probability with its observed positive-label fraction; circle area
-is proportional to the number of gene-GO decisions in the bin. The histogram shows the
-same score-bin occupancy on a logarithmic scale. The Brier score was 0.055, expected
-calibration error was 0.178, and maximum calibration error was 0.302, indicating that
-the discriminative threshold scores should not be interpreted as well-calibrated
-posterior probabilities without calibration.

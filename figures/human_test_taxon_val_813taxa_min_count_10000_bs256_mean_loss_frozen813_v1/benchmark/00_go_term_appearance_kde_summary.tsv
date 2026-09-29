@@ -1,4 +1,0 @@
-group	terms	min_count	median_count	mean_count	max_count
-all_observed_true_path_terms	28027	1	57.0	7337.894030756057	5825053
-retained_min_count_vocabulary	1649	10000	26053.0	113972.0697392359	5825053
-dropped_below_vocabulary_threshold	26378	1	39.0	671.7420956857987	9971

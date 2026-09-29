@@ -1,7 +1,0 @@
-metric	value
-genes	18608
-median_f1_at_global_threshold	0.43478261
-median_per_gene_auroc	0.93981761
-median_per_gene_average_precision	0.50318587
-mean_true_labels_per_gene	67.57373173
-max_true_labels_per_gene	443

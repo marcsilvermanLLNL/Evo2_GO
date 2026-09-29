@@ -9,3 +9,6 @@ __pycache__/
 *.core
 flux-*.out
 slurm-*.out
+/figures/*
+!/figures/mmseqs_linclust_full_85_5_10_min_count_15000_bs256_mean_loss_fixed_val50k_v2/
+!/figures/mmseqs_linclust_full_85_5_10_min_count_15000_bs256_mean_loss_fixed_val50k_v2/**
