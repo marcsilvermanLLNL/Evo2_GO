@@ -1,0 +1,6 @@
+Figure 15. GO-term performance jointly stratified by ontology depth and annotation
+frequency for molecular function, biological process, and cellular component terms.
+The left column reports median per-term F1 at the validation-selected threshold of
+0.61, whereas the right column reports descriptive per-term test-set Fmax. Gray cells
+contain no terms, n labels identify cells containing one to four terms, and the three
+ontology root terms were excluded.

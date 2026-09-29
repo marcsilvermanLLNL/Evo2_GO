@@ -1,0 +1,8 @@
+Figure 8. Gene-level performance as a function of namespace-specific annotation density.
+The annotation-count benchmark was computed separately for biological process, cellular
+component, and molecular function terms from the saved human-test score matrix and the
+global threshold 0.510. Within each namespace, genes were binned into deciles by the
+number of retained true-path labels in that namespace; points show decile medians for
+precision, recall, and F1 computed using only GO terms from that namespace. The analysis
+uses the 18,608-gene human test set and 2,766 retained GO terms; genes with at least one
+namespace-specific label were BP=16,975, CC=18,075, and MF=17,695.

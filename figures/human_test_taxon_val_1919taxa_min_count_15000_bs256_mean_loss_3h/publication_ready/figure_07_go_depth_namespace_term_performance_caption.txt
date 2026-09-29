@@ -1,0 +1,8 @@
+Figure 7. Ontology-depth benchmark stratified by GO namespace and graph depth. Lines
+show depth-wise median performance separately for biological process, cellular
+component, and molecular function terms; shaded bands are namespace-specific
+interquartile ranges. The left panel uses the single global threshold selected by the
+gene-averaged human-test Fmax sweep, whereas the right panel uses each GO term's best
+threshold over the same grid. The analysis includes 2,727 supported GO terms from the
+18,608-gene human test set (1,618 BP, 426 CC, and 683 MF terms out of 2,766 vocabulary
+terms), with graph depth computed from is_a and part_of links in go-basic.obo.

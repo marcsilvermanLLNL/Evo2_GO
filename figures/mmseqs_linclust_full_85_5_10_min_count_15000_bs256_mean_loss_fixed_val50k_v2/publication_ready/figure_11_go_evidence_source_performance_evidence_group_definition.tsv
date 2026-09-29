@@ -1,0 +1,6 @@
+priority	source_group	source_label	evidence_codes	source_annotation_rows	held_out_source_annotation_rows
+1	experimental	Conventional experimental	EXP,IDA,IPI,IMP,IGI,IEP	547249	104555
+2	high_throughput_experimental	High-throughput experimental	HTP,HDA,HMP,HGI,HEP	41084	4082
+3	phylogenetic_computational	Curated computational/phylogenetic inference	IBA,IBD,IKR,IRD,ISS,ISO,ISA,ISM,IGC,RCA	1012044	211333
+4	author_curator	Author/curator statements	TAS,NAS,IC,ND	137002	22539
+5	electronic_annotation	Electronic annotation	IEA	117453006	13766606

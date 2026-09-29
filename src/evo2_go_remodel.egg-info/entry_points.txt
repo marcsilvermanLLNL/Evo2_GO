@@ -1,0 +1,2 @@
+[console_scripts]
+evo2-go = evo2_go.cli:main

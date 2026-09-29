@@ -1,0 +1,11 @@
+Figure 4. Probability calibration on the held-out MMseqs-cluster test set. Predicted
+probabilities for all pairs of test sequences and retained non-root GO terms (3,092,176
+sequences and 3,381 terms) were grouped into 20 equal-width score bins. The reliability
+curve compares each bin's mean predicted probability with its observed positive-label
+fraction; circle area is proportional to the number of gene-GO decisions in the bin. The
+histogram shows the same score-bin occupancy on a logarithmic scale. The Brier score was
+0.039, expected calibration error was 0.154, and maximum calibration error was 0.372,
+indicating that the discriminative threshold scores should not be interpreted as
+well-calibrated posterior probabilities without calibration. The ontology root terms
+molecular function (MF) (GO:0003674), cellular component (CC) (GO:0005575), and
+biological process (BP) (GO:0008150) were excluded from all reported metrics.

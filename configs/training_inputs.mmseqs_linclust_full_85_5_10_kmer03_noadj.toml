@@ -1,0 +1,41 @@
+# Full-dataset MMseqs linclust split for sequence-similarity-aware
+# train/validation/test manifests.
+#
+# Uses the same nucleotide linclust settings as the successful 25-taxon pilot:
+# kmer_per_seq_scale = 0.3 and adjacency center-swapping disabled.
+
+build_id = "mmseqs_linclust_full_85_5_10_kmer03_noadj_v1"
+build_root = "outputs/builds"
+
+embedding_root = "outputs/builds/all_labels_true_path_42taxa_human_test_min_count_100_v1/data/embeddings"
+length_filtered_cds_root = "outputs/map_gene_cds/length_filtered_max_8192"
+
+# The split balances by total records, not labels, but the current dispatcher
+# still passes a label cache to the MMseqs splitter for labeled-record counts.
+label_cache = "outputs/builds/all_labels_true_path_1919taxa_human_test_min_count_15000_v1/data/labels/label_index.tsv.gz"
+
+steps = [
+  "split_manifest",
+]
+
+[split]
+name = "mmseqs_linclust_full_85_5_10_70id_50cov_kmer03_noadj"
+strategy = "mmseqs_linclust"
+
+mmseqs_path = "envs/mmseqs/bin/mmseqs"
+min_seq_id = 0.70
+coverage = 0.50
+cov_mode = 1
+kmer_per_seq_scale = 0.3
+include_adjacency = 0
+threads = 32
+
+train_fraction = 0.85
+val_fraction = 0.05
+test_fraction = 0.10
+balance_by = "records"
+seed = "evo2-go-mmseqs-linclust-full-85-5-10-kmer03-noadj-v1"
+expected_embedding_dim = 4096
+
+[validation]
+expected_embedding_dim = 4096

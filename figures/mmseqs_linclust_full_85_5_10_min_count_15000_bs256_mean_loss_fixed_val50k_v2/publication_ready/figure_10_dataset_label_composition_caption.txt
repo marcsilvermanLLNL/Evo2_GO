@@ -1,0 +1,12 @@
+Figure 10. Whole-dataset retained GO label composition. Panel A shows the aggregate
+allocation of retained true-path gene-GO labels across GO namespaces after vocabulary
+filtering, summed over the full cleaned 30,921,763-sequence dataset across 2,336 taxa.
+Panel B shows the distribution of retained true-path GO labels per sequence in
+label_index.tsv.gz, including explicit terms and inferred is_a/part_of ancestors.
+Namespace label allocation was BP=48.5%, CC=23.3%, and MF=28.2%. The label index
+contains 30,921,715 sequences and 824,807,633 retained labels; the median was 24 labels
+per sequence, the interquartile range was 12-37, and the 95th percentile was 63. Counts
+above 97 labels are shown as a single overflow bin (0.48% of sequences). The ontology
+root terms molecular function (GO:0003674), cellular component (GO:0005575), and
+biological process (GO:0008150) were excluded from both panels; this removed 69,889,176
+root-label occurrences before the per-sequence distribution was computed.

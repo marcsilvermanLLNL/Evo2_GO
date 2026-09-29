@@ -1,0 +1,13 @@
+Figure 11. GO-term performance by annotation source for (A) molecular function, (B)
+biological process, and (C) cellular component. The left column shows GO-term F1 at the
+validation-selected threshold of 0.61; the right column shows each GO term's
+independently test-optimized Fmax. Only original processed Gene2GO gene--term
+annotations were used; is_a and part_of ancestor terms were not propagated. Evidence
+codes were grouped as conventional experimental (EXP, IDA, IPI, IMP, IGI, IEP),
+high-throughput experimental (HTP, HDA, HMP, HGI, HEP), computational/phylogenetic (IBA,
+IBD, IKR, IRD, ISS, ISO, ISA, ISM, IGC, RCA), author/curator (TAS, NAS, IC, ND), and
+electronic (IEA). A GO term appears in every source group directly represented among its
+held-out annotations, so groups are non-exclusive. Here, n is the number of distinct GO
+terms in each box, not the number of genes or annotation records. Boxes show medians and
+interquartile ranges; whiskers extend to 1.5 times the interquartile range. The three GO
+ontology root terms were excluded.

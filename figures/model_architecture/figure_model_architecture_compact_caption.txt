@@ -1,0 +1,15 @@
+Figure. Compact schematic of the Evo2-GO dual encoder. Precomputed mean-pooled
+4,096-dimensional Evo2-7B activations from blocks.28.mlp.l3 are stored in FP16, cast to
+FP32, and passed through LayerNorm, a 4,096-to-2,048 linear layer, GELU, 0.1 dropout, a
+second LayerNorm, a 2,048-to-1,024 linear layer, 0.1 dropout, and L2 normalization. The
+ontology branch begins with learned 256-dimensional vectors for 3,384 GO terms. Two GCN
+message-passing layers use a fixed symmetrically normalized adjacency with self-loops and
+bidirectional is_a and part_of edges. Bias-free projections map 256 to 512 and 512 to 1,024
+dimensions; the first is followed by LayerNorm and GELU, and the second by LayerNorm and L2
+normalization. The two 1,024-dimensional representations are compared by cosine similarity
+and a learned scale initialized to 20 and clamped to [1, 100]. GO embeddings act directly as
+output heads, producing 3,384 logits and sigmoid probabilities without a separate classifier
+matrix or term-bias layer. Mean-reduced asymmetric loss uses true-path binary targets,
+gamma-negative 4, gamma-positive 0, and probability clip 0.05. Training updates both
+encoders, GO node features, and the scale; precomputed Evo2 features and the normalized GO
+adjacency remain fixed.

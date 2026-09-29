@@ -1,0 +1,8 @@
+Figure 13. GO-term-level performance as a function of annotation frequency in the
+full cleaned 30,921,763-sequence dataset. Panel A reports one-vs-rest GO-term F1 at
+the validation-selected threshold of 0.61, whereas panel B reports descriptive
+per-term test-set Fmax; across 3,381 non-root terms, the respective medians were
+0.044 and 0.220 and their Spearman correlations with frequency were 0.339 and
+0.218. Points denote individual terms colored by namespace, black lines and shaded
+bands denote binned medians and interquartile ranges, and the three ontology root
+terms were excluded.

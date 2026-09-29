@@ -1,0 +1,20 @@
+Figure 11. GO-term performance stratified by prioritized source-annotation evidence and
+ontology depth. The top row compares one-vs-rest GO-term F1 at the single test-selected
+gene-averaged global threshold with per-term optimal Fmax. The bottom row reports
+depth-wise medians and interquartile ranges within each evidence group. Source
+provenance was reconstructed from the original processed Gene2GO annotation table
+(119,190,385 rows). For a true-path-propagated term, the evidence group of each explicit
+descendant annotation that generated that ancestor through an is_a or part_of path was
+carried to the propagated term. If a term had support from multiple groups, one display
+group was assigned using this prespecified priority: (1) Experimental [EXP, IDA, IPI,
+IMP, IGI, IEP]; (2) high-throughput experimental [HTP, HDA, HMP, HGI, HEP]; (3)
+phylogenetic/computational [IBA, IKR, ISS, ISO, ISA, ISM, IGC, RCA]; (4) Other [TAS,
+NAS, IC, ND]; and (5) electronic annotation [IEA]. The lowest numbered available group
+took precedence. Thus, the displayed class is prioritized provenance rather than an
+assertion that a term has only one evidence source. The analysis includes 3,381 retained
+non-root true-path GO terms with positive labels among 3,092,176 sequences in the
+held-out MMseqs-cluster test set (Experimental=3,381, High-throughput experimental=0,
+Phylogenetic/computational=0, Other=0, Electronic annotation=0). Metrics are descriptive
+(oracle) test-set analyses: the global threshold was selected using all test labels, and
+per-term Fmax uses each term's best test-set threshold. The three GO ontology root terms
+were excluded.

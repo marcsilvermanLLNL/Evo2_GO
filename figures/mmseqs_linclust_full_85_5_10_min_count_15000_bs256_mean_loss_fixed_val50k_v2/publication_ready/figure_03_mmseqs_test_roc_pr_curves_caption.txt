@@ -1,0 +1,13 @@
+Figure 3. ROC and precision-recall benchmark curves for the held-out MMseqs-cluster test
+set. The best checkpoint was evaluated on 3,092,176 sequences and 3,381 retained
+non-root true-path GO terms. The ROC panel shows recall as a function of false positive
+rate for the same 0.01 to 0.99 threshold grid used for descriptive (oracle) test-set
+Fmax; the precision-recall panel shows the corresponding precision-recall tradeoff.
+Gene-averaged curves first compute
+each quantity per gene and then average across genes, whereas micro curves pool gene-GO
+decisions before computing each quantity. Threshold-grid AUROC was 0.976 gene-averaged
+and 0.972 micro; threshold-grid AUPRC was 0.424 gene-averaged and 0.494 micro. Fmax
+maximizes gene-averaged F1 over this test-set grid and should not be interpreted as
+performance at a validation-selected operating threshold. The ontology root terms
+molecular function (MF) (GO:0003674), cellular component (CC) (GO:0005575), and
+biological process (BP) (GO:0008150) were excluded from all reported metrics.

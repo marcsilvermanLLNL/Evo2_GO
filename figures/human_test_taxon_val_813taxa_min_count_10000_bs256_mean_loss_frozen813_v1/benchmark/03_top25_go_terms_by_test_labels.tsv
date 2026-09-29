@@ -1,0 +1,26 @@
+go_index	GO_ID	name	category	trainable_gene_count	test_positive_genes
+204	GO:0005575	cellular_component	CC	4564190	18075
+1516	GO:0110165	cellular anatomical structure	CC	4471050	18011
+105	GO:0003674	molecular_function	MF	5825053	17695
+471	GO:0008150	biological_process	BP	5005646	16975
+193	GO:0005488	binding	MF	3643181	16081
+207	GO:0005622	intracellular anatomical structure	CC	3493339	14730
+198	GO:0005515	protein binding	MF	1425614	14659
+600	GO:0009987	cellular process	BP	4251402	14616
+1116	GO:0043226	organelle	CC	2814748	13873
+1119	GO:0043229	intracellular organelle	CC	2783014	13086
+1117	GO:0043227	membrane-bounded organelle	CC	2473397	13062
+1120	GO:0043231	intracellular membrane-bounded organelle	CC	2423491	11981
+1383	GO:0065007	biological regulation	BP	1552771	11731
+225	GO:0005737	cytoplasm	CC	2268263	11627
+1272	GO:0050789	regulation of biological process	BP	1473261	11330
+1275	GO:0050794	regulation of cellular process	BP	1435395	10897
+673	GO:0016020	membrane	CC	1459599	9125
+1282	GO:0050896	response to stimulus	BP	865971	7265
+208	GO:0005634	nucleus	CC	1349406	7163
+472	GO:0008152	metabolic process	BP	2626087	6980
+1156	GO:0044238	primary metabolic process	BP	2346430	6295
+996	GO:0032991	protein-containing complex	CC	1338866	5926
+796	GO:0019222	regulation of metabolic process	BP	799810	5909
+1340	GO:0051716	cellular response to stimulus	BP	731732	5863
+1424	GO:0071944	cell periphery	CC	525977	5806

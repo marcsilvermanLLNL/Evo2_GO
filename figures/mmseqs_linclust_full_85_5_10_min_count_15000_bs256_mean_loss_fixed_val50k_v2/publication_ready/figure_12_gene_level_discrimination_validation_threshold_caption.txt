@@ -1,0 +1,7 @@
+Figure 12. Sequence-level discrimination on the held-out MMseqs-cluster test set.
+Panel A shows the distributions of per-gene AUROC and average precision, while panel B
+shows median per-gene F1 at the validation-selected threshold of 0.61 and median
+average precision across retained-label-count deciles; median AUROC, average
+precision, and F1 were 0.986, 0.527, and 0.426, respectively. AUROC and average
+precision are threshold-independent, and the three GO ontology root terms were
+excluded from all reported metrics.

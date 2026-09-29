@@ -1,0 +1,41 @@
+# Model training/evaluation config for the frozen 1919 completed-taxon
+# embedding set with GO vocabulary min_count = 15000.
+# Paths are resolved relative to --project-root.
+
+build_id = "all_labels_true_path_1919taxa_human_test_min_count_15000_v1"
+build_root = "outputs/builds"
+run_name = "human_test_taxon_val_1919taxa_min_count_15000_bs256_mean_loss_3h"
+
+# Embeddings are shared from the live aggregate root, but this file pins
+# training/evaluation to the frozen 1919-taxon set.
+embedding_root = "outputs/builds/all_labels_true_path_42taxa_human_test_min_count_100_v1/data/embeddings"
+tax_ids_file = "outputs/builds/all_labels_true_path_1919taxa_human_test_min_count_15000_v1/data/embeddings_snapshot/frozen_complete_tax_ids_1919.txt"
+
+[training]
+train_split = "train"
+val_split = "val"
+batch_size = 256
+num_workers = 8
+max_steps = 200000
+warmup_steps = 2000
+validate_every = 5000
+validation_batches = 0
+checkpoint_every = 5000
+log_every = 100
+peak_lr = 3e-4
+weight_decay = 0.01
+loss_reduction = "mean"
+loss_positive_weight = 1.0
+loss_negative_weight = 1.0
+device = "auto"
+max_cached_shards = 2
+stop_after_seconds = 10200
+
+[evaluation]
+split_name = "test"
+batch_size = 256
+num_workers = 8
+threshold_steps = 99
+device = "auto"
+save_score_matrix = true
+publication_metrics = true

@@ -1,0 +1,36 @@
+# Split-only pilot for MMseqs linclust cluster-based train/val/test manifests.
+# This 25-taxon run tests MMseqs' nucleotide linclust k-mer scale recommendation.
+
+build_id = "mmseqs_linclust_25taxa_kmer03_pilot_v1"
+build_root = "outputs/builds"
+
+embedding_root = "outputs/builds/all_labels_true_path_42taxa_human_test_min_count_100_v1/data/embeddings"
+length_filtered_cds_root = "outputs/map_gene_cds/length_filtered_max_8192"
+label_cache = "outputs/builds/all_labels_true_path_1919taxa_human_test_min_count_15000_v1/data/labels/label_index.tsv.gz"
+
+steps = [
+  "split_manifest",
+]
+
+[split]
+name = "mmseqs_linclust_25taxa_70id_50cov_kmer03"
+strategy = "mmseqs_linclust"
+tax_ids_file = "outputs/builds/all_labels_true_path_1919taxa_human_test_min_count_15000_v1/data/embeddings_snapshot/frozen_complete_tax_ids_1919.txt"
+limit_taxa = 25
+
+mmseqs_path = "envs/mmseqs/bin/mmseqs"
+min_seq_id = 0.70
+coverage = 0.50
+cov_mode = 1
+kmer_per_seq_scale = 0.3
+threads = 4
+
+train_fraction = 0.80
+val_fraction = 0.10
+test_fraction = 0.10
+balance_by = "records"
+seed = "evo2-go-mmseqs-linclust-25taxa-kmer03-pilot-v1"
+expected_embedding_dim = 4096
+
+[validation]
+expected_embedding_dim = 4096

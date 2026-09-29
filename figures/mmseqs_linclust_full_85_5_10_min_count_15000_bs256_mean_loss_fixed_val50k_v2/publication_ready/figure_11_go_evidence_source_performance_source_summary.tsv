@@ -1,0 +1,16 @@
+namespace	assigned_priority	assigned_source_group	assigned_source_label	terms	dataset_gene_go_labels	test_positive_labels	median_f1_at_global_threshold	f1_q25	f1_q75	median_per_term_fmax	fmax_q25	fmax_q75
+biological_process	1	experimental	Conventional experimental	1358	175662469	3624686	0.0	0.0	0.00694572	0.01435658	0.00043855	0.1132593575
+biological_process	2	high_throughput_experimental	High-throughput experimental	10	1020223	49921	0.01489698	0.0006720425	0.035275627500000004	0.082166855	0.009427655	0.160161535
+biological_process	3	phylogenetic_computational	Curated computational/phylogenetic inference	1395	171356438	3687517	0.0	0.0	0.00676302	0.015625	0.00051874	0.11412122499999999
+biological_process	4	author_curator	Author/curator statements	744	111957163	3048119	0.0	0.0	0.04483123	0.043940355	0.0043487725000000005	0.16754343249999998
+biological_process	5	electronic_annotation	Electronic annotation	1558	234901873	3780336	0.0	0.0	0.0055178	0.010447419999999999	0.0004040125	0.1033450925
+cellular_component	1	experimental	Conventional experimental	408	114105209	3420230	0.0006244600000000001	0.0	0.029779355	0.058748125	0.0044468400000000005	0.1854056275
+cellular_component	2	high_throughput_experimental	High-throughput experimental	63	49291411	2242504	0.00837989	0.000501515	0.18062448	0.13538462	0.054764555	0.26227126
+cellular_component	3	phylogenetic_computational	Curated computational/phylogenetic inference	406	113842945	3420851	0.000783935	0.0	0.030375125	0.06279149	0.0047874375	0.18637531
+cellular_component	4	author_curator	Author/curator statements	245	77216031	3145937	0.00227906	0.0	0.05173394	0.10808938	0.02564021	0.22129743
+cellular_component	5	electronic_annotation	Electronic annotation	451	156492350	3455297	0.00054608	0.0	0.028201145	0.05476162	0.0029889599999999997	0.18137776500000002
+molecular_function	1	experimental	Conventional experimental	609	161252362	4022869	0.00457317	0.0	0.11134827	0.09167715	0.00857821	0.26309467
+molecular_function	2	high_throughput_experimental	High-throughput experimental	11	7112534	708938	0.36127436	0.167114575	0.5632212	0.36174492	0.27571365999999997	0.6010590499999999
+molecular_function	3	phylogenetic_computational	Curated computational/phylogenetic inference	649	149670144	4055020	0.00381454	0.0	0.09924715	0.08114257	0.00723352	0.25516254
+molecular_function	4	author_curator	Author/curator statements	379	98429343	3573793	0.01019846	0.0	0.163542875	0.13590599	0.02756628	0.30479279
+molecular_function	5	electronic_annotation	Electronic annotation	728	180942603	4092463	0.0027889200000000003	0.0	0.08724747499999999	0.06989912	0.004668945000000001	0.24313114000000002

@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "evo2-go-remodel"
+version = "0.1.0"
+description = "Remodeled Evo2-GO pipeline with documented command-line entry points."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+ontology = ["goatools", "numpy", "scipy"]
+training = ["torch", "numpy", "scipy"]
+embeddings = ["torch"]
+visualization = ["matplotlib", "pandas"]
+
+[project.scripts]
+evo2-go = "evo2_go.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

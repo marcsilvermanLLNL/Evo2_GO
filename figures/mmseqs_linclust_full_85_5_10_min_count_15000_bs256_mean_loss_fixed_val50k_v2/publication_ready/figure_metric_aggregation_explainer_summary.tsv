@@ -1,0 +1,9 @@
+metric	value
+gene_averaged_fmax	0.52480701
+gene_averaged_fmax_threshold	0.58414137
+gene_averaged_precision_at_fmax	0.53650411
+gene_averaged_recall_at_fmax	0.51360909
+terms_with_test_support	3381
+median_term_f1_at_global_threshold	0.07066481
+median_per_term_optimal_fmax	0.21989842
+matrix_is_schematic	1

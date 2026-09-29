@@ -1,0 +1,6 @@
+metric	value
+brier_score	0.05499040
+expected_calibration_error_20bin	0.17830705
+maximum_calibration_error_20bin	0.30226602
+calibration_bins_with_observations	20
+gene_go_decisions	51469728

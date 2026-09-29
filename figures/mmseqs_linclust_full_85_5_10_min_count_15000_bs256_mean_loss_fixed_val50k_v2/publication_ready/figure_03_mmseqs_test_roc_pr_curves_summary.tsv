@@ -1,0 +1,6 @@
+metric	value
+gene_averaged_roc_auc_threshold_grid	0.97586449
+micro_roc_auc_threshold_grid	0.97153595
+gene_averaged_pr_auc_threshold_grid	0.42414105
+micro_pr_auc_threshold_grid	0.49380610
+threshold_points	100

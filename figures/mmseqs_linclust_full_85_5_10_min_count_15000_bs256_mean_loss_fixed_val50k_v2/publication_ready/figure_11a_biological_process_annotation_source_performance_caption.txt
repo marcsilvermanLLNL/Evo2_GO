@@ -1,0 +1,17 @@
+Figure 11a. Biological process GO-term performance stratified by explicit Gene2GO label
+provenance. Panel A shows GO-term F1 at the validation-selected threshold of 0.61; panel
+B shows each GO term's independently test-optimized Fmax. Evidence provenance was
+reconstructed from 14,109,115 rows matching the held-out test-gene population in the
+original processed Gene2GO table (119,190,385 total rows). Evaluation targets and
+evidence provenance were restricted to the original processed Gene2GO gene--term pairs;
+no is_a or part_of ancestor labels were added. Each GO term was included in every
+evidence family directly represented among its positive held-out gene annotations, so
+source groups are not mutually exclusive: conventional experimental [EXP, IDA, IPI, IMP,
+IGI, IEP]; high-throughput experimental [HTP, HDA, HMP, HGI, HEP]; curated
+computational/phylogenetic [IBA, IBD, IKR, IRD, ISS, ISO, ISA, ISM, IGC, RCA];
+author/curator statements [TAS, NAS, IC, ND]; and IEA-only electronic annotation. Boxes
+show the distribution across GO terms represented in each source family (Conventional
+experimental=1,358, High-throughput experimental=10, Curated computational/phylogenetic
+inference=1,395, Author/curator statements=744, Electronic annotation=1,558; 1,652
+unique terms). The metrics use 3,037,647 MMseqs-cluster test sequences. Per-term Fmax is
+a test-set-optimized analysis. The three ontology root terms were excluded.

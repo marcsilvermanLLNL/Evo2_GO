@@ -1,0 +1,8 @@
+Figure 5. Gene-level discrimination on the held-out human test set. The empirical
+cumulative distribution functions summarize per-gene AUROC and average precision across
+18,608 human genes using score-ranked GO-term probabilities. The second panel groups
+genes by deciles of true retained-label count and reports median F1 at the global Fmax
+threshold together with median average precision; the shaded band shows the
+interquartile range for F1. Median per-gene AUROC was 0.940, median per-gene average
+precision was 0.503, and median F1 at the global threshold was 0.435. This separates
+gene-level ranking quality from the single-threshold CAFA-style Fmax summary.

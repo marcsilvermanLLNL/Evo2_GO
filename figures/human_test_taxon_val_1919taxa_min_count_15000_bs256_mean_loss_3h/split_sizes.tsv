@@ -1,0 +1,4 @@
+split	records
+train	22384510
+val	18604
+test	18608

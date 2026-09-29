@@ -1,0 +1,5 @@
+category	terms	terms_with_val_labels	terms_with_test_labels	val_positive_gene_term_pairs	test_positive_gene_term_pairs
+BP	4857	4562	4547	954224	808788
+CC	1100	1005	1010	317092	347251
+MF	2434	2265	2261	220587	234371
+	9	8	9	57	67

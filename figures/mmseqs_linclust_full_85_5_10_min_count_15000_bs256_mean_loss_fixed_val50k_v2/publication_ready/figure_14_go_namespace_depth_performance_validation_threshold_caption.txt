@@ -1,0 +1,7 @@
+Figure 14. GO-term performance stratified by ontology namespace and graph depth on
+the held-out MMseqs-cluster test set. Panels A and C show one-vs-rest GO-term F1 at
+the validation-selected threshold of 0.61, while panels B and D show descriptive
+per-term test-set Fmax; median F1 was 0.032 for BP, 0.043 for CC, and 0.092 for MF,
+and median Fmax was 0.197, 0.225, and 0.284, respectively. Depth was calculated from
+is_a and part_of parent links, shaded bands show interquartile ranges, and the three
+ontology root terms were excluded.

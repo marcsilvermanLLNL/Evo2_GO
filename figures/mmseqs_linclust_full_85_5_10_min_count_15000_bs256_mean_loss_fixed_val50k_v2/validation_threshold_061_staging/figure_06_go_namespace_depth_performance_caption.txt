@@ -1,0 +1,16 @@
+Figure 6. GO-term performance stratified by ontology namespace and graph depth. The top
+row compares one-vs-rest GO-term F1 at the single test-selected gene-averaged global
+threshold with per-term optimal Fmax across biological process, cellular component, and
+molecular function terms. The bottom row summarizes the same metrics by GO graph depth
+within each namespace; lines show namespace-specific depth-wise medians and shaded bands
+show interquartile ranges. GO graph depth was computed from is_a and part_of parent
+links in go-basic.obo. The analysis uses retained non-root true-path GO terms with at
+least one positive label among 3,092,176 sequences in the held-out MMseqs-cluster test
+set (3,381 of 3,381 vocabulary terms). Median per-term optimal Fmax by namespace was
+BP=0.197, CC=0.225, and MF=0.284, underscoring that gene-averaged Fmax summarizes a
+different quantity than one-vs-rest GO-term performance. These are descriptive (oracle)
+test-set analyses: the global threshold was selected using all test labels, and each
+per-term Fmax independently selects that term's best test-set threshold. Neither
+represents performance at a validation-selected operating threshold. The ontology root
+terms molecular function (MF) (GO:0003674), cellular component (CC) (GO:0005575), and
+biological process (BP) (GO:0008150) were excluded from all reported metrics.

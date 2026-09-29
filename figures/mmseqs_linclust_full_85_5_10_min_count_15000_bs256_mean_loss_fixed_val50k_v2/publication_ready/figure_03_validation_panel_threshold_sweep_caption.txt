@@ -1,0 +1,6 @@
+Figure 3. Fixed-panel validation threshold sweep for Evo2-GO function prediction.
+Predictions from the step-190,000 checkpoint were evaluated over 50 probability
+thresholds on the deterministic 50,000-sequence validation panel across 3,384 retained
+GO terms; gene-averaged Fmax was 0.627 at threshold 0.61, with precision 0.660 and
+recall 0.597. This threshold was fixed before primary evaluation on the held-out
+MMseqs-cluster test set and is not a calibrated posterior probability.

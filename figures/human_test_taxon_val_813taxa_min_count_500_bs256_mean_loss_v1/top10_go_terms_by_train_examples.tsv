@@ -1,0 +1,11 @@
+GO_ID	name	namespace	test_term_fmax	train_examples	test_examples	test_best_threshold	test_precision_at_best_threshold	test_recall_at_best_threshold
+GO:0003674	molecular_function	molecular_function	0.97485056	5791123	17695	0.01	0.95093508	1.0
+GO:0008150	biological_process	biological_process	0.95426418	4971235	16975	0.52474749	0.91311837	0.99929308
+GO:0005575	cellular_component	cellular_component	0.98549697	4528011	18075	0.36636364	0.97140861	1.0
+GO:0110165	cellular anatomical structure	cellular_component	0.98372385	4435012	18011	0.35646465	0.96796904	1.0
+GO:0009987	cellular process	biological_process	0.88789044	4221374	14616	0.53464645	0.80686839	0.98700055
+GO:0005488	binding	molecular_function	0.9271527	3615495	16081	0.01	0.86419819	1.0
+GO:0005622	intracellular anatomical structure	cellular_component	0.90193244	3464672	14730	0.48515153	0.83954373	0.97433809
+GO:0043226	organelle	cellular_component	0.87114864	2788199	13873	0.46535355	0.78781696	0.97419448
+GO:0043229	intracellular organelle	cellular_component	0.84855655	2757608	13086	0.49505052	0.76085112	0.95911661
+GO:0003824	catalytic activity	molecular_function	0.67202845	2659597	5521	0.58414137	0.63090129	0.71889151

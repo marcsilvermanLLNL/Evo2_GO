@@ -1,0 +1,8 @@
+Figure 3. Human-test ROC and precision-recall benchmark curves. The best checkpoint was
+evaluated on 18,608 held-out human genes and 2,766 retained true-path GO terms. The ROC
+panel shows recall as a function of false positive rate for the same 0.01 to 0.99
+threshold grid used for Fmax; the precision-recall panel shows the corresponding
+precision-recall tradeoff. Gene-averaged curves first compute each quantity per gene and
+then average across genes, whereas micro curves pool gene-GO decisions before computing
+each quantity. Threshold-grid AUROC was 0.930 gene-averaged and 0.908 micro;
+threshold-grid AUPRC was 0.480 gene-averaged and 0.444 micro.

@@ -1,0 +1,9 @@
+Figure 10. Whole-dataset retained GO label composition. Panel A shows the aggregate
+allocation of retained true-path gene-GO labels across GO namespaces after vocabulary
+filtering, summed over the 1919-taxon training universe. Panel B shows the distribution
+of retained true-path GO labels per sequence in label_index.tsv.gz, including explicit
+terms and inferred is_a/part_of ancestors. Namespace label allocation was BP=46.9%,
+CC=24.2%, and MF=28.9%. The label index contains 22,421,722 sequences and 636,566,324
+retained labels; the median was 26 labels per sequence, the interquartile range was
+13-39, and the 95th percentile was 65. Counts above 97 labels are shown as a single
+overflow bin (0.44% of sequences).

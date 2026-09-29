@@ -1,0 +1,10 @@
+Figure 9. GO-term performance by ontology namespace, graph depth, and binned dataset
+occurrence. Rows show (A) molecular function, (B) biological process, and (C) cellular
+component (MF=849 terms; BP=2,011 terms; CC=520 terms). Each cell groups GO terms by
+depth and occurrence and reports the median F1 calculated independently for each term
+across all test sequences. The left column uses the global threshold selected by
+descriptive test-set Fmax (0.584); the right column shows per-term descriptive test-set
+Fmax. Gray cells contain no terms, and n denotes term counts in sparse cells. The
+ontology root terms molecular function (MF) (GO:0003674), cellular component (CC)
+(GO:0005575), and biological process (BP) (GO:0008150) were excluded from all reported
+metrics.

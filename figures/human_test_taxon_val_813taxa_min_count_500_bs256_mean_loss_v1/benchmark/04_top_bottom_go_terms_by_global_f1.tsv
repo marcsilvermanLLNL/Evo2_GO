@@ -1,0 +1,51 @@
+rank_group	GO_ID	name	category	database_frequency	test_positive_count	test_f1_at_global_threshold	test_precision_at_global_threshold	test_recall_at_global_threshold	test_term_fmax	test_best_threshold
+top_global_f1	GO:0008184	glycogen phosphorylase activity	MF	1062	3	1.0	1.0	1.0	1.0	0.43565658
+top_global_f1	GO:0004411	homogentisate 1,2-dioxygenase activity	MF	792	1	1.0	1.0	1.0	1.0	0.46535355
+top_global_f1	GO:0004766	spermidine synthase activity	MF	818	1	1.0	1.0	1.0	1.0	0.45545456
+top_global_f1	GO:0070183	mitochondrial tryptophanyl-tRNA aminoacylation	BP	610	1	1.0	1.0	1.0	1.0	0.50494945
+top_global_f1	GO:0005575	cellular_component	CC	4564190	18075	0.98538634	0.97140246	0.9997787	0.98549697	0.36636364
+top_global_f1	GO:0110165	cellular anatomical structure	CC	4471050	18011	0.98361283	0.96796216	0.99977791	0.98372385	0.35646465
+top_global_f1	GO:0003674	molecular_function	MF	5825053	17695	0.97485056	0.95093508	1.0	0.97485056	0.01
+top_global_f1	GO:0008150	biological_process	BP	5005646	16975	0.95416714	0.9127441	0.99952872	0.95426418	0.52474749
+top_global_f1	GO:0005488	binding	MF	3643181	16081	0.90844076	0.87893941	0.93999129	0.9271527	0.01
+top_global_f1	GO:0005622	intracellular anatomical structure	CC	3493339	14730	0.90064672	0.84483169	0.96435845	0.90193244	0.48515153
+top_global_f1	GO:0007608	sensory perception of smell	BP	17675	412	0.89914945	0.90024331	0.89805825	0.90716804	0.47525254
+top_global_f1	GO:0009987	cellular process	BP	4251402	14616	0.88756707	0.80415579	0.99028462	0.88789044	0.53464645
+top_global_f1	GO:0030020	extracellular matrix structural constituent conferring tensile strength	MF	1419	39	0.88311688	0.89473684	0.87179487	0.88311688	0.50494945
+top_global_f1	GO:0004984	olfactory receptor activity	MF	55460	391	0.87374302	0.77579365	1.0	0.99234694	0.93060607
+top_global_f1	GO:0043226	organelle	CC	2814748	13873	0.86796059	0.79944154	0.94932603	0.87114864	0.46535355
+top_global_f1	GO:0030280	structural constituent of skin epidermis	MF	2205	61	0.86725664	0.94230769	0.80327869	0.86725664	0.50494945
+top_global_f1	GO:0007606	sensory perception of chemical stimulus	BP	23769	484	0.85809313	0.92583732	0.79958678	0.88266954	0.48515153
+top_global_f1	GO:0031838	haptoglobin-hemoglobin complex	CC	1213	11	0.85714286	0.9	0.81818182	0.85714286	0.45545456
+top_global_f1	GO:0043229	intracellular organelle	CC	2783014	13086	0.84846835	0.76494415	0.95246829	0.84855655	0.49505052
+top_global_f1	GO:0043227	membrane-bounded organelle	CC	2473397	13062	0.83367301	0.75955183	0.92382484	0.84020361	0.45545456
+top_global_f1	GO:0005581	collagen trimer	CC	1094	43	0.82666667	0.96875	0.72093023	0.84337349	0.44555557
+top_global_f1	GO:0030527	structural constituent of chromatin	MF	27359	96	0.82291667	0.82291667	0.82291667	0.89017341	0.71282828
+top_global_f1	GO:0045109	intermediate filament organization	BP	4229	73	0.816	0.98076923	0.69863014	0.816	0.50494945
+top_global_f1	GO:0005515	protein binding	MF	1425614	14659	0.81594689	0.82730332	0.80489801	0.88924774	0.2178788
+top_global_f1	GO:0043231	intracellular membrane-bounded organelle	CC	2423491	11981	0.80132977	0.70655706	0.92546532	0.80412085	0.45545456
+bottom_global_f1	GO:0042802	identical protein binding	MF	20678	2204	0.0		0.0	0.22784641	0.23767678
+bottom_global_f1	GO:0043230	extracellular organelle	CC	7292	2107	0.0		0.0	0.20770635	0.02979798
+bottom_global_f1	GO:0065010	extracellular membrane-bounded organelle	CC	7286	2107	0.0		0.0	0.22176098	0.22777779
+bottom_global_f1	GO:1903561	extracellular vesicle	CC	7284	2107	0.0		0.0	0.2118247	0.19808082
+bottom_global_f1	GO:0019899	enzyme binding	MF	128829	2091	0.0	0.0	0.0	0.26212722	0.39606062
+bottom_global_f1	GO:0070062	extracellular exosome	CC	6675	2075	0.0		0.0	0.23300474	0.24757577
+bottom_global_f1	GO:0050793	regulation of developmental process	BP	48865	2074	0.0	0.0	0.0	0.27888323	0.38616163
+bottom_global_f1	GO:1902531	regulation of intracellular signal transduction	BP	72784	1922	0.0	0.0	0.0	0.23992527	0.39606062
+bottom_global_f1	GO:0048585	negative regulation of response to stimulus	BP	47902	1584	0.0		0.0	0.20303468	0.37626263
+bottom_global_f1	GO:0051246	regulation of protein metabolic process	BP	100279	1405	0.0		0.0	0.17111567	0.37626263
+bottom_global_f1	GO:1901700	response to oxygen-containing compound	BP	48201	1389	0.0		0.0	0.18769443	0.33666667
+bottom_global_f1	GO:0010648	negative regulation of cell communication	BP	40977	1341	0.0		0.0	0.18316931	0.37626263
+bottom_global_f1	GO:0023057	negative regulation of signaling	BP	41077	1340	0.0		0.0	0.18047016	0.36636364
+bottom_global_f1	GO:0045595	regulation of cell differentiation	BP	23432	1334	0.0		0.0	0.20432138	0.36636364
+bottom_global_f1	GO:0043067	regulation of programmed cell death	BP	35549	1293	0.0		0.0	0.1486846	0.35646465
+bottom_global_f1	GO:0030659	cytoplasmic vesicle membrane	CC	63869	1277	0.0	0.0	0.0	0.19301934	0.34656566
+bottom_global_f1	GO:0009968	negative regulation of signal transduction	BP	39947	1260	0.0		0.0	0.17677287	0.37626263
+bottom_global_f1	GO:0042981	regulation of apoptotic process	BP	34090	1238	0.0		0.0	0.14738971	0.34656566
+bottom_global_f1	GO:2000026	regulation of multicellular organismal development	BP	24666	1225	0.0		0.0	0.20610137	0.36636364
+bottom_global_f1	GO:0022414	reproductive process	BP	73847	1151	0.0		0.0	0.17688442	0.37626263
+bottom_global_f1	GO:0005768	endosome	CC	89495	1126	0.0	0.0	0.0	0.19438547	0.35646465
+bottom_global_f1	GO:0051094	positive regulation of developmental process	BP	17955	1121	0.0		0.0	0.17142857	0.34656566
+bottom_global_f1	GO:0099503	secretory vesicle	CC	22237	1107	0.0		0.0	0.14155019	0.31686869
+bottom_global_f1	GO:0009719	response to endogenous stimulus	BP	51216	1097	0.0	0.0	0.0	0.16503497	0.36636364
+bottom_global_f1	GO:0010628	positive regulation of gene expression	BP	29042	1077	0.0		0.0	0.14632684	0.33666667

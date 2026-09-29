@@ -1,0 +1,13 @@
+Figure. Evo2-GO data preprocessing workflow. Downloaded NCBI Gene2GO, RefSeq CDS FASTA, and
+Gene Ontology files form the preserved source-data snapshot. Positive Gene2GO annotations
+were retained, including IEA evidence, while negated annotations were removed. One
+representative CDS was selected per (tax_id, GeneID), sequences longer than 8,192 characters
+were excluded, and the remaining 30,921,763 sequences were converted to 4,096-dimensional
+FP16 Evo2 embeddings. Explicit GO labels were propagated through is_a and part_of ancestors,
+and terms supported by at least 15,000 selected genes defined a 3,384-term vocabulary and
+normalized GO graph. In parallel, MMseqs2 linclust grouped nucleotide CDSs at 70% sequence
+identity and 50% coverage; whole clusters were assigned to 85% training, 5% validation, and
+10% test partitions. Embeddings, propagated targets, GO adjacency, and split assignments
+were then joined into model-ready records. The remote acquisition stage is not yet fully
+automated in Evo2-GO-Remodel, so reproducing the workflow currently begins from the
+preserved source files.

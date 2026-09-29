@@ -1,0 +1,13 @@
+Figure 5. Sequence-level discrimination on the held-out MMseqs-cluster test set. The
+empirical cumulative distribution functions summarize per-gene AUROC and average
+precision across 3,092,176 sequences using score-ranked GO-term probabilities. The
+second panel groups genes by deciles of true retained-label count and reports median F1
+at the test-selected global Fmax threshold together with median average precision; the
+shaded band shows the interquartile range for F1. Median per-gene AUROC was 0.986,
+median per-gene average precision was 0.527, and median F1 at the global threshold was
+0.440. The global threshold was selected to maximize gene-averaged F1 using test labels,
+so threshold-dependent F1 values are descriptive (oracle) test-set results rather than
+performance at a validation-selected operating threshold. Per-gene AUROC and average
+precision are score-ranked metrics and do not use that threshold. The ontology root
+terms molecular function (MF) (GO:0003674), cellular component (CC) (GO:0005575), and
+biological process (BP) (GO:0008150) were excluded from all reported metrics.

@@ -1,0 +1,160 @@
+Metadata-Version: 2.4
+Name: evo2-go-remodel
+Version: 0.1.0
+Summary: Remodeled Evo2-GO pipeline with documented command-line entry points.
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Provides-Extra: ontology
+Requires-Dist: goatools; extra == "ontology"
+Requires-Dist: numpy; extra == "ontology"
+Requires-Dist: scipy; extra == "ontology"
+Provides-Extra: training
+Requires-Dist: torch; extra == "training"
+Provides-Extra: embeddings
+Requires-Dist: torch; extra == "embeddings"
+
+# Evo2-GO Remodel
+
+This is the cleaned-up working tree for the Evo2-to-Gene-Ontology project.
+The immediate goal is not to rewrite the science pipeline. It is to move the
+stable parts into a documented, installable package with command-line entry
+points that are easy to run and test.
+
+## Current Scope
+
+The migrated command surface now covers database preparation through embedding
+dataset assembly:
+
+- Gene2GO object model and parsing helpers.
+- Representative CDS mapping.
+- Per-taxon representative CDS mapping driver.
+- CDS length filtering for the Evo2 context window.
+- Evo2 embedding extraction into a shared embedding root.
+- Embedding dataset validation.
+- GO term counting from selected trainable genes.
+- True-path GO label expansion.
+- GO vocabulary and sparse adjacency construction.
+- Rerunnable CPU-side training input preparation from an existing embedding
+  root.
+- Taxon-holdout split manifest generation.
+
+Model training code and architecture experiments will move later, after the
+database and embedding layers have a stable command surface.
+
+## Install
+
+From this directory:
+
+```bash
+python3 -m pip install -e .
+```
+
+If you need ontology adjacency or true-path label commands:
+
+```bash
+python3 -m pip install -e '.[ontology]'
+```
+
+If you need embedding extraction or validation:
+
+```bash
+python3 -m pip install -e '.[embeddings]'
+```
+
+The current LLNL environment may already provide these dependencies. The
+editable install is only for command discovery and package imports.
+
+## Command Pattern
+
+All migrated commands are available through one entry point:
+
+```bash
+evo2-go --help
+evo2-go <command> --help
+```
+
+During development, without installing:
+
+```bash
+PYTHONPATH=src python3 -m evo2_go.cli --help
+PYTHONPATH=src python3 -m evo2_go.cli go-term-counts --help
+```
+
+The first one-command database workflow is:
+
+```bash
+python3 build_database.py \
+  --config configs/build.example.toml \
+  --project-root . \
+  --dry-run
+```
+
+Use `--dry-run` first. The workflow prints each underlying Python command
+without writing files. Remove `--dry-run` when the paths and scientific choices
+are correct.
+
+After embeddings exist, rerun labels, adjacency, label cache, and split
+preparation separately from database assembly:
+
+```bash
+python3 prepare_training_inputs.py \
+  --config configs/training_inputs.example.toml \
+  --project-root . \
+  --dry-run
+```
+
+This workflow writes `training_inputs_manifest.tsv` and
+`training_inputs_steps.tsv` under the build directory.
+
+Embedding jobs write into one shared root:
+
+```text
+<embedding_root>/
+  embedding_dataset_manifest.tsv
+  embedding_metadata.tsv.gz
+  tax_<tax_id>/
+    embedding_metadata.tsv.gz
+    embedding_shards/
+```
+
+Run repeated embedding jobs against the same `embedding_root`. Completed taxa
+and completed batch shards are skipped by default, and the root metadata is
+rebuilt from every complete taxon in that shared root.
+
+Embedding extraction expects a local Evo2 checkpoint by default:
+
+```text
+evo2_model/evo2_7b_base.pt
+```
+
+Copy or symlink that checkpoint into this tree before launching a real
+embedding job, or set `[embeddings].model_path` in the build config to an
+explicit site-local path.
+
+## Stable Data Contracts
+
+Training examples are keyed by:
+
+```text
+tax_id, GeneID, cds_id
+```
+
+Do not key examples by bare `GeneID`; GeneIDs can collide across taxa.
+
+Gene2GO annotations are GeneID-level labels. They are not transcript, protein,
+or isoform-specific. The current sequence policy is:
+
+```text
+(tax_id, GeneID) -> longest representative CDS -> Evo2 embedding -> GO labels
+```
+
+True-path labels expand explicit positive labels to `is_a` and `part_of`
+ancestors from `go-basic.obo`.
+
+## Documentation
+
+- [docs/pipeline.md](docs/pipeline.md): stage-by-stage database workflow.
+- [docs/commands.md](docs/commands.md): command reference for migrated tools.
+- [docs/embedding_runs.md](docs/embedding_runs.md): embedding extraction
+  prerequisites and Flux command shape.
+- [docs/migration.md](docs/migration.md): migration notes and next slices.

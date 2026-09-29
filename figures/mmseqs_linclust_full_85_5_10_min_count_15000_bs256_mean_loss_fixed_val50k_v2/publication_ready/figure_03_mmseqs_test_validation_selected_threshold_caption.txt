@@ -1,0 +1,6 @@
+Figure 3. Evo2-GO performance on the held-out MMseqs-cluster test set across probability
+thresholds. The validation-selected threshold of 0.61 produced gene-averaged F1 of
+0.521, precision of 0.580, and recall of 0.472 across 3,092,176 sequences and 3,381
+retained non-root GO terms. The validation-selected threshold remained fixed for the
+primary test evaluation and is not a calibrated posterior probability; the three GO
+ontology root terms were excluded from all reported metrics.

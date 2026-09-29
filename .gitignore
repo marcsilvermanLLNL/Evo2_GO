@@ -1,0 +1,11 @@
+docs/llm_handoff_*.md
+data/
+outputs/
+envs/
+evo2_model/
+test_set_export/
+__pycache__/
+*.py[cod]
+*.core
+flux-*.out
+slurm-*.out

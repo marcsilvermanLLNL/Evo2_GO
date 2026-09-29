@@ -1,0 +1,51 @@
+# Example model training/evaluation config for the active remodel build.
+# Paths are resolved relative to --project-root.
+
+build_id = "all_labels_true_path_42taxa_human_test_min_count_100_v1"
+build_root = "outputs/builds"
+run_name = "human_test_taxon_val_bs256_mean_loss_current"
+
+embedding_root = "outputs/builds/all_labels_true_path_42taxa_human_test_min_count_100_v1/data/embeddings"
+vocabulary = "outputs/builds/all_labels_true_path_42taxa_human_test_min_count_100_v1/adjacency/go_vocabulary.tsv"
+adjacency = "outputs/builds/all_labels_true_path_42taxa_human_test_min_count_100_v1/adjacency/go_adjacency_sparse.npz"
+label_cache = "outputs/builds/all_labels_true_path_42taxa_human_test_min_count_100_v1/data/labels/label_index.tsv.gz"
+split_manifest = "outputs/builds/all_labels_true_path_42taxa_human_test_min_count_100_v1/data/splits/human_test_taxon_val_manifest.tsv"
+output_dir = "outputs/builds/all_labels_true_path_42taxa_human_test_min_count_100_v1/runs/human_test_taxon_val_bs256_mean_loss_current"
+
+[training]
+train_split = "train"
+val_split = "val"
+batch_size = 256
+num_workers = 8
+max_steps = 200000
+warmup_steps = 2000
+validate_every = 5000
+# 0 means full validation split.
+validation_batches = 0
+# For frequent validation, prefer a fixed panel created by
+# `evo2-go validation-panel` over truncating the ordered validation loader:
+# validation_panel = "outputs/builds/<build>/data/splits/validation_panel.tsv"
+# reset_best_on_resume = true  # when changing protocol on a resumed model
+checkpoint_every = 5000
+log_every = 100
+peak_lr = 3e-4
+weight_decay = 0.01
+loss_reduction = "mean"
+loss_positive_weight = 1.0
+loss_negative_weight = 1.0
+device = "auto"
+max_cached_shards = 2
+# Set this slightly below the Flux wall time for graceful checkpointing.
+stop_after_seconds = 6900
+
+[evaluation]
+split_name = "test"
+batch_size = 256
+num_workers = 8
+threshold_steps = 100
+device = "auto"
+# Save raw sigmoid scores and binary targets for reproducible publication analysis.
+save_score_matrix = true
+# Write gene-level, GO-term-level, micro, threshold-grid, and calibration
+# statistics, including AUROC, average precision, Brier score, and ECE.
+publication_metrics = true

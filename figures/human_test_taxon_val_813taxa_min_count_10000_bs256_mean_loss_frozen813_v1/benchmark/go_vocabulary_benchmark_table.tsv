@@ -1,0 +1,1650 @@
+go_index	GO_ID	trainable_gene_count	in_go_basic	is_obsolete	name	namespace	category	explicit_gene_count	inferred_ancestor_gene_count	explicit_only_gene_count	inferred_only_gene_count	explicit_and_inferred_gene_count
+0	GO:0000027	13796	1	0	ribosomal large subunit assembly	biological_process	BP	12658	1152	12644	1138	14
+1	GO:0000028	11626	1	0	ribosomal small subunit assembly	biological_process	BP	10786	844	10782	840	4
+2	GO:0000030	20539	1	0	mannosyltransferase activity	molecular_function	MF	3989	16691	3848	16550	141
+3	GO:0000041	28771	1	0	transition metal ion transport	biological_process	BP	13	28771	0	28758	13
+4	GO:0000045	16830	1	0	autophagosome assembly	biological_process	BP	13477	4250	12580	3353	897
+5	GO:0000049	20650	1	0	tRNA binding	molecular_function	MF	20644	13	20637	6	7
+6	GO:0000070	19622	1	0	mitotic sister chromatid segregation	biological_process	BP	4779	15374	4248	14843	531
+7	GO:0000075	29845	1	0	cell cycle checkpoint signaling	biological_process	BP	0	29845	0	29845	0
+8	GO:0000077	16517	1	0	DNA damage checkpoint signaling	biological_process	BP	4975	11623	4894	11542	81
+9	GO:0000079	13927	1	0	regulation of cyclin-dependent protein serine/threonine kinase activity	biological_process	BP	11662	2274	11653	2265	9
+10	GO:0000118	19513	1	0	histone deacetylase complex	cellular_component	CC	5022	14537	4976	14491	46
+11	GO:0000122	39136	1	0	negative regulation of transcription by RNA polymerase II	biological_process	BP	39005	165	38971	131	34
+12	GO:0000123	23863	1	0	histone acetyltransferase complex	cellular_component	CC	2571	21378	2485	21292	86
+13	GO:0000139	46519	1	0	Golgi membrane	cellular_component	CC	44233	2631	43888	2286	345
+14	GO:0000149	28980	1	0	SNARE binding	molecular_function	MF	18493	10524	18456	10487	37
+15	GO:0000151	62604	1	0	ubiquitin ligase complex	cellular_component	CC	12656	50088	12516	49948	140
+16	GO:0000152	13149	1	0	nuclear ubiquitin ligase complex	cellular_component	CC	19	13134	15	13130	4
+17	GO:0000154	16702	1	0	rRNA modification	biological_process	BP	160	16591	111	16542	49
+18	GO:0000160	12284	1	0	phosphorelay signal transduction system	biological_process	BP	9384	2907	9377	2900	7
+19	GO:0000166	835810	1	0	nucleotide binding	molecular_function	MF	15191	822959	12851	820619	2340
+20	GO:0000175	12374	1	0	3'-5'-RNA exonuclease activity	molecular_function	MF	8515	3935	8439	3859	76
+21	GO:0000178	11146	1	0	exosome (RNase complex)	cellular_component	CC	2241	9021	2125	8905	116
+22	GO:0000209	35114	1	0	protein polyubiquitination	biological_process	BP	25613	9715	25399	9501	214
+23	GO:0000226	72983	1	0	microtubule cytoskeleton organization	biological_process	BP	19896	54112	18871	53087	1025
+24	GO:0000228	55178	1	0	nuclear chromosome	cellular_component	CC	3380	51857	3321	51798	59
+25	GO:0000245	12301	1	0	spliceosomal complex assembly	biological_process	BP	6899	5434	6867	5402	32
+26	GO:0000271	15376	1	0	polysaccharide biosynthetic process	biological_process	BP	1549	13837	1539	13827	10
+27	GO:0000272	17470	1	0	polysaccharide catabolic process	biological_process	BP	2277	15208	2262	15193	15
+28	GO:0000278	103237	1	0	mitotic cell cycle	biological_process	BP	22698	83449	19788	80539	2910
+29	GO:0000280	46165	1	0	nuclear division	biological_process	BP	1117	45091	1074	45048	43
+30	GO:0000287	41394	1	0	magnesium ion binding	molecular_function	MF	41394	0	41394	0	0
+31	GO:0000288	12819	1	0	nuclear-transcribed mRNA catabolic process, deadenylation-dependent decay	biological_process	BP	3410	9483	3336	9409	74
+32	GO:0000302	10343	1	0	response to reactive oxygen species	biological_process	BP	2413	7962	2381	7930	32
+33	GO:0000307	23162	1	0	cyclin-dependent protein kinase holoenzyme complex	cellular_component	CC	12385	10857	12305	10777	80
+34	GO:0000313	34271	1	0	organellar ribosome	cellular_component	CC	0	34271	0	34271	0
+35	GO:0000314	11030	1	0	organellar small ribosomal subunit	cellular_component	CC	0	11030	0	11030	0
+36	GO:0000315	22616	1	0	organellar large ribosomal subunit	cellular_component	CC	0	22616	0	22616	0
+37	GO:0000322	42042	1	0	storage vacuole	cellular_component	CC	14	42028	14	42028	0
+38	GO:0000323	72270	1	0	lytic vacuole	cellular_component	CC	1181	71095	1175	71089	6
+39	GO:0000324	42006	1	0	fungal-type vacuole	cellular_component	CC	12907	29626	12380	29099	527
+40	GO:0000329	28804	1	0	fungal-type vacuole membrane	cellular_component	CC	28804	0	28804	0	0
+41	GO:0000375	85794	1	0	RNA splicing, via transesterification reactions	biological_process	BP	336	85510	284	85458	52
+42	GO:0000377	85440	1	0	RNA splicing, via transesterification reactions with bulged adenosine as nucleophile	biological_process	BP	0	85440	0	85440	0
+43	GO:0000387	12748	1	0	spliceosomal snRNP assembly	biological_process	BP	9610	3180	9568	3138	42
+44	GO:0000398	85047	1	0	mRNA splicing, via spliceosome	biological_process	BP	58013	36211	48836	27034	9177
+45	GO:0000407	12798	1	0	phagophore assembly site	cellular_component	CC	8535	4707	8091	4263	444
+46	GO:0000413	12640	1	0	protein peptidyl-prolyl isomerization	biological_process	BP	12640	0	12640	0	0
+47	GO:0000422	13942	1	0	autophagy of mitochondrion	biological_process	BP	11099	2889	11053	2843	46
+48	GO:0000428	55951	1	0	DNA-directed RNA polymerase complex	cellular_component	CC	34	55949	2	55917	32
+49	GO:0000460	19841	1	0	maturation of 5.8S rRNA	biological_process	BP	6745	13136	6705	13096	40
+50	GO:0000462	23676	1	0	maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)	biological_process	BP	18294	5407	18269	5382	25
+51	GO:0000463	10729	1	0	maturation of LSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)	biological_process	BP	9862	872	9857	867	5
+52	GO:0000466	13136	1	0	maturation of 5.8S rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)	biological_process	BP	2038	11104	2032	11098	6
+53	GO:0000470	17133	1	0	maturation of LSU-rRNA	biological_process	BP	6375	10786	6347	10758	28
+54	GO:0000502	30193	1	0	proteasome complex	cellular_component	CC	4320	30048	145	25873	4175
+55	GO:0000723	19406	1	0	telomere maintenance	biological_process	BP	11123	8444	10962	8283	161
+56	GO:0000724	40043	1	0	double-strand break repair via homologous recombination	biological_process	BP	25178	16326	23717	14865	1461
+57	GO:0000725	41940	1	0	recombinational repair	biological_process	BP	1909	40049	1891	40031	18
+58	GO:0000775	29273	1	0	chromosome, centromeric region	cellular_component	CC	3952	26023	3250	25321	702
+59	GO:0000776	22339	1	0	kinetochore	cellular_component	CC	12863	11700	10639	9476	2224
+60	GO:0000779	23524	1	0	condensed chromosome, centromeric region	cellular_component	CC	1270	22339	1185	22254	85
+61	GO:0000785	117605	1	0	chromatin	cellular_component	CC	35023	86282	31323	82582	3700
+62	GO:0000786	28675	1	0	nucleosome	cellular_component	CC	28673	46	28629	2	44
+63	GO:0000793	37953	1	0	condensed chromosome	cellular_component	CC	1581	36442	1511	36372	70
+64	GO:0000819	20784	1	0	sister chromatid segregation	biological_process	BP	1030	19765	1019	19754	11
+65	GO:0000902	30307	1	0	cell morphogenesis	biological_process	BP	5680	25210	5097	24627	583
+66	GO:0000910	14371	1	0	cytokinesis	biological_process	BP	14	14360	11	14357	3
+67	GO:0000922	12961	1	0	spindle pole	cellular_component	CC	9378	3710	9251	3583	127
+68	GO:0000932	21866	1	0	P-body	cellular_component	CC	21866	0	21866	0	0
+69	GO:0000956	33766	1	0	nuclear-transcribed mRNA catabolic process	biological_process	BP	5099	28778	4988	28667	111
+70	GO:0000959	11052	1	0	mitochondrial RNA metabolic process	biological_process	BP	32	11048	4	11020	28
+71	GO:0000966	11954	1	0	RNA 5'-end processing	biological_process	BP	1	11953	1	11953	0
+72	GO:0000976	224754	1	0	transcription cis-regulatory region binding	molecular_function	MF	29328	196259	28495	195426	833
+73	GO:0000977	188034	1	0	RNA polymerase II transcription regulatory region sequence-specific DNA binding	molecular_function	MF	28981	159813	28221	159053	760
+74	GO:0000978	159725	1	0	RNA polymerase II cis-regulatory region sequence-specific DNA binding	molecular_function	MF	157118	2829	156896	2607	222
+75	GO:0000981	249485	1	0	DNA-binding transcription factor activity, RNA polymerase II-specific	molecular_function	MF	217620	33846	215639	31865	1981
+76	GO:0000987	163002	1	0	cis-regulatory region sequence-specific DNA binding	molecular_function	MF	2349	160908	2094	160653	255
+77	GO:0000993	10500	1	0	RNA polymerase II complex binding	molecular_function	MF	6130	4399	6101	4370	29
+78	GO:0001067	224768	1	0	transcription regulatory region nucleic acid binding	molecular_function	MF	6	224765	3	224762	3
+79	GO:0001216	19738	1	0	DNA-binding transcription activator activity	molecular_function	MF	170	19625	113	19568	57
+80	GO:0001228	19625	1	0	DNA-binding transcription activator activity, RNA polymerase II-specific	molecular_function	MF	19625	0	19625	0	0
+81	GO:0001510	30074	1	0	RNA methylation	biological_process	BP	2122	27964	2110	27952	12
+82	GO:0001522	10924	1	0	pseudouridine synthesis	biological_process	BP	4165	6892	4032	6759	133
+83	GO:0001653	18861	1	0	peptide receptor activity	molecular_function	MF	1655	17216	1645	17206	10
+84	GO:0001664	21470	1	0	G protein-coupled receptor binding	molecular_function	MF	6806	14750	6720	14664	86
+85	GO:0001676	10280	1	0	long-chain fatty acid metabolic process	biological_process	BP	3405	6900	3380	6875	25
+86	GO:0001727	10531	1	0	lipid kinase activity	molecular_function	MF	193	10357	174	10338	19
+87	GO:0001775	10386	1	0	cell activation	biological_process	BP	69	10343	43	10317	26
+88	GO:0001817	10942	1	0	regulation of cytokine production	biological_process	BP	4474	6513	4429	6468	45
+89	GO:0001932	37567	1	0	regulation of protein phosphorylation	biological_process	BP	945	36672	895	36622	50
+90	GO:0001934	16507	1	0	positive regulation of protein phosphorylation	biological_process	BP	6312	10294	6213	10195	99
+91	GO:0002097	11625	1	0	tRNA wobble base modification	biological_process	BP	0	11625	0	11625	0
+92	GO:0002098	10058	1	0	tRNA wobble uridine modification	biological_process	BP	5671	4468	5590	4387	81
+93	GO:0002181	36709	1	0	cytoplasmic translation	biological_process	BP	21598	15138	21571	15111	27
+94	GO:0002253	12546	1	0	activation of immune response	biological_process	BP	11	12540	6	12535	5
+95	GO:0002376	59178	1	0	immune system process	biological_process	BP	1307	58019	1159	57871	148
+96	GO:0002682	36607	1	0	regulation of immune system process	biological_process	BP	3362	33305	3302	33245	60
+97	GO:0002684	24561	1	0	positive regulation of immune system process	biological_process	BP	44	24557	4	24517	40
+98	GO:0002757	10274	1	0	immune response-activating signaling pathway	biological_process	BP	22	10258	16	10252	6
+99	GO:0002764	11059	1	0	immune response-regulating signaling pathway	biological_process	BP	262	10803	256	10797	6
+100	GO:0002831	10885	1	0	regulation of response to biotic stimulus	biological_process	BP	0	10885	0	10885	0
+101	GO:0003002	10573	1	0	regionalization	biological_process	BP	44	10565	8	10529	36
+102	GO:0003006	23238	1	0	developmental process involved in reproduction	biological_process	BP	163	23136	102	23075	61
+103	GO:0003008	61037	1	0	system process	biological_process	BP	213	61017	20	60824	193
+104	GO:0003333	27488	1	0	amino acid transmembrane transport	biological_process	BP	18763	8974	18514	8725	249
+105	GO:0003674	5825053	1	0	molecular_function	molecular_function	MF	14471	5813395	11658	5810582	2813
+106	GO:0003676	1129395	1	0	nucleic acid binding	molecular_function	MF	148428	984459	144936	980967	3492
+107	GO:0003677	573379	1	0	DNA binding	molecular_function	MF	220933	357577	215802	352446	5131
+108	GO:0003678	25556	1	0	DNA helicase activity	molecular_function	MF	10620	15160	10396	14936	224
+109	GO:0003682	60080	1	0	chromatin binding	molecular_function	MF	38217	22215	37865	21863	352
+110	GO:0003684	18287	1	0	damaged DNA binding	molecular_function	MF	16513	1811	16476	1774	37
+111	GO:0003690	265576	1	0	double-stranded DNA binding	molecular_function	MF	18886	247055	18521	246690	365
+112	GO:0003697	31712	1	0	single-stranded DNA binding	molecular_function	MF	28901	2863	28849	2811	52
+113	GO:0003700	326891	1	0	DNA-binding transcription factor activity	molecular_function	MF	80907	249648	77243	245984	3664
+114	GO:0003712	62317	1	0	transcription coregulator activity	molecular_function	MF	27149	35472	26845	35168	304
+115	GO:0003713	19996	1	0	transcription coactivator activity	molecular_function	MF	19996	0	19996	0	0
+116	GO:0003714	16949	1	0	transcription corepressor activity	molecular_function	MF	16937	12	16937	12	0
+117	GO:0003723	422433	1	0	RNA binding	molecular_function	MF	238401	186804	235629	184032	2772
+118	GO:0003724	25745	1	0	RNA helicase activity	molecular_function	MF	25130	671	25074	615	56
+119	GO:0003727	10115	1	0	single-stranded RNA binding	molecular_function	MF	5021	5118	4997	5094	24
+120	GO:0003729	89882	1	0	mRNA binding	molecular_function	MF	78268	11934	77948	11614	320
+121	GO:0003735	138512	1	0	structural constituent of ribosome	molecular_function	MF	138512	0	138512	0	0
+122	GO:0003743	30077	1	0	translation initiation factor activity	molecular_function	MF	30077	4	30073	0	4
+123	GO:0003746	11677	1	0	translation elongation factor activity	molecular_function	MF	11677	0	11677	0	0
+124	GO:0003755	20797	1	0	peptidyl-prolyl cis-trans isomerase activity	molecular_function	MF	20797	0	20797	0	0
+125	GO:0003774	26507	1	0	cytoskeletal motor activity	molecular_function	MF	3457	23396	3111	23050	346
+126	GO:0003777	17505	1	0	microtubule motor activity	molecular_function	MF	14632	2983	14522	2873	110
+127	GO:0003779	61312	1	0	actin binding	molecular_function	MF	19523	42232	19080	41789	443
+128	GO:0003824	2670604	1	0	catalytic activity	molecular_function	MF	33098	2639637	30967	2637506	2131
+129	GO:0003887	11113	1	0	DNA-directed DNA polymerase activity	molecular_function	MF	11113	0	11113	0	0
+130	GO:0003899	11327	1	0	DNA-directed RNA polymerase activity	molecular_function	MF	11327	0	11327	0	0
+131	GO:0003924	103560	1	0	GTPase activity	molecular_function	MF	103552	648	102912	8	640
+132	GO:0004175	131172	1	0	endopeptidase activity	molecular_function	MF	1041	130575	597	130131	444
+133	GO:0004177	13311	1	0	aminopeptidase activity	molecular_function	MF	2231	11198	2113	11080	118
+134	GO:0004180	15349	1	0	carboxypeptidase activity	molecular_function	MF	1821	13604	1745	13528	76
+135	GO:0004190	20231	1	0	aspartic-type endopeptidase activity	molecular_function	MF	18075	2166	18065	2156	10
+136	GO:0004197	21963	1	0	cysteine-type endopeptidase activity	molecular_function	MF	16644	5330	16633	5319	11
+137	GO:0004222	32666	1	0	metalloendopeptidase activity	molecular_function	MF	32556	118	32548	110	8
+138	GO:0004252	51618	1	0	serine-type endopeptidase activity	molecular_function	MF	51618	0	51618	0	0
+139	GO:0004364	11876	1	0	glutathione transferase activity	molecular_function	MF	11876	0	11876	0	0
+140	GO:0004386	56853	1	0	helicase activity	molecular_function	MF	6070	51089	5764	50783	306
+141	GO:0004497	85561	1	0	monooxygenase activity	molecular_function	MF	54800	31285	54276	30761	524
+142	GO:0004518	90459	1	0	nuclease activity	molecular_function	MF	2034	88566	1893	88425	141
+143	GO:0004519	59091	1	0	endonuclease activity	molecular_function	MF	4973	54997	4094	54118	879
+144	GO:0004520	16698	1	0	DNA endonuclease activity	molecular_function	MF	2041	14730	1968	14657	73
+145	GO:0004521	40083	1	0	RNA endonuclease activity	molecular_function	MF	8029	32100	7983	32054	46
+146	GO:0004523	19607	1	0	RNA-DNA hybrid ribonuclease activity	molecular_function	MF	19607	0	19607	0	0
+147	GO:0004527	33263	1	0	exonuclease activity	molecular_function	MF	2325	31008	2255	30938	70
+148	GO:0004532	14331	1	0	RNA exonuclease activity	molecular_function	MF	43	14310	21	14288	22
+149	GO:0004536	23166	1	0	DNA nuclease activity	molecular_function	MF	328	22880	286	22838	42
+150	GO:0004540	56834	1	0	RNA nuclease activity	molecular_function	MF	2782	54170	2664	54052	118
+151	GO:0004553	92786	1	0	hydrolase activity, hydrolyzing O-glycosyl compounds	molecular_function	MF	28518	64672	28114	64268	404
+152	GO:0004601	26259	1	0	peroxidase activity	molecular_function	MF	14695	11761	14498	11564	197
+153	GO:0004620	18334	1	0	glycerophospholipase activity	molecular_function	MF	4543	13892	4442	13791	101
+154	GO:0004659	13251	1	0	prenyltransferase activity	molecular_function	MF	3142	10208	3043	10109	99
+155	GO:0004672	231849	1	0	protein kinase activity	molecular_function	MF	93292	142621	89228	138557	4064
+156	GO:0004674	118600	1	0	protein serine/threonine kinase activity	molecular_function	MF	83048	39625	78975	35552	4073
+157	GO:0004713	17858	1	0	protein tyrosine kinase activity	molecular_function	MF	5861	12555	5303	11997	558
+158	GO:0004721	51428	1	0	phosphoprotein phosphatase activity	molecular_function	MF	5578	46202	5226	45850	352
+159	GO:0004722	24650	1	0	protein serine/threonine phosphatase activity	molecular_function	MF	19908	4878	19772	4742	136
+160	GO:0004725	13945	1	0	protein tyrosine phosphatase activity	molecular_function	MF	12276	1803	12142	1669	134
+161	GO:0004812	30565	1	0	aminoacyl-tRNA ligase activity	molecular_function	MF	904	30084	481	29661	423
+162	GO:0004842	89060	1	0	ubiquitin-protein transferase activity	molecular_function	MF	21497	68842	20218	67563	1279
+163	GO:0004843	27695	1	0	cysteine-type deubiquitinase activity	molecular_function	MF	27695	6	27689	0	6
+164	GO:0004857	43708	1	0	enzyme inhibitor activity	molecular_function	MF	3998	39765	3943	39710	55
+165	GO:0004866	19915	1	0	endopeptidase inhibitor activity	molecular_function	MF	3988	16031	3884	15927	104
+166	GO:0004867	11567	1	0	serine-type endopeptidase inhibitor activity	molecular_function	MF	11567	0	11567	0	0
+167	GO:0004888	175596	1	0	transmembrane signaling receptor activity	molecular_function	MF	14245	161994	13602	161351	643
+168	GO:0004930	124075	1	0	G protein-coupled receptor activity	molecular_function	MF	89232	36390	87685	34843	1547
+169	GO:0004984	55460	1	0	olfactory receptor activity	molecular_function	MF	55298	223	55237	162	61
+170	GO:0005085	42755	1	0	guanyl-nucleotide exchange factor activity	molecular_function	MF	42755	0	42755	0	0
+171	GO:0005096	39608	1	0	GTPase activator activity	molecular_function	MF	39608	0	39608	0	0
+172	GO:0005102	73994	1	0	signaling receptor binding	molecular_function	MF	11176	63477	10517	62818	659
+173	GO:0005125	15457	1	0	cytokine activity	molecular_function	MF	12041	3436	12021	3416	20
+174	GO:0005126	14051	1	0	cytokine receptor binding	molecular_function	MF	1477	12645	1406	12574	71
+175	GO:0005179	10989	1	0	hormone activity	molecular_function	MF	7380	3726	7263	3609	117
+176	GO:0005198	233001	1	0	structural molecule activity	molecular_function	MF	20799	212398	20603	212202	196
+177	GO:0005200	13167	1	0	structural constituent of cytoskeleton	molecular_function	MF	12748	433	12734	419	14
+178	GO:0005215	482820	1	0	transporter activity	molecular_function	MF	2102	480718	2102	480718	0
+179	GO:0005216	80180	1	0	monoatomic ion channel activity	molecular_function	MF	4018	77173	3007	76162	1011
+180	GO:0005230	13082	1	0	extracellular ligand-gated monoatomic ion channel activity	molecular_function	MF	4365	9011	4071	8717	294
+181	GO:0005244	24475	1	0	voltage-gated monoatomic ion channel activity	molecular_function	MF	141	24373	102	24334	39
+182	GO:0005249	13061	1	0	voltage-gated potassium channel activity	molecular_function	MF	5310	7918	5143	7751	167
+183	GO:0005253	12762	1	0	monoatomic anion channel activity	molecular_function	MF	34	12742	20	12728	14
+184	GO:0005254	10567	1	0	chloride channel activity	molecular_function	MF	5485	5196	5371	5082	114
+185	GO:0005261	53372	1	0	monoatomic cation channel activity	molecular_function	MF	1728	51808	1564	51644	164
+186	GO:0005262	13980	1	0	calcium channel activity	molecular_function	MF	6010	8084	5896	7970	114
+187	GO:0005267	17922	1	0	potassium channel activity	molecular_function	MF	861	17286	636	17061	225
+188	GO:0005310	11809	1	0	dicarboxylic acid transmembrane transporter activity	molecular_function	MF	24	11802	7	11785	17
+189	GO:0005319	19089	1	0	lipid carrier activity	molecular_function	MF	4101	15031	4058	14988	43
+190	GO:0005351	19408	1	0	carbohydrate:proton symporter activity	molecular_function	MF	17678	1739	17669	1730	9
+191	GO:0005402	20320	1	0	carbohydrate:monoatomic cation symporter activity	molecular_function	MF	9	20317	3	20311	6
+192	GO:0005484	16434	1	0	SNAP receptor activity	molecular_function	MF	16434	0	16434	0	0
+193	GO:0005488	3643181	1	0	binding	molecular_function	MF	5	3643179	2	3643176	3
+194	GO:0005496	11749	1	0	steroid binding	molecular_function	MF	1402	10370	1379	10347	23
+195	GO:0005506	89743	1	0	iron ion binding	molecular_function	MF	81610	8218	81525	8133	85
+196	GO:0005507	19639	1	0	copper ion binding	molecular_function	MF	19300	360	19279	339	21
+197	GO:0005509	112159	1	0	calcium ion binding	molecular_function	MF	112159	6	112153	0	6
+198	GO:0005515	1425614	1	0	protein binding	molecular_function	MF	770436	668852	756762	655178	13674
+199	GO:0005516	14525	1	0	calmodulin binding	molecular_function	MF	14525	0	14525	0	0
+200	GO:0005524	552433	1	0	ATP binding	molecular_function	MF	552433	0	552433	0	0
+201	GO:0005525	119019	1	0	GTP binding	molecular_function	MF	119019	0	119019	0	0
+202	GO:0005543	44262	1	0	phospholipid binding	molecular_function	MF	11757	32663	11599	32505	158
+203	GO:0005549	17702	1	0	odorant binding	molecular_function	MF	17097	618	17084	605	13
+204	GO:0005575	4564190	1	0	cellular_component	cellular_component	CC	6320	4560121	4069	4557870	2251
+205	GO:0005576	154136	1	0	extracellular region	cellular_component	CC	96689	64817	89319	57447	7370
+206	GO:0005618	21996	1	0	cell wall	cellular_component	CC	6646	15350	6646	15350	0
+207	GO:0005622	3493339	1	0	intracellular anatomical structure	cellular_component	CC	19655	3481825	11514	3473684	8141
+208	GO:0005634	1349406	1	0	nucleus	cellular_component	CC	875497	561897	787509	473909	87988
+209	GO:0005635	42871	1	0	nuclear envelope	cellular_component	CC	12317	33326	9545	30554	2772
+210	GO:0005643	23665	1	0	nuclear pore	cellular_component	CC	16161	13158	10507	7504	5654
+211	GO:0005654	141656	1	0	nucleoplasm	cellular_component	CC	41093	103753	37903	100563	3190
+212	GO:0005657	20724	1	0	replication fork	cellular_component	CC	3693	17060	3664	17031	29
+213	GO:0005665	10126	1	0	RNA polymerase II, core complex	cellular_component	CC	10126	0	10126	0	0
+214	GO:0005666	13183	1	0	RNA polymerase III complex	cellular_component	CC	13183	0	13183	0	0
+215	GO:0005667	77562	1	0	transcription regulator complex	cellular_component	CC	18645	59315	18247	58917	398
+216	GO:0005669	10524	1	0	transcription factor TFIID complex	cellular_component	CC	10524	0	10524	0	0
+217	GO:0005680	10082	1	0	anaphase-promoting complex	cellular_component	CC	10082	0	10082	0	0
+218	GO:0005681	80043	1	0	spliceosomal complex	cellular_component	CC	18314	62290	17753	61729	561
+219	GO:0005684	24967	1	0	U2-type spliceosomal complex	cellular_component	CC	5820	19237	5730	19147	90
+220	GO:0005685	11218	1	0	U1 snRNP	cellular_component	CC	11218	0	11218	0	0
+221	GO:0005686	13297	1	0	U2 snRNP	cellular_component	CC	13297	0	13297	0	0
+222	GO:0005694	215662	1	0	chromosome	cellular_component	CC	15041	204989	10673	200621	4368
+223	GO:0005730	124174	1	0	nucleolus	cellular_component	CC	90763	51451	72723	33411	18040
+224	GO:0005732	13474	1	0	sno(s)RNA-containing ribonucleoprotein complex	cellular_component	CC	2374	11117	2357	11100	17
+225	GO:0005737	2268263	1	0	cytoplasm	cellular_component	CC	781412	1623100	645163	1486851	136249
+226	GO:0005739	411406	1	0	mitochondrion	cellular_component	CC	254049	173539	237867	157357	16182
+227	GO:0005740	112881	1	0	mitochondrial envelope	cellular_component	CC	4054	109325	3556	108827	498
+228	GO:0005741	24176	1	0	mitochondrial outer membrane	cellular_component	CC	19121	7076	17100	5055	2021
+229	GO:0005743	67920	1	0	mitochondrial inner membrane	cellular_component	CC	52832	19011	48909	15088	3923
+230	GO:0005758	11009	1	0	mitochondrial intermembrane space	cellular_component	CC	10871	164	10845	138	26
+231	GO:0005759	62672	1	0	mitochondrial matrix	cellular_component	CC	22847	40062	22610	39825	237
+232	GO:0005761	34247	1	0	mitochondrial ribosome	cellular_component	CC	1927	33617	630	32320	1297
+233	GO:0005762	22610	1	0	mitochondrial large ribosomal subunit	cellular_component	CC	22610	0	22610	0	0
+234	GO:0005763	11014	1	0	mitochondrial small ribosomal subunit	cellular_component	CC	11014	0	11014	0	0
+235	GO:0005764	29422	1	0	lysosome	cellular_component	CC	16961	13240	16182	12461	779
+236	GO:0005765	12620	1	0	lysosomal membrane	cellular_component	CC	11805	974	11646	815	159
+237	GO:0005768	89495	1	0	endosome	cellular_component	CC	32464	58810	30685	57031	1779
+238	GO:0005769	14170	1	0	early endosome	cellular_component	CC	10840	3666	10504	3330	336
+239	GO:0005770	24901	1	0	late endosome	cellular_component	CC	10231	15000	9901	14670	330
+240	GO:0005773	102397	1	0	vacuole	cellular_component	CC	6430	96797	5600	95967	830
+241	GO:0005774	60847	1	0	vacuolar membrane	cellular_component	CC	10574	50663	10184	50273	390
+242	GO:0005777	41457	1	0	peroxisome	cellular_component	CC	22757	21584	19873	18700	2884
+243	GO:0005778	17619	1	0	peroxisomal membrane	cellular_component	CC	17329	294	17325	290	4
+244	GO:0005783	265629	1	0	endoplasmic reticulum	cellular_component	CC	123098	157063	108566	142531	14532
+245	GO:0005789	131287	1	0	endoplasmic reticulum membrane	cellular_component	CC	99632	36629	94658	31655	4974
+246	GO:0005793	13280	1	0	endoplasmic reticulum-Golgi intermediate compartment	cellular_component	CC	12091	1300	11980	1189	111
+247	GO:0005794	178666	1	0	Golgi apparatus	cellular_component	CC	84308	102495	76171	94358	8137
+248	GO:0005795	11215	1	0	Golgi stack	cellular_component	CC	2745	8488	2727	8470	18
+249	GO:0005798	14522	1	0	Golgi-associated vesicle	cellular_component	CC	322	14207	315	14200	7
+250	GO:0005802	28035	1	0	trans-Golgi network	cellular_component	CC	25178	2934	25101	2857	77
+251	GO:0005811	11529	1	0	lipid droplet	cellular_component	CC	11028	516	11013	501	15
+252	GO:0005813	33742	1	0	centrosome	cellular_component	CC	29773	4450	29292	3969	481
+253	GO:0005815	57138	1	0	microtubule organizing center	cellular_component	CC	5673	52218	4920	51465	753
+254	GO:0005819	33877	1	0	spindle	cellular_component	CC	6894	28353	5524	26983	1370
+255	GO:0005829	425488	1	0	cytosol	cellular_component	CC	332770	95546	329942	92718	2828
+256	GO:0005838	15934	1	0	proteasome regulatory particle	cellular_component	CC	2340	14473	1461	13594	879
+257	GO:0005839	13282	1	0	proteasome core complex	cellular_component	CC	13275	8151	5131	7	8144
+258	GO:0005840	142071	1	0	ribosome	cellular_component	CC	109432	116445	25626	32639	83806
+259	GO:0005852	10496	1	0	eukaryotic translation initiation factor 3 complex	cellular_component	CC	8050	2519	7977	2446	73
+260	GO:0005856	211196	1	0	cytoskeleton	cellular_component	CC	21958	195591	15605	189238	6353
+261	GO:0005874	39285	1	0	microtubule	cellular_component	CC	20209	19247	20038	19076	171
+262	GO:0005875	24496	1	0	microtubule associated complex	cellular_component	CC	1917	22626	1870	22579	47
+263	GO:0005886	485742	1	0	plasma membrane	cellular_component	CC	393585	121015	364727	92157	28858
+264	GO:0005911	32707	1	0	cell-cell junction	cellular_component	CC	5708	27558	5149	26999	559
+265	GO:0005912	10762	1	0	adherens junction	cellular_component	CC	10459	338	10424	303	35
+266	GO:0005929	44706	1	0	cilium	cellular_component	CC	10907	35300	9406	33799	1501
+267	GO:0005930	11194	1	0	axoneme	cellular_component	CC	8081	4335	6859	3113	1222
+268	GO:0005938	48663	1	0	cell cortex	cellular_component	CC	9172	39828	8835	39491	337
+269	GO:0005975	188862	1	0	carbohydrate metabolic process	biological_process	BP	86083	103416	85446	102779	637
+270	GO:0005976	38021	1	0	polysaccharide metabolic process	biological_process	BP	326	37705	316	37695	10
+271	GO:0005996	32128	1	0	monosaccharide metabolic process	biological_process	BP	45	32095	33	32083	12
+272	GO:0006006	15610	1	0	glucose metabolic process	biological_process	BP	6276	9377	6233	9334	43
+273	GO:0006022	13360	1	0	aminoglycan metabolic process	biological_process	BP	0	13360	0	13360	0
+274	GO:0006040	14510	1	0	amino sugar metabolic process	biological_process	BP	238	14274	236	14272	2
+275	GO:0006066	49885	1	0	alcohol metabolic process	biological_process	BP	1621	48270	1615	48264	6
+276	GO:0006081	13989	1	0	aldehyde metabolic process	biological_process	BP	1693	12313	1676	12296	17
+277	GO:0006090	22559	1	0	pyruvate metabolic process	biological_process	BP	3146	19418	3141	19413	5
+278	GO:0006091	89818	1	0	generation of precursor metabolites and energy	biological_process	BP	310	89544	274	89508	36
+279	GO:0006096	14977	1	0	glycolytic process	biological_process	BP	13988	1126	13851	989	137
+280	GO:0006099	18661	1	0	tricarboxylic acid cycle	biological_process	BP	18661	12	18649	0	12
+281	GO:0006119	26056	1	0	oxidative phosphorylation	biological_process	BP	140	26030	26	25916	114
+282	GO:0006139	876497	1	0	nucleobase-containing compound metabolic process	biological_process	BP	5773	870790	5707	870724	66
+283	GO:0006163	78324	1	0	purine nucleotide metabolic process	biological_process	BP	1113	77249	1075	77211	38
+284	GO:0006164	42653	1	0	purine nucleotide biosynthetic process	biological_process	BP	3510	39272	3381	39143	129
+285	GO:0006195	19334	1	0	purine nucleotide catabolic process	biological_process	BP	8	19333	1	19326	7
+286	GO:0006220	12007	1	0	pyrimidine nucleotide metabolic process	biological_process	BP	61	11956	51	11946	10
+287	GO:0006221	11420	1	0	pyrimidine nucleotide biosynthetic process	biological_process	BP	1442	10028	1392	9978	50
+288	GO:0006259	215739	1	0	DNA metabolic process	biological_process	BP	331	215629	110	215408	221
+289	GO:0006260	67683	1	0	DNA replication	biological_process	BP	25255	54531	13152	42428	12103
+290	GO:0006261	45583	1	0	DNA-templated DNA replication	biological_process	BP	10433	36109	9474	35150	959
+291	GO:0006270	15446	1	0	DNA replication initiation	biological_process	BP	11386	4121	11325	4060	61
+292	GO:0006281	134655	1	0	DNA repair	biological_process	BP	37188	100948	33707	97467	3481
+293	GO:0006284	12042	1	0	base-excision repair	biological_process	BP	9626	5420	6622	2416	3004
+294	GO:0006289	22877	1	0	nucleotide-excision repair	biological_process	BP	15931	7666	15211	6946	720
+295	GO:0006298	12426	1	0	mismatch repair	biological_process	BP	11856	604	11822	570	34
+296	GO:0006302	57850	1	0	double-strand break repair	biological_process	BP	8084	49962	7888	49766	196
+297	GO:0006310	68637	1	0	DNA recombination	biological_process	BP	10754	58114	10523	57883	231
+298	GO:0006325	70938	1	0	chromatin organization	biological_process	BP	9165	62292	8646	61773	519
+299	GO:0006334	15465	1	0	nucleosome assembly	biological_process	BP	15465	0	15465	0	0
+300	GO:0006338	58807	1	0	chromatin remodeling	biological_process	BP	25805	33481	25326	33002	479
+301	GO:0006351	125662	1	0	DNA-templated transcription	biological_process	BP	61878	69815	55847	63784	6031
+302	GO:0006352	34307	1	0	DNA-templated transcription initiation	biological_process	BP	6665	30904	3403	27642	3262
+303	GO:0006354	13786	1	0	DNA-templated transcription elongation	biological_process	BP	135	13732	54	13651	81
+304	GO:0006355	537477	1	0	regulation of DNA-templated transcription	biological_process	BP	177634	366531	170946	359843	6688
+305	GO:0006357	328816	1	0	regulation of transcription by RNA polymerase II	biological_process	BP	227461	104815	224001	101355	3460
+306	GO:0006364	103837	1	0	rRNA processing	biological_process	BP	29076	75147	28690	74761	386
+307	GO:0006366	44825	1	0	transcription by RNA polymerase II	biological_process	BP	11961	36739	8086	32864	3875
+308	GO:0006367	20772	1	0	transcription initiation at RNA polymerase II promoter	biological_process	BP	16521	8467	12305	4251	4216
+309	GO:0006368	12566	1	0	transcription elongation by RNA polymerase II	biological_process	BP	11432	2596	9970	1134	1462
+310	GO:0006383	13338	1	0	transcription by RNA polymerase III	biological_process	BP	5326	8266	5072	8012	254
+311	GO:0006396	299558	1	0	RNA processing	biological_process	BP	14992	287899	11659	284566	3333
+312	GO:0006397	108994	1	0	mRNA processing	biological_process	BP	14785	95066	13928	94209	857
+313	GO:0006399	98514	1	0	tRNA metabolic process	biological_process	BP	968	97574	940	97546	28
+314	GO:0006400	39923	1	0	tRNA modification	biological_process	BP	5468	34637	5286	34455	182
+315	GO:0006401	48023	1	0	RNA catabolic process	biological_process	BP	4861	43305	4718	43162	143
+316	GO:0006402	38106	1	0	mRNA catabolic process	biological_process	BP	4079	34129	3977	34027	102
+317	GO:0006403	32426	1	0	RNA localization	biological_process	BP	15	32416	10	32411	5
+318	GO:0006405	27455	1	0	RNA export from nucleus	biological_process	BP	5488	22011	5444	21967	44
+319	GO:0006406	19741	1	0	mRNA export from nucleus	biological_process	BP	11315	8518	11223	8426	92
+320	GO:0006412	209430	1	0	translation	biological_process	BP	104727	110361	99069	104703	5658
+321	GO:0006413	26022	1	0	translational initiation	biological_process	BP	18498	10175	15847	7524	2651
+322	GO:0006414	16981	1	0	translational elongation	biological_process	BP	8462	8594	8387	8519	75
+323	GO:0006417	28518	1	0	regulation of translation	biological_process	BP	2552	26095	2423	25966	129
+324	GO:0006418	30195	1	0	tRNA aminoacylation for protein translation	biological_process	BP	791	29778	417	29404	374
+325	GO:0006457	65492	1	0	protein folding	biological_process	BP	44968	20673	44819	20524	149
+326	GO:0006468	221534	1	0	protein phosphorylation	biological_process	BP	187238	34667	186867	34296	371
+327	GO:0006470	40699	1	0	protein dephosphorylation	biological_process	BP	34826	5923	34776	5873	50
+328	GO:0006479	15780	1	0	protein methylation	biological_process	BP	876	14920	860	14904	16
+329	GO:0006487	30019	1	0	protein N-linked glycosylation	biological_process	BP	20770	10964	19055	9249	1715
+330	GO:0006493	13388	1	0	protein O-linked glycosylation	biological_process	BP	5230	8284	5104	8158	126
+331	GO:0006497	14239	1	0	protein lipidation	biological_process	BP	2339	11907	2332	11900	7
+332	GO:0006505	18614	1	0	GPI anchor metabolic process	biological_process	BP	714	17931	683	17900	31
+333	GO:0006506	17903	1	0	GPI anchor biosynthetic process	biological_process	BP	17903	0	17903	0	0
+334	GO:0006508	151445	1	0	proteolysis	biological_process	BP	129570	22714	128731	21875	839
+335	GO:0006511	118287	1	0	ubiquitin-dependent protein catabolic process	biological_process	BP	43512	75430	42857	74775	655
+336	GO:0006518	13424	1	0	peptide metabolic process	biological_process	BP	2677	10767	2657	10747	20
+337	GO:0006520	121379	1	0	amino acid metabolic process	biological_process	BP	5827	115738	5641	115552	186
+338	GO:0006575	43894	1	0	modified amino acid metabolic process	biological_process	BP	2	43894	0	43892	2
+339	GO:0006605	39170	1	0	protein targeting	biological_process	BP	2639	37336	1834	36531	805
+340	GO:0006606	28083	1	0	protein import into nucleus	biological_process	BP	24718	3441	24642	3365	76
+341	GO:0006612	22600	1	0	protein targeting to membrane	biological_process	BP	9018	13589	9011	13582	7
+342	GO:0006623	11055	1	0	protein targeting to vacuole	biological_process	BP	8568	2501	8554	2487	14
+343	GO:0006629	272152	1	0	lipid metabolic process	biological_process	BP	31092	241840	30312	241060	780
+344	GO:0006631	65619	1	0	fatty acid metabolic process	biological_process	BP	11393	54504	11115	54226	278
+345	GO:0006633	26612	1	0	fatty acid biosynthetic process	biological_process	BP	12958	13804	12808	13654	150
+346	GO:0006635	15083	1	0	fatty acid beta-oxidation	biological_process	BP	10994	4161	10922	4089	72
+347	GO:0006637	17539	1	0	acyl-CoA metabolic process	biological_process	BP	3311	14264	3275	14228	36
+348	GO:0006638	12561	1	0	neutral lipid metabolic process	biological_process	BP	9	12554	7	12552	2
+349	GO:0006639	11947	1	0	acylglycerol metabolic process	biological_process	BP	6	11945	2	11941	4
+350	GO:0006644	93477	1	0	phospholipid metabolic process	biological_process	BP	6958	86657	6820	86519	138
+351	GO:0006650	69214	1	0	glycerophospholipid metabolic process	biological_process	BP	153	69097	117	69061	36
+352	GO:0006664	27753	1	0	glycolipid metabolic process	biological_process	BP	15	27746	7	27738	8
+353	GO:0006665	29883	1	0	sphingolipid metabolic process	biological_process	BP	1660	28422	1461	28223	199
+354	GO:0006672	15320	1	0	ceramide metabolic process	biological_process	BP	1642	13719	1601	13678	41
+355	GO:0006694	18575	1	0	steroid biosynthetic process	biological_process	BP	2738	15930	2645	15837	93
+356	GO:0006720	20700	1	0	isoprenoid metabolic process	biological_process	BP	32	20694	6	20668	26
+357	GO:0006721	10463	1	0	terpenoid metabolic process	biological_process	BP	5	10463	0	10458	5
+358	GO:0006739	12713	1	0	NADP+ metabolic process	biological_process	BP	400	12332	381	12313	19
+359	GO:0006749	17796	1	0	glutathione metabolic process	biological_process	BP	12035	5803	11993	5761	42
+360	GO:0006753	137685	1	0	nucleoside phosphate metabolic process	biological_process	BP	1461	136251	1434	136224	27
+361	GO:0006754	12686	1	0	ATP biosynthetic process	biological_process	BP	486	12212	474	12200	12
+362	GO:0006760	10659	1	0	folic acid-containing compound metabolic process	biological_process	BP	502	10180	479	10157	23
+363	GO:0006766	15307	1	0	vitamin metabolic process	biological_process	BP	6	15307	0	15301	6
+364	GO:0006778	11094	1	0	porphyrin-containing compound metabolic process	biological_process	BP	45	11083	11	11049	34
+365	GO:0006790	66397	1	0	sulfur compound metabolic process	biological_process	BP	1237	65211	1186	65160	51
+366	GO:0006793	253894	1	0	phosphorus metabolic process	biological_process	BP	12	253887	7	253882	5
+367	GO:0006796	292950	1	0	phosphate-containing compound metabolic process	biological_process	BP	1616	291363	1587	291334	29
+368	GO:0006810	851819	1	0	transport	biological_process	BP	4478	847341	4478	847341	0
+369	GO:0006811	165404	1	0	monoatomic ion transport	biological_process	BP	8900	157673	7731	156504	1169
+370	GO:0006812	133317	1	0	monoatomic cation transport	biological_process	BP	6837	126909	6408	126480	429
+371	GO:0006813	26061	1	0	potassium ion transport	biological_process	BP	5067	21564	4497	20994	570
+372	GO:0006814	19136	1	0	sodium ion transport	biological_process	BP	5040	14444	4692	14096	348
+373	GO:0006816	24426	1	0	calcium ion transport	biological_process	BP	2671	22088	2338	21755	333
+374	GO:0006820	19574	1	0	monoatomic anion transport	biological_process	BP	5521	14109	5465	14053	56
+375	GO:0006821	10862	1	0	chloride transport	biological_process	BP	4872	6268	4594	5990	278
+376	GO:0006826	12552	1	0	iron ion transport	biological_process	BP	7511	5084	7468	5041	43
+377	GO:0006839	24831	1	0	mitochondrial transport	biological_process	BP	1818	23310	1521	23013	297
+378	GO:0006865	35288	1	0	amino acid transport	biological_process	BP	4264	31238	4050	31024	214
+379	GO:0006869	38843	1	0	lipid transport	biological_process	BP	7519	31457	7386	31324	133
+380	GO:0006873	58393	1	0	intracellular monoatomic ion homeostasis	biological_process	BP	370	58028	365	58023	5
+381	GO:0006874	20714	1	0	intracellular calcium ion homeostasis	biological_process	BP	12994	7777	12937	7720	57
+382	GO:0006879	13097	1	0	intracellular iron ion homeostasis	biological_process	BP	12056	1070	12027	1041	29
+383	GO:0006885	11539	1	0	regulation of pH	biological_process	BP	2427	9186	2353	9112	74
+384	GO:0006886	142640	1	0	intracellular protein transport	biological_process	BP	66551	77018	65622	76089	929
+385	GO:0006887	23553	1	0	exocytosis	biological_process	BP	17534	7405	16148	6019	1386
+386	GO:0006888	47033	1	0	endoplasmic reticulum to Golgi vesicle-mediated transport	biological_process	BP	45096	6481	40552	1937	4544
+387	GO:0006890	15474	1	0	retrograde vesicle-mediated transport, Golgi to endoplasmic reticulum	biological_process	BP	15474	0	15474	0	0
+388	GO:0006891	16185	1	0	intra-Golgi vesicle-mediated transport	biological_process	BP	15736	493	15692	449	44
+389	GO:0006892	22547	1	0	post-Golgi vesicle-mediated transport	biological_process	BP	1802	20759	1788	20745	14
+390	GO:0006893	12042	1	0	Golgi to plasma membrane transport	biological_process	BP	7041	5022	7020	5001	21
+391	GO:0006897	47008	1	0	endocytosis	biological_process	BP	23632	23718	23290	23376	342
+392	GO:0006898	14101	1	0	receptor-mediated endocytosis	biological_process	BP	3985	10172	3929	10116	56
+393	GO:0006900	14123	1	0	vesicle budding from membrane	biological_process	BP	4711	9415	4708	9412	3
+394	GO:0006906	21840	1	0	vesicle fusion	biological_process	BP	10747	11531	10309	11093	438
+395	GO:0006913	61633	1	0	nucleocytoplasmic transport	biological_process	BP	4236	57626	4007	57397	229
+396	GO:0006914	38915	1	0	autophagy	biological_process	BP	8747	33649	5266	30168	3481
+397	GO:0006915	20438	1	0	apoptotic process	biological_process	BP	7120	14549	5889	13318	1231
+398	GO:0006935	11237	1	0	chemotaxis	biological_process	BP	2629	8818	2419	8608	210
+399	GO:0006950	343795	1	0	response to stress	biological_process	BP	1547	342572	1223	342248	324
+400	GO:0006952	59123	1	0	defense response	biological_process	BP	15849	44383	14740	43274	1109
+401	GO:0006954	12782	1	0	inflammatory response	biological_process	BP	11026	2025	10757	1756	269
+402	GO:0006955	42531	1	0	immune response	biological_process	BP	21176	23562	18969	21355	2207
+403	GO:0006974	163874	1	0	DNA damage response	biological_process	BP	11586	153069	10805	152288	781
+404	GO:0006979	40212	1	0	response to oxidative stress	biological_process	BP	18830	22023	18189	21382	641
+405	GO:0006986	15312	1	0	response to unfolded protein	biological_process	BP	499	14836	476	14813	23
+406	GO:0006996	484785	1	0	organelle organization	biological_process	BP	1060	483734	1051	483725	9
+407	GO:0006997	10509	1	0	nucleus organization	biological_process	BP	325	10239	270	10184	55
+408	GO:0007005	63819	1	0	mitochondrion organization	biological_process	BP	10816	53209	10610	53003	206
+409	GO:0007006	14299	1	0	mitochondrial membrane organization	biological_process	BP	55	14255	44	14244	11
+410	GO:0007007	11621	1	0	inner mitochondrial membrane organization	biological_process	BP	2126	9753	1868	9495	258
+411	GO:0007010	147849	1	0	cytoskeleton organization	biological_process	BP	7999	141112	6737	139850	1262
+412	GO:0007015	39921	1	0	actin filament organization	biological_process	BP	17430	22673	17248	22491	182
+413	GO:0007017	109562	1	0	microtubule-based process	biological_process	BP	5200	104583	4979	104362	221
+414	GO:0007018	44338	1	0	microtubule-based movement	biological_process	BP	22211	22289	22049	22127	162
+415	GO:0007029	11973	1	0	endoplasmic reticulum organization	biological_process	BP	3062	8963	3010	8911	52
+416	GO:0007030	20570	1	0	Golgi organization	biological_process	BP	16445	4156	16414	4125	31
+417	GO:0007031	17574	1	0	peroxisome organization	biological_process	BP	4256	13426	4148	13318	108
+418	GO:0007033	27459	1	0	vacuole organization	biological_process	BP	2634	24864	2595	24825	39
+419	GO:0007034	40378	1	0	vacuolar transport	biological_process	BP	4491	36031	4347	35887	144
+420	GO:0007049	162750	1	0	cell cycle	biological_process	BP	153	162597	153	162597	0
+421	GO:0007051	27478	1	0	spindle organization	biological_process	BP	1230	26283	1195	26248	35
+422	GO:0007052	18467	1	0	mitotic spindle organization	biological_process	BP	11487	7056	11411	6980	76
+423	GO:0007059	47256	1	0	chromosome segregation	biological_process	BP	8200	39249	8007	39056	193
+424	GO:0007062	12304	1	0	sister chromatid cohesion	biological_process	BP	2302	10072	2232	10002	70
+425	GO:0007088	10931	1	0	regulation of mitotic nuclear division	biological_process	BP	758	10182	749	10173	9
+426	GO:0007093	22721	1	0	mitotic cell cycle checkpoint signaling	biological_process	BP	826	21895	826	21895	0
+427	GO:0007127	22304	1	0	meiosis I	biological_process	BP	362	21970	334	21942	28
+428	GO:0007131	17191	1	0	reciprocal meiotic recombination	biological_process	BP	9040	8321	8870	8151	170
+429	GO:0007154	524721	1	0	cell communication	biological_process	BP	3496	522328	2393	521225	1103
+430	GO:0007155	51521	1	0	cell adhesion	biological_process	BP	13341	39081	12440	38180	901
+431	GO:0007156	13710	1	0	homophilic cell-cell adhesion	biological_process	BP	13710	0	13710	0	0
+432	GO:0007163	17467	1	0	establishment or maintenance of cell polarity	biological_process	BP	4020	13529	3938	13447	82
+433	GO:0007165	499848	1	0	signal transduction	biological_process	BP	78315	424528	75320	421533	2995
+434	GO:0007166	104957	1	0	cell surface receptor signaling pathway	biological_process	BP	18297	87115	17842	86660	455
+435	GO:0007167	34015	1	0	enzyme-linked receptor protein signaling pathway	biological_process	BP	184	33863	152	33831	32
+436	GO:0007169	23267	1	0	cell surface receptor protein tyrosine kinase signaling pathway	biological_process	BP	10976	12514	10753	12291	223
+437	GO:0007186	148227	1	0	G protein-coupled receptor signaling pathway	biological_process	BP	107593	43490	104737	40634	2856
+438	GO:0007188	22548	1	0	adenylate cyclase-modulating G protein-coupled receptor signaling pathway	biological_process	BP	4701	17986	4562	17847	139
+439	GO:0007189	16199	1	0	adenylate cyclase-activating G protein-coupled receptor signaling pathway	biological_process	BP	11812	4449	11750	4387	62
+440	GO:0007264	32365	1	0	small GTPase-mediated signal transduction	biological_process	BP	17066	15509	16856	15299	210
+441	GO:0007267	35001	1	0	cell-cell signaling	biological_process	BP	3421	31647	3354	31580	67
+442	GO:0007268	26719	1	0	chemical synaptic transmission	biological_process	BP	13948	13016	13703	12771	245
+443	GO:0007275	140784	1	0	multicellular organism development	biological_process	BP	21000	125261	15523	119784	5477
+444	GO:0007276	15347	1	0	gamete generation	biological_process	BP	1047	14358	989	14300	58
+445	GO:0007346	41852	1	0	regulation of mitotic cell cycle	biological_process	BP	4710	37253	4599	37142	111
+446	GO:0007389	12752	1	0	pattern specification process	biological_process	BP	1099	11762	990	11653	109
+447	GO:0007399	69902	1	0	nervous system development	biological_process	BP	8134	63434	6468	61768	1666
+448	GO:0007409	17645	1	0	axonogenesis	biological_process	BP	3066	14755	2890	14579	176
+449	GO:0007411	13800	1	0	axon guidance	biological_process	BP	11100	3017	10783	2700	317
+450	GO:0007417	17617	1	0	central nervous system development	biological_process	BP	5612	13085	4532	12005	1080
+451	GO:0007423	10517	1	0	sensory organ development	biological_process	BP	1449	9195	1322	9068	127
+452	GO:0007600	34658	1	0	sensory perception	biological_process	BP	493	34196	462	34165	31
+453	GO:0007606	23769	1	0	sensory perception of chemical stimulus	biological_process	BP	950	23070	699	22819	251
+454	GO:0007608	17675	1	0	sensory perception of smell	biological_process	BP	13791	9679	7996	3884	5795
+455	GO:0008017	52203	1	0	microtubule binding	molecular_function	MF	43907	8408	43795	8296	112
+456	GO:0008021	11108	1	0	synaptic vesicle	cellular_component	CC	6649	5757	5351	4459	1298
+457	GO:0008023	17977	1	0	transcription elongation factor complex	cellular_component	CC	3384	14636	3341	14593	43
+458	GO:0008028	11879	1	0	monocarboxylic acid transmembrane transporter activity	molecular_function	MF	3542	8367	3512	8337	30
+459	GO:0008033	57826	1	0	tRNA processing	biological_process	BP	5825	52273	5553	52001	272
+460	GO:0008047	69458	1	0	enzyme activator activity	molecular_function	MF	2860	66642	2816	66598	44
+461	GO:0008061	13150	1	0	chitin binding	molecular_function	MF	13150	0	13150	0	0
+462	GO:0008064	15668	1	0	regulation of actin polymerization or depolymerization	biological_process	BP	291	15385	283	15377	8
+463	GO:0008080	20969	1	0	N-acetyltransferase activity	molecular_function	MF	4600	16474	4495	16369	105
+464	GO:0008081	25588	1	0	phosphoric diester hydrolase activity	molecular_function	MF	8250	17658	7930	17338	320
+465	GO:0008083	12638	1	0	growth factor activity	molecular_function	MF	12638	0	12638	0	0
+466	GO:0008092	133124	1	0	cytoskeletal protein binding	molecular_function	MF	2257	131028	2096	130867	161
+467	GO:0008094	61729	1	0	ATP-dependent activity, acting on DNA	molecular_function	MF	1037	60860	869	60692	168
+468	GO:0008104	228324	1	0	intracellular protein localization	biological_process	BP	5842	222749	5575	222482	267
+469	GO:0008134	22551	1	0	transcription factor binding	molecular_function	MF	6649	15919	6632	15902	17
+470	GO:0008146	11690	1	0	sulfotransferase activity	molecular_function	MF	6718	5197	6493	4972	225
+471	GO:0008150	5005646	1	0	biological_process	biological_process	BP	11207	4997799	7847	4994439	3360
+472	GO:0008152	2626087	1	0	metabolic process	biological_process	BP	115	2626053	34	2625972	81
+473	GO:0008168	95170	1	0	methyltransferase activity	molecular_function	MF	15699	80059	15111	79471	588
+474	GO:0008170	28592	1	0	N-methyltransferase activity	molecular_function	MF	852	27782	810	27740	42
+475	GO:0008171	13321	1	0	O-methyltransferase activity	molecular_function	MF	7488	5895	7426	5833	62
+476	GO:0008173	25594	1	0	RNA methyltransferase activity	molecular_function	MF	3470	22284	3310	22124	160
+477	GO:0008186	25833	1	0	ATP-dependent activity, acting on RNA	molecular_function	MF	66	25821	12	25767	54
+478	GO:0008194	44503	1	0	UDP-glycosyltransferase activity	molecular_function	MF	12796	32012	12491	31707	305
+479	GO:0008202	29368	1	0	steroid metabolic process	biological_process	BP	1930	27573	1795	27438	135
+480	GO:0008213	15780	1	0	protein alkylation	biological_process	BP	0	15780	0	15780	0
+481	GO:0008219	22651	1	0	cell death	biological_process	BP	395	22258	393	22256	2
+482	GO:0008233	219397	1	0	peptidase activity	molecular_function	MF	4303	215912	3485	215094	818
+483	GO:0008234	53873	1	0	cysteine-type peptidase activity	molecular_function	MF	6500	47736	6137	47373	363
+484	GO:0008235	22048	1	0	metalloexopeptidase activity	molecular_function	MF	3254	18818	3230	18794	24
+485	GO:0008236	63973	1	0	serine-type peptidase activity	molecular_function	MF	3944	60490	3483	60029	461
+486	GO:0008237	65995	1	0	metallopeptidase activity	molecular_function	MF	11169	55562	10433	54826	736
+487	GO:0008238	42841	1	0	exopeptidase activity	molecular_function	MF	28	42837	4	42813	24
+488	GO:0008270	299787	1	0	zinc ion binding	molecular_function	MF	299787	0	299787	0	0
+489	GO:0008276	30383	1	0	protein methyltransferase activity	molecular_function	MF	1777	28704	1679	28606	98
+490	GO:0008284	14313	1	0	positive regulation of cell population proliferation	biological_process	BP	8377	6458	7855	5936	522
+491	GO:0008287	12142	1	0	protein serine/threonine phosphatase complex	cellular_component	CC	191	11975	167	11951	24
+492	GO:0008289	86871	1	0	lipid binding	molecular_function	MF	18024	69228	17643	68847	381
+493	GO:0008299	15307	1	0	isoprenoid biosynthetic process	biological_process	BP	6378	10724	4583	8929	1795
+494	GO:0008324	164274	1	0	monoatomic cation transmembrane transporter activity	molecular_function	MF	4131	160322	3952	160143	179
+495	GO:0008375	11572	1	0	acetylglucosaminyltransferase activity	molecular_function	MF	2845	8807	2765	8727	80
+496	GO:0008380	95450	1	0	RNA splicing	biological_process	BP	4876	92348	3102	90574	1774
+497	GO:0008408	23012	1	0	3'-5' exonuclease activity	molecular_function	MF	4890	18195	4817	18122	73
+498	GO:0008422	12329	1	0	beta-glucosidase activity	molecular_function	MF	8810	3537	8792	3519	18
+499	GO:0008483	17773	1	0	transaminase activity	molecular_function	MF	5002	12877	4896	12771	106
+500	GO:0008509	19192	1	0	monoatomic anion transmembrane transporter activity	molecular_function	MF	1151	18070	1122	18041	29
+501	GO:0008528	16515	1	0	G protein-coupled peptide receptor activity	molecular_function	MF	4082	12496	4019	12433	63
+502	GO:0008535	10916	1	0	respiratory chain complex IV assembly	biological_process	BP	243	10703	213	10673	30
+503	GO:0008610	143176	1	0	lipid biosynthetic process	biological_process	BP	4766	138611	4565	138410	201
+504	GO:0008643	26785	1	0	carbohydrate transport	biological_process	BP	21270	5686	21099	5515	171
+505	GO:0008649	10943	1	0	rRNA methyltransferase activity	molecular_function	MF	1285	9671	1272	9658	13
+506	GO:0008652	31860	1	0	amino acid biosynthetic process	biological_process	BP	735	31159	701	31125	34
+507	GO:0008654	60933	1	0	phospholipid biosynthetic process	biological_process	BP	6201	54868	6065	54732	136
+508	GO:0008757	62204	1	0	S-adenosylmethionine-dependent methyltransferase activity	molecular_function	MF	13085	49376	12828	49119	257
+509	GO:0009055	19668	1	0	electron transfer activity	molecular_function	MF	11467	8236	11432	8201	35
+510	GO:0009056	432993	1	0	catabolic process	biological_process	BP	197	432798	195	432796	2
+511	GO:0009057	224097	1	0	macromolecule catabolic process	biological_process	BP	0	224097	0	224097	0
+512	GO:0009058	1195735	1	0	biosynthetic process	biological_process	BP	14788	1182340	13395	1180947	1393
+513	GO:0009059	852969	1	0	macromolecule biosynthetic process	biological_process	BP	1	852968	1	852968	0
+514	GO:0009060	62766	1	0	aerobic respiration	biological_process	BP	3112	60847	1919	59654	1193
+515	GO:0009062	20762	1	0	fatty acid catabolic process	biological_process	BP	3177	17616	3146	17585	31
+516	GO:0009063	28554	1	0	amino acid catabolic process	biological_process	BP	1678	26899	1655	26876	23
+517	GO:0009072	21162	1	0	aromatic amino acid metabolic process	biological_process	BP	660	20553	609	20502	51
+518	GO:0009073	13223	1	0	aromatic amino acid biosynthetic process	biological_process	BP	3575	9660	3563	9648	12
+519	GO:0009081	14090	1	0	branched-chain amino acid metabolic process	biological_process	BP	739	13376	714	13351	25
+520	GO:0009100	51423	1	0	glycoprotein metabolic process	biological_process	BP	281	51170	253	51142	28
+521	GO:0009101	44623	1	0	glycoprotein biosynthetic process	biological_process	BP	892	44095	528	43731	364
+522	GO:0009110	15219	1	0	vitamin biosynthetic process	biological_process	BP	1	15219	0	15218	1
+523	GO:0009112	17400	1	0	nucleobase metabolic process	biological_process	BP	0	17400	0	17400	0
+524	GO:0009116	13367	1	0	nucleoside metabolic process	biological_process	BP	4311	9104	4263	9056	48
+525	GO:0009117	97107	1	0	nucleotide metabolic process	biological_process	BP	2339	94806	2301	94768	38
+526	GO:0009123	17041	1	0	nucleoside monophosphate metabolic process	biological_process	BP	11	17033	8	17030	3
+527	GO:0009124	16258	1	0	nucleoside monophosphate biosynthetic process	biological_process	BP	2	16256	2	16256	0
+528	GO:0009126	11308	1	0	purine nucleoside monophosphate metabolic process	biological_process	BP	6	11306	2	11302	4
+529	GO:0009127	10701	1	0	purine nucleoside monophosphate biosynthetic process	biological_process	BP	0	10701	0	10701	0
+530	GO:0009132	20181	1	0	nucleoside diphosphate metabolic process	biological_process	BP	113	20068	113	20068	0
+531	GO:0009134	17263	1	0	nucleoside diphosphate catabolic process	biological_process	BP	2024	15250	2013	15239	11
+532	GO:0009135	15654	1	0	purine nucleoside diphosphate metabolic process	biological_process	BP	0	15654	0	15654	0
+533	GO:0009137	14999	1	0	purine nucleoside diphosphate catabolic process	biological_process	BP	0	14999	0	14999	0
+534	GO:0009141	40859	1	0	nucleoside triphosphate metabolic process	biological_process	BP	439	40420	439	40420	0
+535	GO:0009142	19425	1	0	nucleoside triphosphate biosynthetic process	biological_process	BP	613	18841	584	18812	29
+536	GO:0009144	34745	1	0	purine nucleoside triphosphate metabolic process	biological_process	BP	0	34745	0	34745	0
+537	GO:0009145	15872	1	0	purine nucleoside triphosphate biosynthetic process	biological_process	BP	0	15872	0	15872	0
+538	GO:0009150	52224	1	0	purine ribonucleotide metabolic process	biological_process	BP	197	52033	191	52027	6
+539	GO:0009152	31245	1	0	purine ribonucleotide biosynthetic process	biological_process	BP	22	31242	3	31223	19
+540	GO:0009154	17423	1	0	purine ribonucleotide catabolic process	biological_process	BP	241	17185	238	17182	3
+541	GO:0009156	14205	1	0	ribonucleoside monophosphate biosynthetic process	biological_process	BP	1554	12656	1549	12651	5
+542	GO:0009165	55390	1	0	nucleotide biosynthetic process	biological_process	BP	131	55351	39	55259	92
+543	GO:0009166	23191	1	0	nucleotide catabolic process	biological_process	BP	2170	21039	2152	21021	18
+544	GO:0009167	11295	1	0	purine ribonucleoside monophosphate metabolic process	biological_process	BP	0	11295	0	11295	0
+545	GO:0009168	10694	1	0	purine ribonucleoside monophosphate biosynthetic process	biological_process	BP	449	10284	410	10245	39
+546	GO:0009179	15654	1	0	purine ribonucleoside diphosphate metabolic process	biological_process	BP	0	15654	0	15654	0
+547	GO:0009181	14999	1	0	purine ribonucleoside diphosphate catabolic process	biological_process	BP	4	14997	2	14995	2
+548	GO:0009185	17054	1	0	ribonucleoside diphosphate metabolic process	biological_process	BP	11	17043	11	17043	0
+549	GO:0009191	15250	1	0	ribonucleoside diphosphate catabolic process	biological_process	BP	14	15239	11	15236	3
+550	GO:0009201	17810	1	0	ribonucleoside triphosphate biosynthetic process	biological_process	BP	1	17810	0	17809	1
+551	GO:0009205	33703	1	0	purine ribonucleoside triphosphate metabolic process	biological_process	BP	0	33703	0	33703	0
+552	GO:0009206	15869	1	0	purine ribonucleoside triphosphate biosynthetic process	biological_process	BP	0	15869	0	15869	0
+553	GO:0009225	10747	1	0	nucleotide-sugar metabolic process	biological_process	BP	889	9862	885	9858	4
+554	GO:0009247	23867	1	0	glycolipid biosynthetic process	biological_process	BP	2172	21720	2147	21695	25
+555	GO:0009250	11066	1	0	glucan biosynthetic process	biological_process	BP	1	11065	1	11065	0
+556	GO:0009251	11201	1	0	glucan catabolic process	biological_process	BP	8086	3116	8085	3115	1
+557	GO:0009259	58693	1	0	ribonucleotide metabolic process	biological_process	BP	510	58183	510	58183	0
+558	GO:0009260	36950	1	0	ribonucleotide biosynthetic process	biological_process	BP	5	36949	1	36945	4
+559	GO:0009261	17684	1	0	ribonucleotide catabolic process	biological_process	BP	0	17684	0	17684	0
+560	GO:0009266	16104	1	0	response to temperature stimulus	biological_process	BP	103	16022	82	16001	21
+561	GO:0009267	16941	1	0	cellular response to starvation	biological_process	BP	4690	12325	4616	12251	74
+562	GO:0009277	11360	1	0	fungal-type cell wall	cellular_component	CC	10685	694	10666	675	19
+563	GO:0009308	14642	1	0	amine metabolic process	biological_process	BP	2340	12323	2319	12302	21
+564	GO:0009311	14053	1	0	oligosaccharide metabolic process	biological_process	BP	2989	11073	2980	11064	9
+565	GO:0009314	19172	1	0	response to radiation	biological_process	BP	833	18368	804	18339	29
+566	GO:0009408	13937	1	0	response to heat	biological_process	BP	7751	6273	7664	6186	87
+567	GO:0009416	14758	1	0	response to light stimulus	biological_process	BP	3344	11556	3202	11414	142
+568	GO:0009451	78366	1	0	RNA modification	biological_process	BP	12201	66336	12030	66165	171
+569	GO:0009507	39249	1	0	chloroplast	cellular_component	CC	21772	18740	20509	17477	1263
+570	GO:0009526	11160	1	0	plastid envelope	cellular_component	CC	56	11111	49	11104	7
+571	GO:0009536	40942	1	0	plastid	cellular_component	CC	1519	39853	1089	39423	430
+572	GO:0009579	10628	1	0	thylakoid	cellular_component	CC	1108	10073	555	9520	553
+573	GO:0009593	12971	1	0	detection of chemical stimulus	biological_process	BP	56	12965	6	12915	50
+574	GO:0009605	59890	1	0	response to external stimulus	biological_process	BP	0	59890	0	59890	0
+575	GO:0009607	43166	1	0	response to biotic stimulus	biological_process	BP	0	43166	0	43166	0
+576	GO:0009617	14210	1	0	response to bacterium	biological_process	BP	1889	12543	1667	12321	222
+577	GO:0009628	49513	1	0	response to abiotic stimulus	biological_process	BP	0	49513	0	49513	0
+578	GO:0009636	14519	1	0	response to toxic substance	biological_process	BP	978	13605	914	13541	64
+579	GO:0009653	70203	1	0	anatomical structure morphogenesis	biological_process	BP	8349	62345	7858	61854	491
+580	GO:0009719	51216	1	0	response to endogenous stimulus	biological_process	BP	0	51216	0	51216	0
+581	GO:0009725	37973	1	0	response to hormone	biological_process	BP	2237	35872	2101	35736	136
+582	GO:0009755	17396	1	0	hormone-mediated signaling pathway	biological_process	BP	4337	13129	4267	13059	70
+583	GO:0009790	16076	1	0	embryo development	biological_process	BP	3008	13342	2734	13068	274
+584	GO:0009887	14492	1	0	animal organ morphogenesis	biological_process	BP	4982	9728	4764	9510	218
+585	GO:0009888	26960	1	0	tissue development	biological_process	BP	1461	25679	1281	25499	180
+586	GO:0009889	688203	1	0	regulation of biosynthetic process	biological_process	BP	0	688203	0	688203	0
+587	GO:0009890	133646	1	0	negative regulation of biosynthetic process	biological_process	BP	197	133449	197	133449	0
+588	GO:0009891	131100	1	0	positive regulation of biosynthetic process	biological_process	BP	0	131100	0	131100	0
+589	GO:0009892	160841	1	0	negative regulation of metabolic process	biological_process	BP	0	160841	0	160841	0
+590	GO:0009893	196375	1	0	positive regulation of metabolic process	biological_process	BP	1	196374	1	196374	0
+591	GO:0009894	61363	1	0	regulation of catabolic process	biological_process	BP	0	61363	0	61363	0
+592	GO:0009895	10072	1	0	negative regulation of catabolic process	biological_process	BP	3	10069	3	10069	0
+593	GO:0009896	36813	1	0	positive regulation of catabolic process	biological_process	BP	44	36803	10	36769	34
+594	GO:0009897	21866	1	0	external side of plasma membrane	cellular_component	CC	21833	33	21833	33	0
+595	GO:0009898	14745	1	0	cytoplasmic side of plasma membrane	cellular_component	CC	4427	10362	4383	10318	44
+596	GO:0009966	119681	1	0	regulation of signal transduction	biological_process	BP	5529	114414	5267	114152	262
+597	GO:0009967	40801	1	0	positive regulation of signal transduction	biological_process	BP	109	40762	39	40692	70
+598	GO:0009968	39947	1	0	negative regulation of signal transduction	biological_process	BP	486	39545	402	39461	84
+599	GO:0009986	42319	1	0	cell surface	cellular_component	CC	21054	21878	20441	21265	613
+600	GO:0009987	4251402	1	0	cellular process	biological_process	BP	0	4251402	0	4251402	0
+601	GO:0010008	28604	1	0	endosome membrane	cellular_component	CC	5891	23197	5407	22713	484
+602	GO:0010181	17617	1	0	FMN binding	molecular_function	MF	17617	0	17617	0	0
+603	GO:0010256	53603	1	0	endomembrane system organization	biological_process	BP	606	53017	586	52997	20
+604	GO:0010257	10220	1	0	NADH dehydrogenase complex assembly	biological_process	BP	369	9853	367	9851	2
+605	GO:0010389	12319	1	0	regulation of G2/M transition of mitotic cell cycle	biological_process	BP	1745	10583	1736	10574	9
+606	GO:0010467	762679	1	0	gene expression	biological_process	BP	1011	761901	778	761668	233
+607	GO:0010468	675552	1	0	regulation of gene expression	biological_process	BP	20297	657390	18162	655255	2135
+608	GO:0010496	190650	1	0	intercellular transport	biological_process	BP	72	190580	70	190578	2
+609	GO:0010498	75285	1	0	proteasomal protein catabolic process	biological_process	BP	2254	73300	1985	73031	269
+610	GO:0010506	13633	1	0	regulation of autophagy	biological_process	BP	5073	8637	4996	8560	77
+611	GO:0010556	681502	1	0	regulation of macromolecule biosynthetic process	biological_process	BP	0	681502	0	681502	0
+612	GO:0010557	129280	1	0	positive regulation of macromolecule biosynthetic process	biological_process	BP	3	129277	3	129277	0
+613	GO:0010558	130196	1	0	negative regulation of macromolecule biosynthetic process	biological_process	BP	0	130196	0	130196	0
+614	GO:0010564	57497	1	0	regulation of cell cycle process	biological_process	BP	474	57060	437	57023	37
+615	GO:0010604	182055	1	0	positive regulation of macromolecule metabolic process	biological_process	BP	0	182055	0	182055	0
+616	GO:0010605	152809	1	0	negative regulation of macromolecule metabolic process	biological_process	BP	0	152809	0	152809	0
+617	GO:0010608	53616	1	0	post-transcriptional regulation of gene expression	biological_process	BP	2222	51477	2139	51394	83
+618	GO:0010628	29042	1	0	positive regulation of gene expression	biological_process	BP	5135	24326	4716	23907	419
+619	GO:0010629	74922	1	0	negative regulation of gene expression	biological_process	BP	2648	72555	2367	72274	281
+620	GO:0010638	12818	1	0	positive regulation of organelle organization	biological_process	BP	0	12818	0	12818	0
+621	GO:0010639	19408	1	0	negative regulation of organelle organization	biological_process	BP	0	19408	0	19408	0
+622	GO:0010646	134787	1	0	regulation of cell communication	biological_process	BP	73	134765	22	134714	51
+623	GO:0010647	44952	1	0	positive regulation of cell communication	biological_process	BP	31	44946	6	44921	25
+624	GO:0010648	40977	1	0	negative regulation of cell communication	biological_process	BP	10	40973	4	40967	6
+625	GO:0010817	15602	1	0	regulation of hormone levels	biological_process	BP	30	15587	15	15572	15
+626	GO:0010876	38849	1	0	lipid localization	biological_process	BP	3	38846	3	38846	0
+627	GO:0010948	32990	1	0	negative regulation of cell cycle process	biological_process	BP	19	32986	4	32971	15
+628	GO:0010970	13133	1	0	transport along microtubule	biological_process	BP	849	12310	823	12284	26
+629	GO:0010975	10260	1	0	regulation of neuron projection development	biological_process	BP	897	9430	830	9363	67
+630	GO:0012501	22258	1	0	programmed cell death	biological_process	BP	836	21496	762	21422	74
+631	GO:0012505	554601	1	0	endomembrane system	cellular_component	CC	23918	536131	18470	530683	5448
+632	GO:0012506	64728	1	0	vesicle membrane	cellular_component	CC	924	63869	859	63804	65
+633	GO:0012507	11100	1	0	ER to Golgi transport vesicle membrane	cellular_component	CC	4787	6399	4701	6313	86
+634	GO:0015031	175788	1	0	protein transport	biological_process	BP	15737	160356	15432	160051	305
+635	GO:0015036	13213	1	0	disulfide oxidoreductase activity	molecular_function	MF	400	12841	372	12813	28
+636	GO:0015074	23964	1	0	DNA integration	biological_process	BP	23964	0	23964	0	0
+637	GO:0015075	194170	1	0	monoatomic ion transmembrane transporter activity	molecular_function	MF	1245	192942	1228	192925	17
+638	GO:0015078	64235	1	0	proton transmembrane transporter activity	molecular_function	MF	4551	59853	4382	59684	169
+639	GO:0015079	26516	1	0	potassium ion transmembrane transporter activity	molecular_function	MF	1844	24694	1822	24672	22
+640	GO:0015081	20917	1	0	sodium ion transmembrane transporter activity	molecular_function	MF	205	20742	175	20712	30
+641	GO:0015085	23358	1	0	calcium ion transmembrane transporter activity	molecular_function	MF	1062	22326	1032	22296	30
+642	GO:0015108	15113	1	0	chloride transmembrane transporter activity	molecular_function	MF	1072	14131	982	14041	90
+643	GO:0015144	29507	1	0	carbohydrate transmembrane transporter activity	molecular_function	MF	569	28956	551	28938	18
+644	GO:0015171	36112	1	0	amino acid transmembrane transporter activity	molecular_function	MF	13381	22853	13259	22731	122
+645	GO:0015179	15454	1	0	L-amino acid transmembrane transporter activity	molecular_function	MF	6326	9179	6275	9128	51
+646	GO:0015267	93246	1	0	channel activity	molecular_function	MF	2461	90960	2286	90785	175
+647	GO:0015276	30105	1	0	ligand-gated monoatomic ion channel activity	molecular_function	MF	2762	27540	2565	27343	197
+648	GO:0015291	74267	1	0	secondary active transmembrane transporter activity	molecular_function	MF	129	74179	88	74138	41
+649	GO:0015293	35845	1	0	symporter activity	molecular_function	MF	2539	33360	2485	33306	54
+650	GO:0015294	33360	1	0	solute:monoatomic cation symporter activity	molecular_function	MF	2	33358	2	33358	0
+651	GO:0015295	23009	1	0	solute:proton symporter activity	molecular_function	MF	314	22699	310	22695	4
+652	GO:0015297	30085	1	0	antiporter activity	molecular_function	MF	15579	14626	15459	14506	120
+653	GO:0015399	64487	1	0	primary active transmembrane transporter activity	molecular_function	MF	1	64486	1	64486	0
+654	GO:0015605	15929	1	0	organophosphate ester transmembrane transporter activity	molecular_function	MF	6	15929	0	15923	6
+655	GO:0015629	62251	1	0	actin cytoskeleton	cellular_component	CC	18072	53922	8329	44179	9743
+656	GO:0015630	120884	1	0	microtubule cytoskeleton	cellular_component	CC	10828	110905	9979	110056	849
+657	GO:0015631	62303	1	0	tubulin binding	molecular_function	MF	6229	56201	6102	56074	127
+658	GO:0015662	10974	1	0	P-type ion transporter activity	molecular_function	MF	1634	9355	1619	9340	15
+659	GO:0015698	24401	1	0	inorganic anion transport	biological_process	BP	56	24368	33	24345	23
+660	GO:0015718	16041	1	0	monocarboxylic acid transport	biological_process	BP	2595	13480	2561	13446	34
+661	GO:0015748	26001	1	0	organophosphate ester transport	biological_process	BP	11	25998	3	25990	8
+662	GO:0015849	33156	1	0	organic acid transport	biological_process	BP	7	33153	3	33149	4
+663	GO:0015850	10256	1	0	organic hydroxy compound transport	biological_process	BP	10	10255	1	10246	9
+664	GO:0015914	14267	1	0	phospholipid transport	biological_process	BP	5191	9215	5052	9076	139
+665	GO:0015919	11203	1	0	peroxisomal membrane transport	biological_process	BP	72	11132	71	11131	1
+666	GO:0015926	19825	1	0	glucosidase activity	molecular_function	MF	1269	18568	1257	18556	12
+667	GO:0015931	42414	1	0	nucleobase-containing compound transport	biological_process	BP	10	42411	3	42404	7
+668	GO:0015932	18163	1	0	nucleobase-containing compound transmembrane transporter activity	molecular_function	MF	0	18163	0	18163	0
+669	GO:0015934	71307	1	0	large ribosomal subunit	cellular_component	CC	3474	68056	3251	67833	223
+670	GO:0015935	44250	1	0	small ribosomal subunit	cellular_component	CC	4832	39628	4622	39418	210
+671	GO:0015980	72061	1	0	energy derivation by oxidation of organic compounds	biological_process	BP	7	72059	2	72054	5
+672	GO:0015986	12191	1	0	proton motive force-driven ATP synthesis	biological_process	BP	9482	2789	9402	2709	80
+673	GO:0016020	1459599	1	0	membrane	cellular_component	CC	600254	920075	539524	859345	60730
+674	GO:0016042	47984	1	0	lipid catabolic process	biological_process	BP	4486	43587	4397	43498	89
+675	GO:0016043	764895	1	0	cellular component organization	biological_process	BP	95	764801	94	764800	1
+676	GO:0016050	45993	1	0	vesicle organization	biological_process	BP	1429	44619	1374	44564	55
+677	GO:0016051	30631	1	0	carbohydrate biosynthetic process	biological_process	BP	1928	28710	1921	28703	7
+678	GO:0016052	50085	1	0	carbohydrate catabolic process	biological_process	BP	4486	45614	4471	45599	15
+679	GO:0016070	513392	1	0	RNA metabolic process	biological_process	BP	771	512754	638	512621	133
+680	GO:0016071	149979	1	0	mRNA metabolic process	biological_process	BP	96	149941	38	149883	58
+681	GO:0016072	113087	1	0	rRNA metabolic process	biological_process	BP	29	113077	10	113058	19
+682	GO:0016073	15750	1	0	snRNA metabolic process	biological_process	BP	5	15750	0	15745	5
+683	GO:0016125	21637	1	0	sterol metabolic process	biological_process	BP	4820	16853	4784	16817	36
+684	GO:0016126	13899	1	0	sterol biosynthetic process	biological_process	BP	3961	10005	3894	9938	67
+685	GO:0016180	12824	1	0	snRNA processing	biological_process	BP	1017	11869	955	11807	62
+686	GO:0016192	234435	1	0	vesicle-mediated transport	biological_process	BP	41206	199705	34730	193229	6476
+687	GO:0016197	49595	1	0	endosomal transport	biological_process	BP	8779	41177	8418	40816	361
+688	GO:0016209	33558	1	0	antioxidant activity	molecular_function	MF	457	33172	386	33101	71
+689	GO:0016226	14058	1	0	iron-sulfur cluster assembly	biological_process	BP	11616	2517	11541	2442	75
+690	GO:0016236	30478	1	0	macroautophagy	biological_process	BP	6157	25654	4824	24321	1333
+691	GO:0016251	11259	1	0	RNA polymerase II general transcription initiation factor activity	molecular_function	MF	11259	0	11259	0	0
+692	GO:0016278	13784	1	0	lysine N-methyltransferase activity	molecular_function	MF	5	13783	1	13779	4
+693	GO:0016279	13783	1	0	protein-lysine N-methyltransferase activity	molecular_function	MF	6865	6994	6789	6918	76
+694	GO:0016298	36318	1	0	lipase activity	molecular_function	MF	6327	30144	6174	29991	153
+695	GO:0016301	303788	1	0	kinase activity	molecular_function	MF	6993	297642	6146	296795	847
+696	GO:0016310	230896	1	0	phosphorylation	biological_process	BP	6133	224783	6113	224763	20
+697	GO:0016311	60608	1	0	dephosphorylation	biological_process	BP	9372	51272	9336	51236	36
+698	GO:0016405	17585	1	0	CoA-ligase activity	molecular_function	MF	3622	13989	3596	13963	26
+699	GO:0016407	34228	1	0	acetyltransferase activity	molecular_function	MF	2597	31709	2519	31631	78
+700	GO:0016409	12491	1	0	palmitoyltransferase activity	molecular_function	MF	3829	8857	3634	8662	195
+701	GO:0016459	13491	1	0	myosin complex	cellular_component	CC	8652	4960	8531	4839	121
+702	GO:0016462	272757	1	0	pyrophosphatase activity	molecular_function	MF	581	272252	505	272176	76
+703	GO:0016469	14656	1	0	proton-transporting two-sector ATPase complex	cellular_component	CC	7	14656	0	14649	7
+704	GO:0016477	28918	1	0	cell migration	biological_process	BP	13761	15489	13429	15157	332
+705	GO:0016482	22970	1	0	cytosolic transport	biological_process	BP	18	22961	9	22952	9
+706	GO:0016485	19457	1	0	protein processing	biological_process	BP	8865	10678	8779	10592	86
+707	GO:0016491	464166	1	0	oxidoreductase activity	molecular_function	MF	85245	380862	83304	378921	1941
+708	GO:0016538	17804	1	0	cyclin-dependent protein serine/threonine kinase regulator activity	molecular_function	MF	12608	5267	12537	5196	71
+709	GO:0016567	86025	1	0	protein ubiquitination	biological_process	BP	48699	38317	47708	37326	991
+710	GO:0016579	31671	1	0	protein deubiquitination	biological_process	BP	26648	5178	26493	5023	155
+711	GO:0016591	38510	1	0	RNA polymerase II, holoenzyme	cellular_component	CC	889	37641	869	37621	20
+712	GO:0016592	18047	1	0	mediator complex	cellular_component	CC	18047	0	18047	0	0
+713	GO:0016604	14210	1	0	nuclear body	cellular_component	CC	4367	10109	4101	9843	266
+714	GO:0016614	84005	1	0	oxidoreductase activity, acting on CH-OH group of donors	molecular_function	MF	7903	76164	7841	76102	62
+715	GO:0016616	70920	1	0	oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor	molecular_function	MF	20293	51172	19748	50627	545
+716	GO:0016620	18452	1	0	oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor	molecular_function	MF	3209	15358	3094	15243	115
+717	GO:0016627	29449	1	0	oxidoreductase activity, acting on the CH-CH group of donors	molecular_function	MF	3955	25713	3736	25494	219
+718	GO:0016628	13190	1	0	oxidoreductase activity, acting on the CH-CH group of donors, NAD or NADP as acceptor	molecular_function	MF	2271	10976	2214	10919	57
+719	GO:0016645	15422	1	0	oxidoreductase activity, acting on the CH-NH group of donors	molecular_function	MF	5	15421	1	15417	4
+720	GO:0016651	28000	1	0	oxidoreductase activity, acting on NAD(P)H	molecular_function	MF	4801	23254	4746	23199	55
+721	GO:0016667	21950	1	0	oxidoreductase activity, acting on a sulfur group of donors	molecular_function	MF	15	21949	1	21935	14
+722	GO:0016684	26811	1	0	oxidoreductase activity, acting on peroxide as acceptor	molecular_function	MF	566	26265	546	26245	20
+723	GO:0016701	15027	1	0	oxidoreductase activity, acting on single donors with incorporation of molecular oxygen	molecular_function	MF	740	14307	720	14287	20
+724	GO:0016702	11773	1	0	oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of two atoms of oxygen	molecular_function	MF	3309	8554	3219	8464	90
+725	GO:0016705	101139	1	0	oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen	molecular_function	MF	51664	50043	51096	49475	568
+726	GO:0016706	16316	1	0	2-oxoglutarate-dependent dioxygenase activity	molecular_function	MF	5133	11296	5020	11183	113
+727	GO:0016709	10681	1	0	oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen	molecular_function	MF	1722	9529	1152	8959	570
+728	GO:0016740	891876	1	0	transferase activity	molecular_function	MF	3942	888374	3502	887934	440
+729	GO:0016741	102532	1	0	transferase activity, transferring one-carbon groups	molecular_function	MF	13	102532	0	102519	13
+730	GO:0016746	208253	1	0	acyltransferase activity	molecular_function	MF	3907	204845	3408	204346	499
+731	GO:0016747	99587	1	0	acyltransferase activity, transferring groups other than amino-acyl groups	molecular_function	MF	20913	79124	20463	78674	450
+732	GO:0016755	99251	1	0	aminoacyltransferase activity	molecular_function	MF	124	99129	122	99127	2
+733	GO:0016757	118963	1	0	glycosyltransferase activity	molecular_function	MF	16736	102804	16159	102227	577
+734	GO:0016758	73023	1	0	hexosyltransferase activity	molecular_function	MF	7079	66158	6865	65944	214
+735	GO:0016763	17490	1	0	pentosyltransferase activity	molecular_function	MF	307	17259	231	17183	76
+736	GO:0016765	43406	1	0	transferase activity, transferring alkyl or aryl (other than methyl) groups	molecular_function	MF	1647	41869	1537	41759	110
+737	GO:0016769	18607	1	0	transferase activity, transferring nitrogenous groups	molecular_function	MF	0	18607	0	18607	0
+738	GO:0016772	370878	1	0	transferase activity, transferring phosphorus-containing groups	molecular_function	MF	626	370406	472	370252	154
+739	GO:0016773	282233	1	0	phosphotransferase activity, alcohol group as acceptor	molecular_function	MF	1316	281033	1200	280917	116
+740	GO:0016776	13462	1	0	phosphotransferase activity, phosphate group as acceptor	molecular_function	MF	65	13448	14	13397	51
+741	GO:0016779	48980	1	0	nucleotidyltransferase activity	molecular_function	MF	2826	46324	2656	46154	170
+742	GO:0016780	10889	1	0	phosphotransferase activity, for other substituted phosphate groups	molecular_function	MF	1792	9189	1700	9097	92
+743	GO:0016782	21416	1	0	transferase activity, transferring sulphur-containing groups	molecular_function	MF	0	21416	0	21416	0
+744	GO:0016787	972990	1	0	hydrolase activity	molecular_function	MF	33505	940949	32041	939485	1464
+745	GO:0016788	288122	1	0	hydrolase activity, acting on ester bonds	molecular_function	MF	13699	274723	13399	274423	300
+746	GO:0016790	14790	1	0	thiolester hydrolase activity	molecular_function	MF	982	13869	921	13808	61
+747	GO:0016791	108803	1	0	phosphatase activity	molecular_function	MF	14743	94612	14191	94060	552
+748	GO:0016798	104089	1	0	hydrolase activity, acting on glycosyl bonds	molecular_function	MF	602	103560	529	103487	73
+749	GO:0016799	10788	1	0	hydrolase activity, hydrolyzing N-glycosyl compounds	molecular_function	MF	1988	8841	1947	8800	41
+750	GO:0016810	54264	1	0	hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds	molecular_function	MF	4780	49593	4671	49484	109
+751	GO:0016811	20831	1	0	hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides	molecular_function	MF	2634	18274	2557	18197	77
+752	GO:0016814	14416	1	0	hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in cyclic amidines	molecular_function	MF	201	14227	189	14215	12
+753	GO:0016817	278153	1	0	hydrolase activity, acting on acid anhydrides	molecular_function	MF	1268	276887	1266	276885	2
+754	GO:0016818	276697	1	0	hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides	molecular_function	MF	4004	272758	3939	272693	65
+755	GO:0016829	102057	1	0	lyase activity	molecular_function	MF	1801	100377	1680	100256	121
+756	GO:0016830	32372	1	0	carbon-carbon lyase activity	molecular_function	MF	609	31843	529	31763	80
+757	GO:0016831	19764	1	0	carboxy-lyase activity	molecular_function	MF	5081	14798	4966	14683	115
+758	GO:0016835	39536	1	0	carbon-oxygen lyase activity	molecular_function	MF	76	39461	75	39460	1
+759	GO:0016836	32220	1	0	hydro-lyase activity	molecular_function	MF	1457	30826	1394	30763	63
+760	GO:0016840	10699	1	0	carbon-nitrogen lyase activity	molecular_function	MF	1	10698	1	10698	0
+761	GO:0016853	158430	1	0	isomerase activity	molecular_function	MF	2267	156291	2139	156163	128
+762	GO:0016859	21844	1	0	cis-trans isomerase activity	molecular_function	MF	21	21829	15	21823	6
+763	GO:0016860	17674	1	0	intramolecular oxidoreductase activity	molecular_function	MF	2	17674	0	17672	2
+764	GO:0016866	16405	1	0	intramolecular transferase activity	molecular_function	MF	398	16044	361	16007	37
+765	GO:0016874	99683	1	0	ligase activity	molecular_function	MF	438	99337	346	99245	92
+766	GO:0016875	30565	1	0	ligase activity, forming carbon-oxygen bonds	molecular_function	MF	0	30565	0	30565	0
+767	GO:0016877	25193	1	0	ligase activity, forming carbon-sulfur bonds	molecular_function	MF	3	25192	1	25190	2
+768	GO:0016878	18074	1	0	acid-thiol ligase activity	molecular_function	MF	25	18072	2	18049	23
+769	GO:0016879	28678	1	0	ligase activity, forming carbon-nitrogen bonds	molecular_function	MF	566	28121	557	28112	9
+770	GO:0016887	146952	1	0	ATP hydrolysis activity	molecular_function	MF	146952	0	146952	0	0
+771	GO:0016891	28376	1	0	RNA endonuclease activity producing 5'-phosphomonoesters, hydrolytic mechanism	molecular_function	MF	613	27795	581	27763	32
+772	GO:0016896	14308	1	0	RNA exonuclease activity, producing 5'-phosphomonoesters	molecular_function	MF	1	14308	0	14307	1
+773	GO:0016903	23197	1	0	oxidoreductase activity, acting on the aldehyde or oxo group of donors	molecular_function	MF	263	22934	263	22934	0
+774	GO:0017004	17423	1	0	cytochrome complex assembly	biological_process	BP	377	17050	373	17046	4
+775	GO:0017056	12286	1	0	structural constituent of nuclear pore	molecular_function	MF	12286	0	12286	0	0
+776	GO:0017069	10782	1	0	snRNA binding	molecular_function	MF	1041	9766	1016	9741	25
+777	GO:0017076	739361	1	0	purine nucleotide binding	molecular_function	MF	655	738732	629	738706	26
+778	GO:0017111	249105	1	0	ribonucleoside triphosphate phosphatase activity	molecular_function	MF	905	248259	846	248200	59
+779	GO:0017171	64781	1	0	serine hydrolase activity	molecular_function	MF	886	63973	808	63895	78
+780	GO:0018105	26521	1	0	peptidyl-serine phosphorylation	biological_process	BP	26501	24	26497	20	4
+781	GO:0018193	97367	1	0	peptidyl-amino acid modification	biological_process	BP	226	97141	226	97141	0
+782	GO:0018205	21247	1	0	peptidyl-lysine modification	biological_process	BP	2	21245	2	21245	0
+783	GO:0018208	17047	1	0	peptidyl-proline modification	biological_process	BP	2	17045	2	17045	0
+784	GO:0018209	26954	1	0	peptidyl-serine modification	biological_process	BP	260	26694	260	26694	0
+785	GO:0018455	12817	1	0	alcohol dehydrogenase [NAD(P)+] activity	molecular_function	MF	11	12816	1	12806	10
+786	GO:0019001	122568	1	0	guanyl nucleotide binding	molecular_function	MF	2253	120420	2148	120315	105
+787	GO:0019005	13735	1	0	SCF ubiquitin ligase complex	cellular_component	CC	13719	23	13712	16	7
+788	GO:0019199	11464	1	0	transmembrane receptor protein kinase activity	molecular_function	MF	269	11202	262	11195	7
+789	GO:0019200	11004	1	0	carbohydrate kinase activity	molecular_function	MF	139	10869	135	10865	4
+790	GO:0019205	14755	1	0	nucleobase-containing compound kinase activity	molecular_function	MF	240	14591	164	14515	76
+791	GO:0019207	36397	1	0	kinase regulator activity	molecular_function	MF	214	36194	203	36183	11
+792	GO:0019208	21609	1	0	phosphatase regulator activity	molecular_function	MF	735	20889	720	20874	15
+793	GO:0019209	13240	1	0	kinase activator activity	molecular_function	MF	169	13081	159	13071	10
+794	GO:0019219	593409	1	0	regulation of nucleobase-containing compound metabolic process	biological_process	BP	0	593409	0	593409	0
+795	GO:0019221	13144	1	0	cytokine-mediated signaling pathway	biological_process	BP	6064	7305	5839	7080	225
+796	GO:0019222	799810	1	0	regulation of metabolic process	biological_process	BP	354	799456	354	799456	0
+797	GO:0019239	12581	1	0	deaminase activity	molecular_function	MF	1956	10695	1886	10625	70
+798	GO:0019318	25667	1	0	hexose metabolic process	biological_process	BP	62	25659	8	25605	54
+799	GO:0019364	15863	1	0	pyridine nucleotide catabolic process	biological_process	BP	0	15863	0	15863	0
+800	GO:0019395	15999	1	0	fatty acid oxidation	biological_process	BP	81	15943	56	15918	25
+801	GO:0019538	1072791	1	0	protein metabolic process	biological_process	BP	6	1072786	5	1072785	1
+802	GO:0019637	251766	1	0	organophosphate metabolic process	biological_process	BP	27	251761	5	251739	22
+803	GO:0019646	21922	1	0	aerobic electron transport chain	biological_process	BP	144	21787	135	21778	9
+804	GO:0019674	10650	1	0	NAD+ metabolic process	biological_process	BP	2488	8175	2475	8162	13
+805	GO:0019693	63379	1	0	ribose phosphate metabolic process	biological_process	BP	1436	61947	1432	61943	4
+806	GO:0019725	76328	1	0	cellular homeostasis	biological_process	BP	54	76295	33	76274	21
+807	GO:0019748	23754	1	0	secondary metabolic process	biological_process	BP	4811	18952	4802	18943	9
+808	GO:0019751	23227	1	0	polyol metabolic process	biological_process	BP	2	23225	2	23225	0
+809	GO:0019752	200085	1	0	carboxylic acid metabolic process	biological_process	BP	4405	195684	4401	195680	4
+810	GO:0019783	34163	1	0	ubiquitin-like protein peptidase activity	molecular_function	MF	59	34122	41	34104	18
+811	GO:0019787	95873	1	0	ubiquitin-like protein transferase activity	molecular_function	MF	183	95740	133	95690	50
+812	GO:0019829	25339	1	0	ATPase-coupled monoatomic cation transmembrane transporter activity	molecular_function	MF	2031	23352	1987	23308	44
+813	GO:0019842	56305	1	0	vitamin binding	molecular_function	MF	183	56128	177	56122	6
+814	GO:0019843	27941	1	0	rRNA binding	molecular_function	MF	13424	14570	13371	14517	53
+815	GO:0019866	72975	1	0	organelle inner membrane	cellular_component	CC	5	72973	2	72970	3
+816	GO:0019867	33322	1	0	outer membrane	cellular_component	CC	1387	32553	769	31935	618
+817	GO:0019887	33314	1	0	protein kinase regulator activity	molecular_function	MF	2816	30525	2789	30498	27
+818	GO:0019888	20008	1	0	protein phosphatase regulator activity	molecular_function	MF	8857	11264	8744	11151	113
+819	GO:0019897	14949	1	0	extrinsic component of plasma membrane	cellular_component	CC	263	14694	255	14686	8
+820	GO:0019898	29817	1	0	extrinsic component of membrane	cellular_component	CC	5585	24238	5579	24232	6
+821	GO:0019899	128829	1	0	enzyme binding	molecular_function	MF	2014	127365	1464	126815	550
+822	GO:0019900	32847	1	0	kinase binding	molecular_function	MF	2583	30377	2470	30264	113
+823	GO:0019901	30356	1	0	protein kinase binding	molecular_function	MF	20625	9962	20394	9731	231
+824	GO:0019904	11375	1	0	protein domain specific binding	molecular_function	MF	2297	9211	2164	9078	133
+825	GO:0019905	10524	1	0	syntaxin binding	molecular_function	MF	9652	880	9644	872	8
+826	GO:0019908	10140	1	0	nuclear cyclin-dependent protein kinase holoenzyme complex	cellular_component	CC	16	10136	4	10124	12
+827	GO:0019914	17804	1	0	cyclin-dependent protein kinase regulator activity	molecular_function	MF	3	17804	0	17801	3
+828	GO:0019941	123051	1	0	modification-dependent protein catabolic process	biological_process	BP	4010	119048	4003	119041	7
+829	GO:0019953	60936	1	0	sexual reproduction	biological_process	BP	1550	59435	1501	59386	49
+830	GO:0020037	91438	1	0	heme binding	molecular_function	MF	91438	0	91438	0	0
+831	GO:0022008	49403	1	0	neurogenesis	biological_process	BP	2871	47034	2369	46532	502
+832	GO:0022402	147033	1	0	cell cycle process	biological_process	BP	0	147033	0	147033	0
+833	GO:0022411	30767	1	0	cellular component disassembly	biological_process	BP	0	30767	0	30767	0
+834	GO:0022414	73847	1	0	reproductive process	biological_process	BP	152	73705	142	73695	10
+835	GO:0022603	19840	1	0	regulation of anatomical structure morphogenesis	biological_process	BP	59	19816	24	19781	35
+836	GO:0022607	326913	1	0	cellular component assembly	biological_process	BP	0	326913	0	326913	0
+837	GO:0022613	184518	1	0	ribonucleoprotein complex biogenesis	biological_process	BP	17	184518	0	184501	17
+838	GO:0022618	64294	1	0	protein-RNA complex assembly	biological_process	BP	1014	63301	993	63280	21
+839	GO:0022624	16553	1	0	proteasome accessory complex	cellular_component	CC	69	16549	4	16484	65
+840	GO:0022625	45440	1	0	cytosolic large ribosomal subunit	cellular_component	CC	45440	0	45440	0	0
+841	GO:0022626	74413	1	0	cytosolic ribosome	cellular_component	CC	873	74116	297	73540	576
+842	GO:0022627	28687	1	0	cytosolic small ribosomal subunit	cellular_component	CC	28687	0	28687	0	0
+843	GO:0022803	93246	1	0	passive transmembrane transporter activity	molecular_function	MF	0	93246	0	93246	0
+844	GO:0022804	138936	1	0	active transmembrane transporter activity	molecular_function	MF	2	138936	0	138934	2
+845	GO:0022832	24881	1	0	voltage-gated channel activity	molecular_function	MF	417	24475	406	24464	11
+846	GO:0022834	30127	1	0	ligand-gated channel activity	molecular_function	MF	31	30105	22	30096	9
+847	GO:0022836	53462	1	0	gated channel activity	molecular_function	MF	10	53462	0	53452	10
+848	GO:0022843	18450	1	0	voltage-gated monoatomic cation channel activity	molecular_function	MF	141	18339	111	18309	30
+849	GO:0022853	31568	1	0	active monoatomic ion transmembrane transporter activity	molecular_function	MF	0	31568	0	31568	0
+850	GO:0022857	466018	1	0	transmembrane transporter activity	molecular_function	MF	102598	365084	100934	363420	1664
+851	GO:0022900	31242	1	0	electron transport chain	biological_process	BP	2918	28386	2856	28324	62
+852	GO:0022904	25790	1	0	respiratory electron transport chain	biological_process	BP	2437	23394	2396	23353	41
+853	GO:0023051	135149	1	0	regulation of signaling	biological_process	BP	476	134739	410	134673	66
+854	GO:0023052	520876	1	0	signaling	biological_process	BP	1148	519933	943	519728	205
+855	GO:0023056	44916	1	0	positive regulation of signaling	biological_process	BP	29	44909	7	44887	22
+856	GO:0023057	41077	1	0	negative regulation of signaling	biological_process	BP	17	41069	8	41060	9
+857	GO:0030001	101243	1	0	metal ion transport	biological_process	BP	4385	97082	4161	96858	224
+858	GO:0030003	58006	1	0	intracellular monoatomic cation homeostasis	biological_process	BP	2670	55409	2597	55336	73
+859	GO:0030029	65176	1	0	actin filament-based process	biological_process	BP	36	65165	11	65140	25
+860	GO:0030030	65854	1	0	cell projection organization	biological_process	BP	30	65834	20	65824	10
+861	GO:0030031	32900	1	0	cell projection assembly	biological_process	BP	1182	31735	1165	31718	17
+862	GO:0030036	62746	1	0	actin cytoskeleton organization	biological_process	BP	14652	49821	12925	48094	1727
+863	GO:0030054	95680	1	0	cell junction	cellular_component	CC	2726	93439	2241	92954	485
+864	GO:0030111	10939	1	0	regulation of Wnt signaling pathway	biological_process	BP	151	10821	118	10788	33
+865	GO:0030117	30922	1	0	membrane coat	cellular_component	CC	7083	29195	1727	23839	5356
+866	GO:0030118	13363	1	0	clathrin coat	cellular_component	CC	23	13355	8	13340	15
+867	GO:0030119	10707	1	0	AP-type membrane coat adaptor complex	cellular_component	CC	532	10188	519	10175	13
+868	GO:0030120	23020	1	0	vesicle coat	cellular_component	CC	8	23018	2	23012	6
+869	GO:0030133	32198	1	0	transport vesicle	cellular_component	CC	1732	30521	1677	30466	55
+870	GO:0030134	22414	1	0	COPII-coated ER to Golgi transport vesicle	cellular_component	CC	11346	11100	11314	11068	32
+871	GO:0030135	45643	1	0	coated vesicle	cellular_component	CC	9	45636	7	45634	2
+872	GO:0030136	16568	1	0	clathrin-coated vesicle	cellular_component	CC	4355	12303	4265	12213	90
+873	GO:0030139	10719	1	0	endocytic vesicle	cellular_component	CC	4361	6399	4320	6358	41
+874	GO:0030145	11268	1	0	manganese ion binding	molecular_function	MF	11268	0	11268	0	0
+875	GO:0030148	21220	1	0	sphingolipid biosynthetic process	biological_process	BP	7472	13842	7378	13748	94
+876	GO:0030150	11384	1	0	protein import into mitochondrial matrix	biological_process	BP	11384	0	11384	0	0
+877	GO:0030154	119424	1	0	cell differentiation	biological_process	BP	28602	92128	27296	90822	1306
+878	GO:0030155	12136	1	0	regulation of cell adhesion	biological_process	BP	862	11332	804	11274	58
+879	GO:0030163	145580	1	0	protein catabolic process	biological_process	BP	3665	143460	2120	141915	1545
+880	GO:0030170	37569	1	0	pyridoxal phosphate binding	molecular_function	MF	37569	0	37569	0	0
+881	GO:0030182	43013	1	0	neuron differentiation	biological_process	BP	10434	33297	9716	32579	718
+882	GO:0030198	13486	1	0	extracellular matrix organization	biological_process	BP	10158	3439	10047	3328	111
+883	GO:0030234	201110	1	0	enzyme regulator activity	molecular_function	MF	7850	193312	7798	193260	52
+884	GO:0030246	46506	1	0	carbohydrate binding	molecular_function	MF	21234	25398	21108	25272	126
+885	GO:0030247	10815	1	0	polysaccharide binding	molecular_function	MF	4148	6685	4130	6667	18
+886	GO:0030258	31112	1	0	lipid modification	biological_process	BP	1626	29486	1626	29486	0
+887	GO:0030276	12489	1	0	clathrin binding	molecular_function	MF	7675	4854	7635	4814	40
+888	GO:0030286	10268	1	0	dynein complex	cellular_component	CC	2230	8082	2186	8038	44
+889	GO:0030295	13078	1	0	protein kinase activator activity	molecular_function	MF	4966	8142	4936	8112	30
+890	GO:0030312	50363	1	0	external encapsulating structure	cellular_component	CC	50	50327	36	50313	14
+891	GO:0030334	16951	1	0	regulation of cell migration	biological_process	BP	4796	12294	4657	12155	139
+892	GO:0030414	22248	1	0	peptidase inhibitor activity	molecular_function	MF	2451	19918	2330	19797	121
+893	GO:0030424	22456	1	0	axon	cellular_component	CC	14901	8503	13953	7555	948
+894	GO:0030425	18948	1	0	dendrite	cellular_component	CC	12732	6808	12140	6216	592
+895	GO:0030427	12773	1	0	site of polarized growth	cellular_component	CC	2520	10313	2460	10253	60
+896	GO:0030479	10208	1	0	actin cortical patch	cellular_component	CC	10208	2	10206	0	2
+897	GO:0030488	14980	1	0	tRNA methylation	biological_process	BP	11655	3388	11592	3325	63
+898	GO:0030490	33957	1	0	maturation of SSU-rRNA	biological_process	BP	9468	24565	9392	24489	76
+899	GO:0030515	13570	1	0	snoRNA binding	molecular_function	MF	8040	5559	8011	5530	29
+900	GO:0030527	27359	1	0	structural constituent of chromatin	molecular_function	MF	27359	0	27359	0	0
+901	GO:0030532	35515	1	0	small nuclear ribonucleoprotein complex	cellular_component	CC	248	35335	180	35267	68
+902	GO:0030545	41499	1	0	signaling receptor regulator activity	molecular_function	MF	323	41179	320	41176	3
+903	GO:0030546	39247	1	0	signaling receptor activator activity	molecular_function	MF	138	39114	133	39109	5
+904	GO:0030554	617922	1	0	adenyl nucleotide binding	molecular_function	MF	2	617922	0	617920	2
+905	GO:0030594	14348	1	0	neurotransmitter receptor activity	molecular_function	MF	4443	10046	4302	9905	141
+906	GO:0030658	21403	1	0	transport vesicle membrane	cellular_component	CC	204	21253	150	21199	54
+907	GO:0030659	63869	1	0	cytoplasmic vesicle membrane	cellular_component	CC	1563	62663	1206	62306	357
+908	GO:0030660	12257	1	0	Golgi-associated vesicle membrane	cellular_component	CC	822	11435	822	11435	0
+909	GO:0030662	28004	1	0	coated vesicle membrane	cellular_component	CC	5	27999	5	27999	0
+910	GO:0030665	10204	1	0	clathrin-coated vesicle membrane	cellular_component	CC	181	10069	135	10023	46
+911	GO:0030674	51052	1	0	protein-macromolecule adaptor activity	molecular_function	MF	11963	39235	11817	39089	146
+912	GO:0030684	59772	1	0	preribosome	cellular_component	CC	155	59675	97	59617	58
+913	GO:0030686	25659	1	0	90S preribosome	cellular_component	CC	13165	12510	13149	12494	16
+914	GO:0030687	16086	1	0	preribosome, large subunit precursor	cellular_component	CC	15206	884	15202	880	4
+915	GO:0030695	85399	1	0	GTPase regulator activity	molecular_function	MF	697	84775	624	84702	73
+916	GO:0030705	19367	1	0	cytoskeleton-dependent intracellular transport	biological_process	BP	1947	17426	1941	17420	6
+917	GO:0030832	15820	1	0	regulation of actin filament length	biological_process	BP	156	15668	152	15664	4
+918	GO:0030833	14728	1	0	regulation of actin filament polymerization	biological_process	BP	6329	8432	6296	8399	33
+919	GO:0030863	20724	1	0	cortical cytoskeleton	cellular_component	CC	392	20379	345	20332	47
+920	GO:0030864	17632	1	0	cortical actin cytoskeleton	cellular_component	CC	5145	13149	4483	12487	662
+921	GO:0030880	58693	1	0	RNA polymerase complex	cellular_component	CC	249	58470	223	58444	26
+922	GO:0030968	10039	1	0	endoplasmic reticulum unfolded protein response	biological_process	BP	8494	1629	8410	1545	84
+923	GO:0031012	28066	1	0	extracellular matrix	cellular_component	CC	19892	8756	19310	8174	582
+924	GO:0031047	14330	1	0	regulatory ncRNA-mediated gene silencing	biological_process	BP	1959	12470	1860	12371	99
+925	GO:0031072	19734	1	0	heat shock protein binding	molecular_function	MF	7994	11821	7913	11740	81
+926	GO:0031090	414942	1	0	organelle membrane	cellular_component	CC	391	414622	320	414551	71
+927	GO:0031109	10135	1	0	microtubule polymerization or depolymerization	biological_process	BP	8	10132	3	10127	5
+928	GO:0031123	26867	1	0	RNA 3'-end processing	biological_process	BP	2774	24131	2736	24093	38
+929	GO:0031146	12443	1	0	SCF-dependent proteasomal ubiquitin-dependent protein catabolic process	biological_process	BP	12443	0	12443	0	0
+930	GO:0031163	14058	1	0	metallo-sulfur cluster assembly	biological_process	BP	0	14058	0	14058	0
+931	GO:0031167	12221	1	0	rRNA methylation	biological_process	BP	5502	6741	5480	6719	22
+932	GO:0031175	28873	1	0	neuron projection development	biological_process	BP	4331	24752	4121	24542	210
+933	GO:0031201	18228	1	0	SNARE complex	cellular_component	CC	17823	422	17806	405	17
+934	GO:0031248	30055	1	0	protein acetyltransferase complex	cellular_component	CC	4	30055	0	30051	4
+935	GO:0031252	10857	1	0	cell leading edge	cellular_component	CC	478	10493	364	10379	114
+936	GO:0031267	27005	1	0	small GTPase binding	molecular_function	MF	27005	0	27005	0	0
+937	GO:0031344	14954	1	0	regulation of cell projection organization	biological_process	BP	272	14691	263	14682	9
+938	GO:0031347	16069	1	0	regulation of defense response	biological_process	BP	911	15182	887	15158	24
+939	GO:0031399	45904	1	0	regulation of protein modification process	biological_process	BP	8	45899	5	45896	3
+940	GO:0031401	23007	1	0	positive regulation of protein modification process	biological_process	BP	30	22983	24	22977	6
+941	GO:0031406	21178	1	0	carboxylic acid binding	molecular_function	MF	40	21154	24	21138	16
+942	GO:0031410	168320	1	0	cytoplasmic vesicle	cellular_component	CC	10960	158940	9380	157360	1580
+943	GO:0031461	36918	1	0	cullin-RING ubiquitin ligase complex	cellular_component	CC	2389	34619	2299	34529	90
+944	GO:0031490	11244	1	0	chromatin DNA binding	molecular_function	MF	6734	4547	6697	4510	37
+945	GO:0031491	12140	1	0	nucleosome binding	molecular_function	MF	8983	3164	8976	3157	7
+946	GO:0031507	10812	1	0	heterochromatin formation	biological_process	BP	3800	7128	3684	7012	116
+947	GO:0031570	20095	1	0	DNA integrity checkpoint signaling	biological_process	BP	1	20094	1	20094	0
+948	GO:0031593	10427	1	0	polyubiquitin modification-dependent protein binding	molecular_function	MF	8337	2131	8296	2090	41
+949	GO:0031625	17512	1	0	ubiquitin protein ligase binding	molecular_function	MF	17512	0	17512	0	0
+950	GO:0031667	28533	1	0	response to nutrient levels	biological_process	BP	857	27839	694	27676	163
+951	GO:0031669	22938	1	0	cellular response to nutrient levels	biological_process	BP	344	22666	272	22594	72
+952	GO:0031903	17619	1	0	microbody membrane	cellular_component	CC	0	17619	0	17619	0
+953	GO:0031966	98638	1	0	mitochondrial membrane	cellular_component	CC	7488	91797	6841	91150	647
+954	GO:0031967	166227	1	0	organelle envelope	cellular_component	CC	5	166227	0	166222	5
+955	GO:0031968	32458	1	0	organelle outer membrane	cellular_component	CC	2	32456	2	32456	0
+956	GO:0031970	11066	1	0	organelle envelope lumen	cellular_component	CC	0	11066	0	11066	0
+957	GO:0031974	383243	1	0	membrane-enclosed lumen	cellular_component	CC	0	383243	0	383243	0
+958	GO:0031981	298745	1	0	nuclear lumen	cellular_component	CC	225	298666	79	298520	146
+959	GO:0031982	182979	1	0	vesicle	cellular_component	CC	7997	175421	7558	174982	439
+960	GO:0031984	172404	1	0	organelle subcompartment	cellular_component	CC	9	172404	0	172395	9
+961	GO:0032006	13395	1	0	regulation of TOR signaling	biological_process	BP	641	12790	605	12754	36
+962	GO:0032040	28512	1	0	small-subunit processome	cellular_component	CC	28512	0	28512	0	0
+963	GO:0032101	20893	1	0	regulation of response to external stimulus	biological_process	BP	0	20893	0	20893	0
+964	GO:0032103	10334	1	0	positive regulation of response to external stimulus	biological_process	BP	0	10334	0	10334	0
+965	GO:0032153	16709	1	0	cell division site	cellular_component	CC	8257	9441	7268	8452	989
+966	GO:0032182	27651	1	0	ubiquitin-like protein binding	molecular_function	MF	1626	26029	1622	26025	4
+967	GO:0032200	19436	1	0	telomere organization	biological_process	BP	34	19407	29	19402	5
+968	GO:0032259	51094	1	0	methylation	biological_process	BP	6046	45050	6044	45048	2
+969	GO:0032271	16347	1	0	regulation of protein polymerization	biological_process	BP	0	16347	0	16347	0
+970	GO:0032279	10042	1	0	asymmetric synapse	cellular_component	CC	58	10011	31	9984	27
+971	GO:0032434	11343	1	0	regulation of proteasomal ubiquitin-dependent protein catabolic process	biological_process	BP	509	10845	498	10834	11
+972	GO:0032446	101882	1	0	protein modification by small protein conjugation	biological_process	BP	1350	100563	1319	100532	31
+973	GO:0032501	223921	1	0	multicellular organismal process	biological_process	BP	0	223921	0	223921	0
+974	GO:0032502	226038	1	0	developmental process	biological_process	BP	4045	222216	3822	221993	223
+975	GO:0032509	16076	1	0	endosome transport via multivesicular body sorting pathway	biological_process	BP	2983	13156	2920	13093	63
+976	GO:0032511	12894	1	0	late endosome to vacuole transport via multivesicular body sorting pathway	biological_process	BP	5901	7006	5888	6993	13
+977	GO:0032535	22621	1	0	regulation of cellular component size	biological_process	BP	16	22619	2	22605	14
+978	GO:0032543	21465	1	0	mitochondrial translation	biological_process	BP	14667	6847	14618	6798	49
+979	GO:0032553	706948	1	0	ribonucleotide binding	molecular_function	MF	6	706944	4	706942	2
+980	GO:0032555	689344	1	0	purine ribonucleotide binding	molecular_function	MF	6	689344	0	689338	6
+981	GO:0032559	570674	1	0	adenyl ribonucleotide binding	molecular_function	MF	13	570674	0	570661	13
+982	GO:0032561	120415	1	0	guanyl ribonucleotide binding	molecular_function	MF	4	120415	0	120411	4
+983	GO:0032774	426248	1	0	RNA biosynthetic process	biological_process	BP	0	426248	0	426248	0
+984	GO:0032784	12989	1	0	regulation of DNA-templated transcription elongation	biological_process	BP	1780	11224	1765	11209	15
+985	GO:0032787	100721	1	0	monocarboxylic acid metabolic process	biological_process	BP	76	100708	13	100645	63
+986	GO:0032806	10110	1	0	carboxy-terminal domain protein kinase complex	cellular_component	CC	9	10110	0	10101	9
+987	GO:0032870	26855	1	0	cellular response to hormone stimulus	biological_process	BP	1769	25158	1697	25086	72
+988	GO:0032879	51197	1	0	regulation of localization	biological_process	BP	1	51197	0	51196	1
+989	GO:0032880	11477	1	0	regulation of protein localization	biological_process	BP	1728	9839	1638	9749	90
+990	GO:0032886	11773	1	0	regulation of microtubule-based process	biological_process	BP	45	11742	31	11728	14
+991	GO:0032934	10233	1	0	sterol binding	molecular_function	MF	5818	4435	5798	4415	20
+992	GO:0032940	34226	1	0	secretion by cell	biological_process	BP	52	34203	23	34174	29
+993	GO:0032956	25766	1	0	regulation of actin cytoskeleton organization	biological_process	BP	5136	20759	5007	20630	129
+994	GO:0032970	26238	1	0	regulation of actin filament-based process	biological_process	BP	240	26007	231	25998	9
+995	GO:0032984	20649	1	0	protein-containing complex disassembly	biological_process	BP	89	20573	76	20560	13
+996	GO:0032991	1338866	1	0	protein-containing complex	cellular_component	CC	6273	1334248	4618	1332593	1655
+997	GO:0032993	50059	1	0	protein-DNA complex	cellular_component	CC	776	49294	765	49283	11
+998	GO:0033013	11918	1	0	tetrapyrrole metabolic process	biological_process	BP	14	11912	6	11904	8
+999	GO:0033014	10070	1	0	tetrapyrrole biosynthetic process	biological_process	BP	352	9779	291	9718	61
+1000	GO:0033036	290583	1	0	macromolecule localization	biological_process	BP	0	290583	0	290583	0
+1001	GO:0033043	61589	1	0	regulation of organelle organization	biological_process	BP	4	61589	0	61585	4
+1002	GO:0033044	14647	1	0	regulation of chromosome organization	biological_process	BP	118	14576	71	14529	47
+1003	GO:0033045	11443	1	0	regulation of sister chromatid segregation	biological_process	BP	197	11249	194	11246	3
+1004	GO:0033108	34270	1	0	mitochondrial respiratory chain complex assembly	biological_process	BP	1088	33186	1084	33182	4
+1005	GO:0033176	13048	1	0	proton-transporting V-type ATPase complex	cellular_component	CC	820	12294	754	12228	66
+1006	GO:0033260	10808	1	0	nuclear DNA replication	biological_process	BP	1233	9592	1216	9575	17
+1007	GO:0033365	101035	1	0	protein localization to organelle	biological_process	BP	1073	99963	1072	99962	1
+1008	GO:0033554	242820	1	0	cellular response to stress	biological_process	BP	2492	240810	2010	240328	482
+1009	GO:0033617	10703	1	0	mitochondrial respiratory chain complex IV assembly	biological_process	BP	10703	0	10703	0	0
+1010	GO:0033674	14062	1	0	positive regulation of kinase activity	biological_process	BP	6930	7134	6928	7132	2
+1011	GO:0033993	17602	1	0	response to lipid	biological_process	BP	174	17500	102	17428	72
+1012	GO:0034061	11510	1	0	DNA polymerase activity	molecular_function	MF	169	11507	3	11341	166
+1013	GO:0034062	12947	1	0	5'-3' RNA polymerase activity	molecular_function	MF	82	12946	1	12865	81
+1014	GO:0034097	16911	1	0	response to cytokine	biological_process	BP	1280	15725	1186	15631	94
+1015	GO:0034212	13856	1	0	protein N-acetyltransferase activity	molecular_function	MF	0	13856	0	13856	0
+1016	GO:0034220	113104	1	0	monoatomic ion transmembrane transport	biological_process	BP	8264	105246	7858	104840	406
+1017	GO:0034330	19096	1	0	cell junction organization	biological_process	BP	14	19090	6	19082	8
+1018	GO:0034440	17759	1	0	lipid oxidation	biological_process	BP	1678	16087	1672	16081	6
+1019	GO:0034504	29316	1	0	protein localization to nucleus	biological_process	BP	522	28821	495	28794	27
+1020	GO:0034599	16847	1	0	cellular response to oxidative stress	biological_process	BP	13176	3763	13084	3671	92
+1021	GO:0034620	14835	1	0	cellular response to unfolded protein	biological_process	BP	4838	10750	4085	9997	753
+1022	GO:0034654	517238	1	0	nucleobase-containing compound biosynthetic process	biological_process	BP	0	517238	0	517238	0
+1023	GO:0034655	84301	1	0	nucleobase-containing compound catabolic process	biological_process	BP	0	84301	0	84301	0
+1024	GO:0034702	20634	1	0	monoatomic ion channel complex	cellular_component	CC	44	20602	32	20590	12
+1025	GO:0034703	18009	1	0	cation channel complex	cellular_component	CC	1211	16826	1183	16798	28
+1026	GO:0034708	15774	1	0	methyltransferase complex	cellular_component	CC	23	15766	8	15751	15
+1027	GO:0034728	18237	1	0	nucleosome organization	biological_process	BP	2712	15539	2698	15525	14
+1028	GO:0034762	14604	1	0	regulation of transmembrane transport	biological_process	BP	4	14602	2	14600	2
+1029	GO:0034765	11072	1	0	regulation of monoatomic ion transmembrane transport	biological_process	BP	2360	8720	2352	8712	8
+1030	GO:0034976	21460	1	0	response to endoplasmic reticulum stress	biological_process	BP	4679	16953	4507	16781	172
+1031	GO:0035091	19834	1	0	phosphatidylinositol binding	molecular_function	MF	19834	0	19834	0	0
+1032	GO:0035556	189065	1	0	intracellular signal transduction	biological_process	BP	59918	129819	59246	129147	672
+1033	GO:0035639	669950	1	0	purine ribonucleoside triphosphate binding	molecular_function	MF	4	669949	1	669946	3
+1034	GO:0035673	10284	1	0	oligopeptide transmembrane transporter activity	molecular_function	MF	4756	5543	4741	5528	15
+1035	GO:0035725	14287	1	0	sodium ion transmembrane transport	biological_process	BP	10472	3889	10398	3815	74
+1036	GO:0035770	40447	1	0	ribonucleoprotein granule	cellular_component	CC	1147	39320	1127	39300	20
+1037	GO:0035825	17244	1	0	homologous recombination	biological_process	BP	64	17215	29	17180	35
+1038	GO:0035966	18152	1	0	response to topologically incorrect protein	biological_process	BP	8	18148	4	18144	4
+1039	GO:0035967	17662	1	0	cellular response to topologically incorrect protein	biological_process	BP	4	17660	2	17658	2
+1040	GO:0036064	10572	1	0	ciliary basal body	cellular_component	CC	10363	216	10356	209	7
+1041	GO:0036094	1584245	1	0	small molecule binding	molecular_function	MF	1218	1583087	1158	1583027	60
+1042	GO:0036211	496318	1	0	protein modification process	biological_process	BP	5300	491067	5251	491018	49
+1043	GO:0036452	13053	1	0	ESCRT complex	cellular_component	CC	0	13053	0	13053	0
+1044	GO:0036464	31668	1	0	cytoplasmic ribonucleoprotein granule	cellular_component	CC	1149	30680	988	30519	161
+1045	GO:0036477	24564	1	0	somatodendritic compartment	cellular_component	CC	82	24545	19	24482	63
+1046	GO:0038023	202212	1	0	signaling receptor activity	molecular_function	MF	15197	187734	14478	187015	719
+1047	GO:0040008	10937	1	0	regulation of growth	biological_process	BP	921	10047	890	10016	31
+1048	GO:0040011	11974	1	0	locomotion	biological_process	BP	508	11479	495	11466	13
+1049	GO:0040012	19191	1	0	regulation of locomotion	biological_process	BP	316	18895	296	18875	20
+1050	GO:0040017	10606	1	0	positive regulation of locomotion	biological_process	BP	61	10550	56	10545	5
+1051	GO:0040029	14520	1	0	epigenetic regulation of gene expression	biological_process	BP	1071	13608	912	13449	159
+1052	GO:0042026	12340	1	0	protein refolding	biological_process	BP	12340	0	12340	0	0
+1053	GO:0042054	10969	1	0	histone methyltransferase activity	molecular_function	MF	3000	8155	2814	7969	186
+1054	GO:0042127	26030	1	0	regulation of cell population proliferation	biological_process	BP	4132	22202	3828	21898	304
+1055	GO:0042147	18696	1	0	retrograde transport, endosome to Golgi	biological_process	BP	16716	2004	16692	1980	24
+1056	GO:0042157	18813	1	0	lipoprotein metabolic process	biological_process	BP	1655	17175	1638	17158	17
+1057	GO:0042158	14279	1	0	lipoprotein biosynthetic process	biological_process	BP	42	14239	40	14237	2
+1058	GO:0042175	133243	1	0	nuclear outer membrane-endoplasmic reticulum membrane network	cellular_component	CC	605	132662	581	132638	24
+1059	GO:0042176	21144	1	0	regulation of protein catabolic process	biological_process	BP	2472	18705	2439	18672	33
+1060	GO:0042180	12510	1	0	ketone metabolic process	biological_process	BP	23	12491	19	12487	4
+1061	GO:0042181	10461	1	0	ketone biosynthetic process	biological_process	BP	13	10452	9	10448	4
+1062	GO:0042221	159421	1	0	response to chemical	biological_process	BP	0	159421	0	159421	0
+1063	GO:0042254	148159	1	0	ribosome biogenesis	biological_process	BP	16037	141796	6363	132122	9674
+1064	GO:0042255	29763	1	0	ribosome assembly	biological_process	BP	1457	28313	1450	28306	7
+1065	GO:0042273	42829	1	0	ribosomal large subunit biogenesis	biological_process	BP	14534	29224	13605	28295	929
+1066	GO:0042274	46370	1	0	ribosomal small subunit biogenesis	biological_process	BP	5591	41720	4650	40779	941
+1067	GO:0042277	10733	1	0	peptide binding	molecular_function	MF	5679	5069	5664	5054	15
+1068	GO:0042325	45677	1	0	regulation of phosphorylation	biological_process	BP	513	45175	502	45164	11
+1069	GO:0042327	23707	1	0	positive regulation of phosphorylation	biological_process	BP	360	23364	343	23347	17
+1070	GO:0042330	11385	1	0	taxis	biological_process	BP	77	11310	75	11308	2
+1071	GO:0042364	14454	1	0	water-soluble vitamin biosynthetic process	biological_process	BP	0	14454	0	14454	0
+1072	GO:0042391	20909	1	0	regulation of membrane potential	biological_process	BP	9200	11952	8957	11709	243
+1073	GO:0042393	26030	1	0	histone binding	molecular_function	MF	26030	0	26030	0	0
+1074	GO:0042398	12800	1	0	modified amino acid biosynthetic process	biological_process	BP	83	12800	0	12717	83
+1075	GO:0042440	11965	1	0	pigment metabolic process	biological_process	BP	10	11959	6	11955	4
+1076	GO:0042445	10041	1	0	hormone metabolic process	biological_process	BP	58	9998	43	9983	15
+1077	GO:0042546	18837	1	0	cell wall biogenesis	biological_process	BP	3205	15736	3101	15632	104
+1078	GO:0042558	12577	1	0	pteridine-containing compound metabolic process	biological_process	BP	155	12451	126	12422	29
+1079	GO:0042575	10965	1	0	DNA polymerase complex	cellular_component	CC	12	10959	6	10953	6
+1080	GO:0042578	135426	1	0	phosphoric ester hydrolase activity	molecular_function	MF	48	135402	24	135378	24
+1081	GO:0042579	41457	1	0	microbody	cellular_component	CC	1	41457	0	41456	1
+1082	GO:0042592	103407	1	0	homeostatic process	biological_process	BP	45	103387	20	103362	25
+1083	GO:0042594	18897	1	0	response to starvation	biological_process	BP	1861	17077	1820	17036	41
+1084	GO:0042625	14002	1	0	ATPase-coupled ion transmembrane transporter activity	molecular_function	MF	4	14002	0	13998	4
+1085	GO:0042626	58215	1	0	ATPase-coupled transmembrane transporter activity	molecular_function	MF	1274	57211	1004	56941	270
+1086	GO:0042743	14358	1	0	hydrogen peroxide metabolic process	biological_process	BP	23	14347	11	14335	12
+1087	GO:0042744	14294	1	0	hydrogen peroxide catabolic process	biological_process	BP	14107	187	14107	187	0
+1088	GO:0042770	16861	1	0	signal transduction in response to DNA damage	biological_process	BP	59	16822	39	16802	20
+1089	GO:0042773	23191	1	0	ATP synthesis coupled electron transport	biological_process	BP	1435	21982	1209	21756	226
+1090	GO:0042775	21982	1	0	mitochondrial ATP synthesis coupled electron transport	biological_process	BP	319	21787	195	21663	124
+1091	GO:0042802	20678	1	0	identical protein binding	molecular_function	MF	13038	8681	11997	7640	1041
+1092	GO:0042981	34090	1	0	regulation of apoptotic process	biological_process	BP	10625	23883	10207	23465	418
+1093	GO:0042995	120233	1	0	cell projection	cellular_component	CC	4263	116065	4168	115970	95
+1094	GO:0043005	61918	1	0	neuron projection	cellular_component	CC	22077	41426	20492	39841	1585
+1095	GO:0043021	29207	1	0	ribonucleoprotein complex binding	molecular_function	MF	3093	26122	3085	26114	8
+1096	GO:0043022	22904	1	0	ribosome binding	molecular_function	MF	15112	7838	15066	7792	46
+1097	GO:0043025	11124	1	0	neuronal cell body	cellular_component	CC	8844	2606	8518	2280	326
+1098	GO:0043038	34038	1	0	amino acid activation	biological_process	BP	0	34038	0	34038	0
+1099	GO:0043039	32266	1	0	tRNA aminoacylation	biological_process	BP	338	32035	231	31928	107
+1100	GO:0043062	13645	1	0	extracellular structure organization	biological_process	BP	2	13644	1	13643	1
+1101	GO:0043066	15198	1	0	negative regulation of apoptotic process	biological_process	BP	8900	6793	8405	6298	495
+1102	GO:0043067	35549	1	0	regulation of programmed cell death	biological_process	BP	337	35253	296	35212	41
+1103	GO:0043069	16031	1	0	negative regulation of programmed cell death	biological_process	BP	763	15314	717	15268	46
+1104	GO:0043085	46690	1	0	positive regulation of catalytic activity	biological_process	BP	1930	44771	1919	44760	11
+1105	GO:0043086	15420	1	0	negative regulation of catalytic activity	biological_process	BP	1625	13809	1611	13795	14
+1106	GO:0043087	32593	1	0	regulation of GTPase activity	biological_process	BP	9502	23101	9492	23091	10
+1107	GO:0043130	25620	1	0	ubiquitin binding	molecular_function	MF	25455	168	25452	165	3
+1108	GO:0043161	65498	1	0	proteasome-mediated ubiquitin-dependent protein catabolic process	biological_process	BP	41386	24268	41230	24112	156
+1109	GO:0043167	1507411	1	0	ion binding	molecular_function	MF	0	1507411	0	1507411	0
+1110	GO:0043168	901156	1	0	anion binding	molecular_function	MF	23	901155	1	901133	22
+1111	GO:0043169	675655	1	0	cation binding	molecular_function	MF	7600	668104	7551	668055	49
+1112	GO:0043170	1788867	1	0	macromolecule metabolic process	biological_process	BP	1	1788866	1	1788866	0
+1113	GO:0043175	12755	1	0	RNA polymerase core enzyme binding	molecular_function	MF	658	12100	655	12097	3
+1114	GO:0043177	22349	1	0	organic acid binding	molecular_function	MF	1166	21183	1166	21183	0
+1115	GO:0043207	41973	1	0	response to external biotic stimulus	biological_process	BP	11	41965	8	41962	3
+1116	GO:0043226	2814748	1	0	organelle	cellular_component	CC	200	2814727	21	2814548	179
+1117	GO:0043227	2473397	1	0	membrane-bounded organelle	cellular_component	CC	1557	2471840	1557	2471840	0
+1118	GO:0043228	744441	1	0	membraneless organelle	cellular_component	CC	3	744438	3	744438	0
+1119	GO:0043229	2783014	1	0	intracellular organelle	cellular_component	CC	10	2783005	9	2783004	1
+1120	GO:0043231	2423491	1	0	intracellular membrane-bounded organelle	cellular_component	CC	42455	2388239	35252	2381036	7203
+1121	GO:0043232	744424	1	0	intracellular membraneless organelle	cellular_component	CC	19	744424	0	744405	19
+1122	GO:0043233	383240	1	0	organelle lumen	cellular_component	CC	0	383240	0	383240	0
+1123	GO:0043235	27629	1	0	signaling receptor complex	cellular_component	CC	11594	16208	11421	16035	173
+1124	GO:0043244	13128	1	0	regulation of protein-containing complex disassembly	biological_process	BP	3	13128	0	13125	3
+1125	GO:0043254	18767	1	0	regulation of protein-containing complex assembly	biological_process	BP	83	18705	62	18684	21
+1126	GO:0043269	14107	1	0	regulation of monoatomic ion transport	biological_process	BP	47	14089	18	14060	29
+1127	GO:0043292	10738	1	0	contractile muscle fiber	cellular_component	CC	173	10601	137	10565	36
+1128	GO:0043408	21184	1	0	regulation of MAPK cascade	biological_process	BP	2762	18486	2698	18422	64
+1129	GO:0043410	11919	1	0	positive regulation of MAPK cascade	biological_process	BP	4204	7953	3966	7715	238
+1130	GO:0043412	572653	1	0	macromolecule modification	biological_process	BP	0	572653	0	572653	0
+1131	GO:0043414	45050	1	0	macromolecule methylation	biological_process	BP	5	45047	3	45045	2
+1132	GO:0043436	203377	1	0	oxoacid metabolic process	biological_process	BP	12	203375	2	203365	10
+1133	GO:0043484	15186	1	0	regulation of RNA splicing	biological_process	BP	3172	12098	3088	12014	84
+1134	GO:0043487	22852	1	0	regulation of RNA stability	biological_process	BP	11	22844	8	22841	3
+1135	GO:0043488	22537	1	0	regulation of mRNA stability	biological_process	BP	2550	20702	1835	19987	715
+1136	GO:0043531	17270	1	0	ADP binding	molecular_function	MF	17270	0	17270	0	0
+1137	GO:0043543	16349	1	0	protein acylation	biological_process	BP	2	16349	0	16347	2
+1138	GO:0043547	22919	1	0	positive regulation of GTPase activity	biological_process	BP	12463	10471	12448	10456	15
+1139	GO:0043549	33432	1	0	regulation of kinase activity	biological_process	BP	22	33410	22	33410	0
+1140	GO:0043565	286916	1	0	sequence-specific DNA binding	molecular_function	MF	42069	247269	39647	244847	2422
+1141	GO:0043574	11203	1	0	peroxisomal transport	biological_process	BP	1	11203	0	11202	1
+1142	GO:0043596	12659	1	0	nuclear replication fork	cellular_component	CC	1963	10711	1948	10696	15
+1143	GO:0043632	123282	1	0	modification-dependent macromolecule catabolic process	biological_process	BP	0	123282	0	123282	0
+1144	GO:0043648	19699	1	0	dicarboxylic acid metabolic process	biological_process	BP	15	19696	3	19684	12
+1145	GO:0043687	145118	1	0	post-translational protein modification	biological_process	BP	941	144190	928	144177	13
+1146	GO:0043933	229606	1	0	protein-containing complex organization	biological_process	BP	20	229605	1	229586	19
+1147	GO:0044036	12713	1	0	cell wall macromolecule metabolic process	biological_process	BP	0	12713	0	12713	0
+1148	GO:0044038	10076	1	0	cell wall macromolecule biosynthetic process	biological_process	BP	58	10018	58	10018	0
+1149	GO:0044042	25894	1	0	glucan metabolic process	biological_process	BP	97	25837	57	25797	40
+1150	GO:0044085	460873	1	0	cellular component biogenesis	biological_process	BP	0	460873	0	460873	0
+1151	GO:0044087	33493	1	0	regulation of cellular component biogenesis	biological_process	BP	0	33493	0	33493	0
+1152	GO:0044089	10058	1	0	positive regulation of cellular component biogenesis	biological_process	BP	18	10055	3	10040	15
+1153	GO:0044092	18862	1	0	negative regulation of molecular function	biological_process	BP	0	18862	0	18862	0
+1154	GO:0044093	50951	1	0	positive regulation of molecular function	biological_process	BP	0	50951	0	50951	0
+1155	GO:0044183	27836	1	0	protein folding chaperone	molecular_function	MF	6160	21731	6105	21676	55
+1156	GO:0044238	2346430	1	0	primary metabolic process	biological_process	BP	79	2346351	79	2346351	0
+1157	GO:0044272	22336	1	0	sulfur compound biosynthetic process	biological_process	BP	12	22336	0	22324	12
+1158	GO:0044281	410907	1	0	small molecule metabolic process	biological_process	BP	8	410900	7	410899	1
+1159	GO:0044282	74314	1	0	small molecule catabolic process	biological_process	BP	0	74314	0	74314	0
+1160	GO:0044283	130424	1	0	small molecule biosynthetic process	biological_process	BP	0	130424	0	130424	0
+1161	GO:0044297	11432	1	0	cell body	cellular_component	CC	405	11136	296	11027	109
+1162	GO:0044389	19267	1	0	ubiquitin-like protein ligase binding	molecular_function	MF	1773	17512	1755	17494	18
+1163	GO:0044391	115529	1	0	ribosomal subunit	cellular_component	CC	17	115529	0	115512	17
+1164	GO:0044419	44620	1	0	biological process involved in interspecies interaction between organisms	biological_process	BP	811	43809	811	43809	0
+1165	GO:0044550	15582	1	0	secondary metabolite biosynthetic process	biological_process	BP	9334	6250	9332	6248	2
+1166	GO:0044743	19455	1	0	protein transmembrane import into intracellular organelle	biological_process	BP	2	19453	2	19453	0
+1167	GO:0044769	14002	1	0	ATPase activity, coupled to transmembrane movement of ions, rotational mechanism	molecular_function	MF	0	14002	0	14002	0
+1168	GO:0044770	12463	1	0	cell cycle phase transition	biological_process	BP	22	12442	21	12441	1
+1169	GO:0044772	12405	1	0	mitotic cell cycle phase transition	biological_process	BP	5170	7276	5129	7235	41
+1170	GO:0044773	11623	1	0	mitotic DNA damage checkpoint signaling	biological_process	BP	4162	7477	4146	7461	16
+1171	GO:0044774	14115	1	0	mitotic DNA integrity checkpoint signaling	biological_process	BP	61	14054	61	14054	0
+1172	GO:0044782	34339	1	0	cilium organization	biological_process	BP	2061	32551	1788	32278	273
+1173	GO:0044786	11008	1	0	cell cycle DNA replication	biological_process	BP	14	11002	6	10994	8
+1174	GO:0044804	10818	1	0	nucleophagy	biological_process	BP	4162	6676	4142	6656	20
+1175	GO:0044877	122413	1	0	protein-containing complex binding	molecular_function	MF	7295	115385	7028	115118	267
+1176	GO:0045017	53559	1	0	glycerolipid biosynthetic process	biological_process	BP	20	53553	6	53539	14
+1177	GO:0045047	16792	1	0	protein targeting to ER	biological_process	BP	3305	13520	3272	13487	33
+1178	GO:0045087	14633	1	0	innate immune response	biological_process	BP	9933	4947	9686	4700	247
+1179	GO:0045165	11394	1	0	cell fate commitment	biological_process	BP	5326	6404	4990	6068	336
+1180	GO:0045177	11288	1	0	apical part of cell	cellular_component	CC	1325	10165	1123	9963	202
+1181	GO:0045184	207645	1	0	establishment of protein localization	biological_process	BP	423	207286	359	207222	64
+1182	GO:0045202	56895	1	0	synapse	cellular_component	CC	18843	44359	12536	38052	6307
+1183	GO:0045211	13742	1	0	postsynaptic membrane	cellular_component	CC	10012	4293	9449	3730	563
+1184	GO:0045229	31027	1	0	external encapsulating structure organization	biological_process	BP	0	31027	0	31027	0
+1185	GO:0045324	17256	1	0	late endosome to vacuole transport	biological_process	BP	4405	12898	4358	12851	47
+1186	GO:0045333	65367	1	0	cellular respiration	biological_process	BP	1323	64263	1104	64044	219
+1187	GO:0045595	23432	1	0	regulation of cell differentiation	biological_process	BP	1375	22178	1254	22057	121
+1188	GO:0045597	11270	1	0	positive regulation of cell differentiation	biological_process	BP	726	10700	570	10544	156
+1189	GO:0045727	11534	1	0	positive regulation of translation	biological_process	BP	3637	7944	3590	7897	47
+1190	GO:0045732	13293	1	0	positive regulation of protein catabolic process	biological_process	BP	2235	11098	2195	11058	40
+1191	GO:0045786	36038	1	0	negative regulation of cell cycle	biological_process	BP	956	35130	908	35082	48
+1192	GO:0045787	10861	1	0	positive regulation of cell cycle	biological_process	BP	149	10732	129	10712	20
+1193	GO:0045814	12596	1	0	negative regulation of gene expression, epigenetic	biological_process	BP	886	11783	813	11710	73
+1194	GO:0045859	26278	1	0	regulation of protein kinase activity	biological_process	BP	136	26152	126	26142	10
+1195	GO:0045892	55646	1	0	negative regulation of DNA-templated transcription	biological_process	BP	14116	42652	12994	41530	1122
+1196	GO:0045893	101790	1	0	positive regulation of DNA-templated transcription	biological_process	BP	23158	80048	21742	78632	1416
+1197	GO:0045930	25571	1	0	negative regulation of mitotic cell cycle	biological_process	BP	1130	24456	1115	24441	15
+1198	GO:0045934	66304	1	0	negative regulation of nucleobase-containing compound metabolic process	biological_process	BP	0	66304	0	66304	0
+1199	GO:0045937	23734	1	0	positive regulation of phosphate metabolic process	biological_process	BP	11	23729	5	23723	6
+1200	GO:0045944	72002	1	0	positive regulation of transcription by RNA polymerase II	biological_process	BP	59898	12350	59652	12104	246
+1201	GO:0046031	15614	1	0	ADP metabolic process	biological_process	BP	6	15611	3	15608	3
+1202	GO:0046032	14989	1	0	ADP catabolic process	biological_process	BP	12	14977	12	14977	0
+1203	GO:0046034	30471	1	0	ATP metabolic process	biological_process	BP	2354	28150	2321	28117	33
+1204	GO:0046112	11274	1	0	nucleobase biosynthetic process	biological_process	BP	0	11274	0	11274	0
+1205	GO:0046148	10154	1	0	pigment biosynthetic process	biological_process	BP	181	9979	175	9973	6
+1206	GO:0046165	26942	1	0	alcohol biosynthetic process	biological_process	BP	0	26942	0	26942	0
+1207	GO:0046173	12778	1	0	polyol biosynthetic process	biological_process	BP	1	12778	0	12777	1
+1208	GO:0046390	40204	1	0	ribose phosphate biosynthetic process	biological_process	BP	595	39609	595	39609	0
+1209	GO:0046394	72813	1	0	carboxylic acid biosynthetic process	biological_process	BP	24	72810	3	72789	21
+1210	GO:0046395	54048	1	0	carboxylic acid catabolic process	biological_process	BP	41	54031	17	54007	24
+1211	GO:0046434	37343	1	0	organophosphate catabolic process	biological_process	BP	5	37338	5	37338	0
+1212	GO:0046474	48498	1	0	glycerophospholipid biosynthetic process	biological_process	BP	1844	46680	1818	46654	26
+1213	GO:0046486	79381	1	0	glycerolipid metabolic process	biological_process	BP	78	79360	21	79303	57
+1214	GO:0046488	13530	1	0	phosphatidylinositol metabolic process	biological_process	BP	2358	11240	2290	11172	68
+1215	GO:0046496	35628	1	0	nicotinamide nucleotide metabolic process	biological_process	BP	28	35607	21	35600	7
+1216	GO:0046527	12661	1	0	glucosyltransferase activity	molecular_function	MF	366	12314	347	12295	19
+1217	GO:0046540	14970	1	0	U4/U6 x U5 tri-snRNP complex	cellular_component	CC	14970	0	14970	0	0
+1218	GO:0046777	10945	1	0	protein autophosphorylation	biological_process	BP	10521	452	10493	424	28
+1219	GO:0046839	10834	1	0	phospholipid dephosphorylation	biological_process	BP	1902	8933	1901	8932	1
+1220	GO:0046854	12121	1	0	phosphatidylinositol phosphate biosynthetic process	biological_process	BP	10331	1859	10262	1790	69
+1221	GO:0046872	656241	1	0	metal ion binding	molecular_function	MF	81092	575732	80509	575149	583
+1222	GO:0046873	91497	1	0	metal ion transmembrane transporter activity	molecular_function	MF	2310	89372	2125	89187	185
+1223	GO:0046903	37654	1	0	secretion	biological_process	BP	62	37601	53	37592	9
+1224	GO:0046906	92375	1	0	tetrapyrrole binding	molecular_function	MF	88	92292	83	92287	5
+1225	GO:0046907	286114	1	0	intracellular transport	biological_process	BP	3134	282989	3125	282980	9
+1226	GO:0046914	426575	1	0	transition metal ion binding	molecular_function	MF	1486	425107	1468	425089	18
+1227	GO:0046915	20662	1	0	transition metal ion transmembrane transporter activity	molecular_function	MF	10	20661	1	20652	9
+1228	GO:0046942	33023	1	0	carboxylic acid transport	biological_process	BP	939	32095	928	32084	11
+1229	GO:0046943	41169	1	0	carboxylic acid transmembrane transporter activity	molecular_function	MF	959	40221	948	40210	11
+1230	GO:0046961	14002	1	0	proton-transporting ATPase activity, rotational mechanism	molecular_function	MF	14002	0	14002	0	0
+1231	GO:0046982	43458	1	0	protein heterodimerization activity	molecular_function	MF	43458	0	43458	0	0
+1232	GO:0046983	109093	1	0	protein dimerization activity	molecular_function	MF	58881	50472	58621	50212	260
+1233	GO:0048018	38981	1	0	receptor ligand activity	molecular_function	MF	2134	37105	1876	36847	258
+1234	GO:0048024	11722	1	0	regulation of mRNA splicing, via spliceosome	biological_process	BP	2835	8925	2797	8887	38
+1235	GO:0048029	13464	1	0	monosaccharide binding	molecular_function	MF	2904	10567	2897	10560	7
+1236	GO:0048193	89720	1	0	Golgi vesicle transport	biological_process	BP	2378	87461	2259	87342	119
+1237	GO:0048232	10546	1	0	male gamete generation	biological_process	BP	19	10530	16	10527	3
+1238	GO:0048284	29061	1	0	organelle fusion	biological_process	BP	1606	27476	1585	27455	21
+1239	GO:0048285	52720	1	0	organelle fission	biological_process	BP	13	52707	13	52707	0
+1240	GO:0048468	59494	1	0	cell development	biological_process	BP	1424	58218	1276	58070	148
+1241	GO:0048471	11810	1	0	perinuclear region of cytoplasm	cellular_component	CC	9950	1898	9912	1860	38
+1242	GO:0048475	30922	1	0	coated membrane	cellular_component	CC	0	30922	0	30922	0
+1243	GO:0048513	55265	1	0	animal organ development	biological_process	BP	2484	53242	2023	52781	461
+1244	GO:0048518	304335	1	0	positive regulation of biological process	biological_process	BP	0	304335	0	304335	0
+1245	GO:0048519	272695	1	0	negative regulation of biological process	biological_process	BP	0	272695	0	272695	0
+1246	GO:0048522	287547	1	0	positive regulation of cellular process	biological_process	BP	0	287547	0	287547	0
+1247	GO:0048523	264477	1	0	negative regulation of cellular process	biological_process	BP	0	264477	0	264477	0
+1248	GO:0048583	156481	1	0	regulation of response to stimulus	biological_process	BP	0	156481	0	156481	0
+1249	GO:0048584	61473	1	0	positive regulation of response to stimulus	biological_process	BP	0	61473	0	61473	0
+1250	GO:0048585	47902	1	0	negative regulation of response to stimulus	biological_process	BP	0	47902	0	47902	0
+1251	GO:0048609	18512	1	0	multicellular organismal reproductive process	biological_process	BP	190	18322	190	18322	0
+1252	GO:0048646	16283	1	0	anatomical structure formation involved in morphogenesis	biological_process	BP	222	16155	128	16061	94
+1253	GO:0048666	32111	1	0	neuron development	biological_process	BP	1194	31122	989	30917	205
+1254	GO:0048667	19276	1	0	cell morphogenesis involved in neuron differentiation	biological_process	BP	207	19080	196	19069	11
+1255	GO:0048699	44895	1	0	generation of neurons	biological_process	BP	277	44698	197	44618	80
+1256	GO:0048731	108410	1	0	system development	biological_process	BP	1092	107750	660	107318	432
+1257	GO:0048812	21901	1	0	neuron projection morphogenesis	biological_process	BP	2467	19535	2366	19434	101
+1258	GO:0048856	196985	1	0	anatomical structure development	biological_process	BP	6368	190620	6365	190617	3
+1259	GO:0048858	22148	1	0	cell projection morphogenesis	biological_process	BP	155	22001	147	21993	8
+1260	GO:0048869	119672	1	0	cellular developmental process	biological_process	BP	14	119664	8	119658	6
+1261	GO:0048870	38682	1	0	cell motility	biological_process	BP	3846	34892	3790	34836	56
+1262	GO:0048878	87845	1	0	chemical homeostasis	biological_process	BP	24	87833	12	87821	12
+1263	GO:0050000	10554	1	0	chromosome localization	biological_process	BP	21	10534	20	10533	1
+1264	GO:0050657	29567	1	0	nucleic acid transport	biological_process	BP	0	29567	0	29567	0
+1265	GO:0050658	29565	1	0	RNA transport	biological_process	BP	138	29444	121	29427	17
+1266	GO:0050660	79735	1	0	flavin adenine dinucleotide binding	molecular_function	MF	43493	36475	43260	36242	233
+1267	GO:0050661	21945	1	0	NADP binding	molecular_function	MF	20210	1755	20190	1735	20
+1268	GO:0050684	16461	1	0	regulation of mRNA processing	biological_process	BP	4033	12459	4002	12428	31
+1269	GO:0050776	22684	1	0	regulation of immune response	biological_process	BP	1078	21706	978	21606	100
+1270	GO:0050778	17275	1	0	positive regulation of immune response	biological_process	BP	650	16689	586	16625	64
+1271	GO:0050779	16634	1	0	RNA destabilization	biological_process	BP	16	16621	13	16618	3
+1272	GO:0050789	1473261	1	0	regulation of biological process	biological_process	BP	0	1473261	0	1473261	0
+1273	GO:0050790	86303	1	0	regulation of catalytic activity	biological_process	BP	782	85537	766	85521	16
+1274	GO:0050793	48865	1	0	regulation of developmental process	biological_process	BP	1532	47470	1395	47333	137
+1275	GO:0050794	1435395	1	0	regulation of cellular process	biological_process	BP	0	1435395	0	1435395	0
+1276	GO:0050801	68063	1	0	monoatomic ion homeostasis	biological_process	BP	1532	66551	1512	66531	20
+1277	GO:0050804	15126	1	0	modulation of chemical synaptic transmission	biological_process	BP	3846	11499	3627	11280	219
+1278	GO:0050808	10599	1	0	synapse organization	biological_process	BP	3443	7266	3333	7156	110
+1279	GO:0050839	21806	1	0	cell adhesion molecule binding	molecular_function	MF	4739	17164	4642	17067	97
+1280	GO:0050865	10018	1	0	regulation of cell activation	biological_process	BP	5	10014	4	10013	1
+1281	GO:0050877	47488	1	0	nervous system process	biological_process	BP	6647	41046	6442	40841	205
+1282	GO:0050896	865971	1	0	response to stimulus	biological_process	BP	0	865971	0	865971	0
+1283	GO:0050906	13134	1	0	detection of stimulus involved in sensory perception	biological_process	BP	261	12877	257	12873	4
+1284	GO:0050907	12136	1	0	detection of chemical stimulus involved in sensory perception	biological_process	BP	122	12071	65	12014	57
+1285	GO:0051015	40114	1	0	actin filament binding	molecular_function	MF	39828	295	39819	286	9
+1286	GO:0051020	27832	1	0	GTPase binding	molecular_function	MF	849	27005	827	26983	22
+1287	GO:0051028	20535	1	0	mRNA transport	biological_process	BP	825	19741	794	19710	31
+1288	GO:0051046	15100	1	0	regulation of secretion	biological_process	BP	155	14953	147	14945	8
+1289	GO:0051049	43648	1	0	regulation of transport	biological_process	BP	344	43366	282	43304	62
+1290	GO:0051050	11725	1	0	positive regulation of transport	biological_process	BP	33	11716	9	11692	24
+1291	GO:0051052	17846	1	0	regulation of DNA metabolic process	biological_process	BP	21	17839	7	17825	14
+1292	GO:0051056	21015	1	0	regulation of small GTPase mediated signal transduction	biological_process	BP	3287	17792	3223	17728	64
+1293	GO:0051087	25151	1	0	protein-folding chaperone binding	molecular_function	MF	17982	7265	17886	7169	96
+1294	GO:0051093	10048	1	0	negative regulation of developmental process	biological_process	BP	47	10033	15	10001	32
+1295	GO:0051094	17955	1	0	positive regulation of developmental process	biological_process	BP	74	17939	16	17881	58
+1296	GO:0051128	93457	1	0	regulation of cellular component organization	biological_process	BP	2	93455	2	93455	0
+1297	GO:0051129	25988	1	0	negative regulation of cellular component organization	biological_process	BP	23	25981	7	25965	16
+1298	GO:0051130	25837	1	0	positive regulation of cellular component organization	biological_process	BP	65	25825	12	25772	53
+1299	GO:0051156	11939	1	0	glucose 6-phosphate metabolic process	biological_process	BP	4349	7597	4342	7590	7
+1300	GO:0051168	38793	1	0	nuclear export	biological_process	BP	178	38640	153	38615	25
+1301	GO:0051169	61637	1	0	nuclear transport	biological_process	BP	23	61633	4	61614	19
+1302	GO:0051170	29026	1	0	import into nucleus	biological_process	BP	725	28330	696	28301	29
+1303	GO:0051179	937575	1	0	localization	biological_process	BP	0	937575	0	937575	0
+1304	GO:0051213	33796	1	0	dioxygenase activity	molecular_function	MF	5117	28693	5103	28679	14
+1305	GO:0051225	13025	1	0	spindle assembly	biological_process	BP	7447	5628	7397	5578	50
+1306	GO:0051234	885143	1	0	establishment of localization	biological_process	BP	0	885143	0	885143	0
+1307	GO:0051236	29570	1	0	establishment of RNA localization	biological_process	BP	2	29569	1	29568	1
+1308	GO:0051239	56068	1	0	regulation of multicellular organismal process	biological_process	BP	166	56026	42	55902	124
+1309	GO:0051240	24571	1	0	positive regulation of multicellular organismal process	biological_process	BP	141	24545	26	24430	115
+1310	GO:0051241	14831	1	0	negative regulation of multicellular organismal process	biological_process	BP	107	14792	39	14724	68
+1311	GO:0051246	100279	1	0	regulation of protein metabolic process	biological_process	BP	107	100247	32	100172	75
+1312	GO:0051247	46860	1	0	positive regulation of protein metabolic process	biological_process	BP	82	46827	33	46778	49
+1313	GO:0051248	25285	1	0	negative regulation of protein metabolic process	biological_process	BP	22	25270	15	25263	7
+1314	GO:0051252	576435	1	0	regulation of RNA metabolic process	biological_process	BP	741	575718	717	575694	24
+1315	GO:0051253	59604	1	0	negative regulation of RNA metabolic process	biological_process	BP	0	59604	0	59604	0
+1316	GO:0051254	122288	1	0	positive regulation of RNA metabolic process	biological_process	BP	9	122287	1	122279	8
+1317	GO:0051258	13242	1	0	protein polymerization	biological_process	BP	377	12870	372	12865	5
+1318	GO:0051259	14342	1	0	protein complex oligomerization	biological_process	BP	3257	11106	3236	11085	21
+1319	GO:0051276	74266	1	0	chromosome organization	biological_process	BP	1714	72709	1557	72552	157
+1320	GO:0051286	11489	1	0	cell tip	cellular_component	CC	3197	8415	3074	8292	123
+1321	GO:0051287	31029	1	0	NAD binding	molecular_function	MF	23331	7727	23302	7698	29
+1322	GO:0051301	22988	1	0	cell division	biological_process	BP	7001	16194	6794	15987	207
+1323	GO:0051321	40587	1	0	meiotic cell cycle	biological_process	BP	6491	34652	5935	34096	556
+1324	GO:0051336	39331	1	0	regulation of hydrolase activity	biological_process	BP	2	39329	2	39329	0
+1325	GO:0051338	37523	1	0	regulation of transferase activity	biological_process	BP	2	37521	2	37521	0
+1326	GO:0051345	23862	1	0	positive regulation of hydrolase activity	biological_process	BP	12	23850	12	23850	0
+1327	GO:0051493	34723	1	0	regulation of cytoskeleton organization	biological_process	BP	670	34080	643	34053	27
+1328	GO:0051536	33295	1	0	iron-sulfur cluster binding	molecular_function	MF	6909	26655	6640	26386	269
+1329	GO:0051537	13990	1	0	2 iron, 2 sulfur cluster binding	molecular_function	MF	13990	0	13990	0	0
+1330	GO:0051539	13455	1	0	4 iron, 4 sulfur cluster binding	molecular_function	MF	13455	0	13455	0	0
+1331	GO:0051540	33307	1	0	metal cluster binding	molecular_function	MF	0	33307	0	33307	0
+1332	GO:0051604	120192	1	0	protein maturation	biological_process	BP	2318	118225	1967	117874	351
+1333	GO:0051606	18388	1	0	detection of stimulus	biological_process	BP	147	18251	137	18241	10
+1334	GO:0051640	42631	1	0	organelle localization	biological_process	BP	8	42626	5	42623	3
+1335	GO:0051641	354212	1	0	cellular localization	biological_process	BP	2	354212	0	354210	2
+1336	GO:0051649	305998	1	0	establishment of localization in cell	biological_process	BP	99	305935	63	305899	36
+1337	GO:0051656	26319	1	0	establishment of organelle localization	biological_process	BP	15	26313	6	26304	9
+1338	GO:0051668	70326	1	0	localization within membrane	biological_process	BP	22	70317	9	70304	13
+1339	GO:0051707	41962	1	0	response to other organism	biological_process	BP	173	41902	60	41789	113
+1340	GO:0051716	731732	1	0	cellular response to stimulus	biological_process	BP	0	731732	0	731732	0
+1341	GO:0051726	73933	1	0	regulation of cell cycle	biological_process	BP	7605	66616	7317	66328	288
+1342	GO:0051783	12760	1	0	regulation of nuclear division	biological_process	BP	126	12640	120	12634	6
+1343	GO:0051960	11374	1	0	regulation of nervous system development	biological_process	BP	301	11081	293	11073	8
+1344	GO:0051983	11941	1	0	regulation of chromosome segregation	biological_process	BP	291	11660	281	11650	10
+1345	GO:0052689	46855	1	0	carboxylic ester hydrolase activity	molecular_function	MF	4209	42745	4110	42646	99
+1346	GO:0055029	41781	1	0	nuclear DNA-directed RNA polymerase complex	cellular_component	CC	4	41781	0	41777	4
+1347	GO:0055074	21326	1	0	calcium ion homeostasis	biological_process	BP	655	20714	612	20671	43
+1348	GO:0055080	66161	1	0	monoatomic cation homeostasis	biological_process	BP	225	65951	210	65936	15
+1349	GO:0055082	64358	1	0	intracellular chemical homeostasis	biological_process	BP	4	64356	2	64354	2
+1350	GO:0055085	425153	1	0	transmembrane transport	biological_process	BP	215293	215503	209650	209860	5643
+1351	GO:0055086	155924	1	0	nucleobase-containing small molecule metabolic process	biological_process	BP	54	155917	7	155870	47
+1352	GO:0055088	12094	1	0	lipid homeostasis	biological_process	BP	6702	5441	6653	5392	49
+1353	GO:0060089	205675	1	0	molecular transducer activity	molecular_function	MF	0	205675	0	205675	0
+1354	GO:0060090	63139	1	0	molecular adaptor activity	molecular_function	MF	12169	51162	11977	50970	192
+1355	GO:0060187	11501	1	0	cell pole	cellular_component	CC	8	11493	8	11493	0
+1356	GO:0060255	764570	1	0	regulation of macromolecule metabolic process	biological_process	BP	0	764570	0	764570	0
+1357	GO:0060271	29919	1	0	cilium assembly	biological_process	BP	17803	13359	16560	12116	1243
+1358	GO:0060284	13738	1	0	regulation of cell development	biological_process	BP	11	13734	4	13727	7
+1359	GO:0060322	10117	1	0	head development	biological_process	BP	99	10055	62	10018	37
+1360	GO:0060429	14361	1	0	epithelium development	biological_process	BP	223	14214	147	14138	76
+1361	GO:0060589	88203	1	0	nucleoside-triphosphatase regulator activity	molecular_function	MF	1	88202	1	88202	0
+1362	GO:0060627	17886	1	0	regulation of vesicle-mediated transport	biological_process	BP	167	17739	147	17719	20
+1363	GO:0061013	23863	1	0	regulation of mRNA catabolic process	biological_process	BP	7	23861	2	23856	5
+1364	GO:0061014	17908	1	0	positive regulation of mRNA catabolic process	biological_process	BP	98	17856	52	17810	46
+1365	GO:0061024	88050	1	0	membrane organization	biological_process	BP	2799	85326	2724	85251	75
+1366	GO:0061025	24687	1	0	membrane fusion	biological_process	BP	1584	23193	1494	23103	90
+1367	GO:0061134	25079	1	0	peptidase regulator activity	molecular_function	MF	0	25079	0	25079	0
+1368	GO:0061135	21390	1	0	endopeptidase regulator activity	molecular_function	MF	5	21387	3	21385	2
+1369	GO:0061136	14350	1	0	regulation of proteasomal protein catabolic process	biological_process	BP	1983	12379	1971	12367	12
+1370	GO:0061157	16619	1	0	mRNA destabilization	biological_process	BP	1173	15460	1159	15446	14
+1371	GO:0061564	19439	1	0	axon development	biological_process	BP	1545	17932	1507	17894	38
+1372	GO:0061630	61610	1	0	ubiquitin protein ligase activity	molecular_function	MF	59657	2055	59555	1953	102
+1373	GO:0061640	13230	1	0	cytoskeleton-dependent cytokinesis	biological_process	BP	4463	9014	4216	8767	247
+1374	GO:0061645	10211	1	0	endocytic patch	cellular_component	CC	6	10208	3	10205	3
+1375	GO:0061659	66019	1	0	ubiquitin-like protein ligase activity	molecular_function	MF	22	66007	12	65997	10
+1376	GO:0061695	108632	1	0	transferase complex, transferring phosphorus-containing groups	cellular_component	CC	3	108632	0	108629	3
+1377	GO:0061919	39221	1	0	process utilizing autophagic mechanism	biological_process	BP	0	39221	0	39221	0
+1378	GO:0061982	24062	1	0	meiosis I cell cycle process	biological_process	BP	26	24057	5	24036	21
+1379	GO:0062197	19535	1	0	cellular response to chemical stress	biological_process	BP	13	19527	8	19522	5
+1380	GO:0065002	24683	1	0	intracellular protein transmembrane transport	biological_process	BP	342	24341	342	24341	0
+1381	GO:0065003	202741	1	0	protein-containing complex assembly	biological_process	BP	1400	201471	1270	201341	130
+1382	GO:0065004	32062	1	0	protein-DNA complex assembly	biological_process	BP	20	32043	19	32042	1
+1383	GO:0065007	1552771	1	0	biological regulation	biological_process	BP	0	1552771	0	1552771	0
+1384	GO:0065008	149232	1	0	regulation of biological quality	biological_process	BP	0	149232	0	149232	0
+1385	GO:0065009	97930	1	0	regulation of molecular function	biological_process	BP	0	97930	0	97930	0
+1386	GO:0070001	20235	1	0	aspartic-type peptidase activity	molecular_function	MF	8	20231	4	20227	4
+1387	GO:0070006	10567	1	0	metalloaminopeptidase activity	molecular_function	MF	10567	0	10567	0	0
+1388	GO:0070008	11483	1	0	serine-type exopeptidase activity	molecular_function	MF	2366	9123	2360	9117	6
+1389	GO:0070013	383237	1	0	intracellular organelle lumen	cellular_component	CC	71	383223	14	383166	57
+1390	GO:0070063	13570	1	0	RNA polymerase binding	molecular_function	MF	825	12755	815	12745	10
+1391	GO:0070161	38895	1	0	anchoring junction	cellular_component	CC	494	38714	181	38401	313
+1392	GO:0070279	37576	1	0	vitamin B6 binding	molecular_function	MF	3	37573	3	37573	0
+1393	GO:0070382	13523	1	0	exocytic vesicle	cellular_component	CC	1710	12138	1385	11813	325
+1394	GO:0070461	10570	1	0	SAGA-type complex	cellular_component	CC	1173	9458	1112	9397	61
+1395	GO:0070566	10398	1	0	adenylyltransferase activity	molecular_function	MF	630	9787	611	9768	19
+1396	GO:0070585	17297	1	0	protein localization to mitochondrion	biological_process	BP	307	17035	262	16990	45
+1397	GO:0070588	21280	1	0	calcium ion transmembrane transport	biological_process	BP	13679	7737	13543	7601	136
+1398	GO:0070603	23177	1	0	SWI/SNF superfamily-type complex	cellular_component	CC	206	22975	202	22971	4
+1399	GO:0070646	37956	1	0	protein modification by small protein removal	biological_process	BP	740	37221	735	37216	5
+1400	GO:0070647	139694	1	0	protein modification by small protein conjugation or removal	biological_process	BP	2	139693	1	139692	1
+1401	GO:0070828	11313	1	0	heterochromatin organization	biological_process	BP	520	10812	501	10793	19
+1402	GO:0070848	13661	1	0	response to growth factor	biological_process	BP	56	13622	39	13605	17
+1403	GO:0070887	89383	1	0	cellular response to chemical stimulus	biological_process	BP	0	89383	0	89383	0
+1404	GO:0070897	11331	1	0	transcription preinitiation complex assembly	biological_process	BP	2111	9234	2097	9220	14
+1405	GO:0070925	109651	1	0	organelle assembly	biological_process	BP	11	109647	4	109640	7
+1406	GO:0071011	19653	1	0	precatalytic spliceosome	cellular_component	CC	19586	202	19451	67	135
+1407	GO:0071013	35793	1	0	catalytic step 2 spliceosome	cellular_component	CC	31960	3977	31816	3833	144
+1408	GO:0071214	10542	1	0	cellular response to abiotic stimulus	biological_process	BP	0	10542	0	10542	0
+1409	GO:0071345	15178	1	0	cellular response to cytokine stimulus	biological_process	BP	316	14972	206	14862	110
+1410	GO:0071363	13553	1	0	cellular response to growth factor stimulus	biological_process	BP	2209	12474	1079	11344	1130
+1411	GO:0071396	12825	1	0	cellular response to lipid	biological_process	BP	187	12668	157	12638	30
+1412	GO:0071495	40097	1	0	cellular response to endogenous stimulus	biological_process	BP	0	40097	0	40097	0
+1413	GO:0071554	37692	1	0	cell wall organization or biogenesis	biological_process	BP	4	37691	1	37688	3
+1414	GO:0071555	18037	1	0	cell wall organization	biological_process	BP	2180	15870	2167	15857	13
+1415	GO:0071705	77091	1	0	nitrogen compound transport	biological_process	BP	969	76124	967	76122	2
+1416	GO:0071805	21564	1	0	potassium ion transmembrane transport	biological_process	BP	14241	7450	14114	7323	127
+1417	GO:0071806	25456	1	0	protein transmembrane transport	biological_process	BP	77	25379	77	25379	0
+1418	GO:0071824	35617	1	0	protein-DNA complex organization	biological_process	BP	0	35617	0	35617	0
+1419	GO:0071826	67430	1	0	protein-RNA complex organization	biological_process	BP	3	67430	0	67427	3
+1420	GO:0071840	896282	1	0	cellular component organization or biogenesis	biological_process	BP	0	896282	0	896282	0
+1421	GO:0071852	16048	1	0	fungal-type cell wall organization or biogenesis	biological_process	BP	20	16036	12	16028	8
+1422	GO:0071897	12955	1	0	DNA biosynthetic process	biological_process	BP	2035	11010	1945	10920	90
+1423	GO:0071900	18559	1	0	regulation of protein serine/threonine kinase activity	biological_process	BP	5	18554	5	18554	0
+1424	GO:0071944	525977	1	0	cell periphery	cellular_component	CC	6621	520014	5963	519356	658
+1425	GO:0071949	36475	1	0	FAD binding	molecular_function	MF	36475	0	36475	0	0
+1426	GO:0071985	16282	1	0	multivesicular body sorting pathway	biological_process	BP	269	16076	206	16013	63
+1427	GO:0072329	24586	1	0	monocarboxylic acid catabolic process	biological_process	BP	0	24586	0	24586	0
+1428	GO:0072330	32149	1	0	monocarboxylic acid biosynthetic process	biological_process	BP	7	32149	0	32142	7
+1429	GO:0072341	12193	1	0	modified amino acid binding	molecular_function	MF	23	12170	23	12170	0
+1430	GO:0072359	15600	1	0	circulatory system development	biological_process	BP	398	15259	341	15202	57
+1431	GO:0072521	114259	1	0	purine-containing compound metabolic process	biological_process	BP	28	114257	2	114231	26
+1432	GO:0072522	59294	1	0	purine-containing compound biosynthetic process	biological_process	BP	7	59294	0	59287	7
+1433	GO:0072523	25874	1	0	purine-containing compound catabolic process	biological_process	BP	4	25874	0	25870	4
+1434	GO:0072524	39302	1	0	pyridine-containing compound metabolic process	biological_process	BP	5	39297	5	39297	0
+1435	GO:0072525	12057	1	0	pyridine-containing compound biosynthetic process	biological_process	BP	0	12057	0	12057	0
+1436	GO:0072526	16494	1	0	pyridine-containing compound catabolic process	biological_process	BP	0	16494	0	16494	0
+1437	GO:0072527	19453	1	0	pyrimidine-containing compound metabolic process	biological_process	BP	14	19451	2	19439	12
+1438	GO:0072528	15651	1	0	pyrimidine-containing compound biosynthetic process	biological_process	BP	10	15651	0	15641	10
+1439	GO:0072593	22422	1	0	reactive oxygen species metabolic process	biological_process	BP	138	22318	104	22284	34
+1440	GO:0072594	94918	1	0	establishment of protein localization to organelle	biological_process	BP	329	94592	326	94589	3
+1441	GO:0072599	16809	1	0	establishment of protein localization to endoplasmic reticulum	biological_process	BP	0	16809	0	16809	0
+1442	GO:0072657	24586	1	0	protein localization to membrane	biological_process	BP	2789	21838	2748	21797	41
+1443	GO:0072659	14895	1	0	protein localization to plasma membrane	biological_process	BP	8578	6339	8556	6317	22
+1444	GO:0072663	10123	1	0	establishment of protein localization to peroxisome	biological_process	BP	10	10123	0	10113	10
+1445	GO:0072665	19203	1	0	protein localization to vacuole	biological_process	BP	401	18816	387	18802	14
+1446	GO:0072666	18191	1	0	establishment of protein localization to vacuole	biological_process	BP	15	18188	3	18176	12
+1447	GO:0072686	12799	1	0	mitotic spindle	cellular_component	CC	10122	4331	8468	2677	1654
+1448	GO:0080090	702766	1	0	regulation of primary metabolic process	biological_process	BP	0	702766	0	702766	0
+1449	GO:0080134	31023	1	0	regulation of response to stress	biological_process	BP	0	31023	0	31023	0
+1450	GO:0080135	12719	1	0	regulation of cellular response to stress	biological_process	BP	58	12687	32	12661	26
+1451	GO:0090066	27507	1	0	regulation of anatomical structure size	biological_process	BP	2	27507	0	27505	2
+1452	GO:0090150	39650	1	0	establishment of protein localization to membrane	biological_process	BP	62	39613	37	39588	25
+1453	GO:0090174	23110	1	0	organelle membrane fusion	biological_process	BP	3	23110	0	23107	3
+1454	GO:0090304	716114	1	0	nucleic acid metabolic process	biological_process	BP	118	716004	110	715996	8
+1455	GO:0090407	148572	1	0	organophosphate biosynthetic process	biological_process	BP	9	148572	0	148563	9
+1456	GO:0090533	14065	1	0	cation-transporting ATPase complex	cellular_component	CC	16	14051	14	14049	2
+1457	GO:0090575	44409	1	0	RNA polymerase II transcription regulator complex	cellular_component	CC	7403	37101	7308	37006	95
+1458	GO:0090630	10471	1	0	activation of GTPase activity	biological_process	BP	10471	0	10471	0	0
+1459	GO:0097014	11421	1	0	ciliary plasm	cellular_component	CC	230	11194	227	11191	3
+1460	GO:0097035	10711	1	0	regulation of membrane lipid distribution	biological_process	BP	396	10320	391	10315	5
+1461	GO:0097060	17895	1	0	synaptic membrane	cellular_component	CC	683	17373	522	17212	161
+1462	GO:0097346	10939	1	0	INO80-type complex	cellular_component	CC	0	10939	0	10939	0
+1463	GO:0097367	734254	1	0	carbohydrate derivative binding	molecular_function	MF	2608	731667	2587	731646	21
+1464	GO:0097435	61885	1	0	supramolecular fiber organization	biological_process	BP	75	61840	45	61810	30
+1465	GO:0097447	18954	1	0	dendritic tree	cellular_component	CC	11	18948	6	18943	5
+1466	GO:0097485	13814	1	0	neuron projection guidance	biological_process	BP	21	13808	6	13793	15
+1467	GO:0097525	35117	1	0	spliceosomal snRNP complex	cellular_component	CC	27	35117	0	35090	27
+1468	GO:0097526	18985	1	0	spliceosomal tri-snRNP complex	cellular_component	CC	4056	14971	4014	14929	42
+1469	GO:0097708	168602	1	0	intracellular vesicle	cellular_component	CC	324	168320	282	168278	42
+1470	GO:0097747	12948	1	0	RNA polymerase activity	molecular_function	MF	0	12948	0	12948	0
+1471	GO:0098533	14379	1	0	ATPase dependent transmembrane transport complex	cellular_component	CC	0	14379	0	14379	0
+1472	GO:0098542	26053	1	0	defense response to other organism	biological_process	BP	8070	17996	8057	17983	13
+1473	GO:0098552	39063	1	0	side of membrane	cellular_component	CC	5	39061	2	39058	3
+1474	GO:0098562	17085	1	0	cytoplasmic side of membrane	cellular_component	CC	26	17061	24	17059	2
+1475	GO:0098588	218401	1	0	bounding membrane of organelle	cellular_component	CC	152	218388	13	218249	139
+1476	GO:0098590	43209	1	0	plasma membrane region	cellular_component	CC	77	43132	77	43132	0
+1477	GO:0098609	33412	1	0	cell-cell adhesion	biological_process	BP	13088	20710	12702	20324	386
+1478	GO:0098655	97575	1	0	monoatomic cation transmembrane transport	biological_process	BP	2182	95570	2005	95393	177
+1479	GO:0098657	64762	1	0	import into cell	biological_process	BP	16	64758	4	64746	12
+1480	GO:0098659	13792	1	0	inorganic cation import across plasma membrane	biological_process	BP	9	13789	3	13783	6
+1481	GO:0098687	34023	1	0	chromosomal region	cellular_component	CC	19	34019	4	34004	15
+1482	GO:0098739	16321	1	0	import across plasma membrane	biological_process	BP	16	16316	5	16305	11
+1483	GO:0098754	13411	1	0	detoxification	biological_process	BP	33	13387	24	13378	9
+1484	GO:0098771	53606	1	0	inorganic ion homeostasis	biological_process	BP	35	53601	5	53571	30
+1485	GO:0098772	274723	1	0	molecular function regulator activity	molecular_function	MF	0	274723	0	274723	0
+1486	GO:0098791	38136	1	0	Golgi apparatus subcompartment	cellular_component	CC	0	38136	0	38136	0
+1487	GO:0098793	21264	1	0	presynapse	cellular_component	CC	2064	19569	1695	19200	369
+1488	GO:0098794	23953	1	0	postsynapse	cellular_component	CC	2653	21729	2224	21300	429
+1489	GO:0098796	219104	1	0	membrane protein complex	cellular_component	CC	23	219095	9	219081	14
+1490	GO:0098797	54819	1	0	plasma membrane protein complex	cellular_component	CC	255	54592	227	54564	28
+1491	GO:0098798	61651	1	0	mitochondrial protein-containing complex	cellular_component	CC	0	61651	0	61651	0
+1492	GO:0098800	17321	1	0	inner mitochondrial membrane protein complex	cellular_component	CC	19	17318	3	17302	16
+1493	GO:0098802	11599	1	0	plasma membrane signaling receptor complex	cellular_component	CC	1040	10559	1040	10559	0
+1494	GO:0098813	31944	1	0	nuclear chromosome segregation	biological_process	BP	96	31893	51	31848	45
+1495	GO:0098827	134776	1	0	endoplasmic reticulum subcompartment	cellular_component	CC	6	134776	0	134770	6
+1496	GO:0098852	41089	1	0	lytic vacuole membrane	cellular_component	CC	26	41073	16	41063	10
+1497	GO:0098876	19976	1	0	vesicle-mediated transport to the plasma membrane	biological_process	BP	23	19959	17	19953	6
+1498	GO:0098916	26719	1	0	anterograde trans-synaptic signaling	biological_process	BP	0	26719	0	26719	0
+1499	GO:0098984	10167	1	0	neuron to neuron synapse	cellular_component	CC	27	10152	15	10140	12
+1500	GO:0099023	31162	1	0	vesicle tethering complex	cellular_component	CC	36	31158	4	31126	32
+1501	GO:0099080	127957	1	0	supramolecular complex	cellular_component	CC	0	127957	0	127957	0
+1502	GO:0099081	68524	1	0	supramolecular polymer	cellular_component	CC	0	68524	0	68524	0
+1503	GO:0099094	17548	1	0	ligand-gated monoatomic cation channel activity	molecular_function	MF	18	17539	9	17530	9
+1504	GO:0099111	14571	1	0	microtubule-based transport	biological_process	BP	8	14563	8	14563	0
+1505	GO:0099177	15130	1	0	regulation of trans-synaptic signaling	biological_process	BP	0	15130	0	15130	0
+1506	GO:0099503	22237	1	0	secretory vesicle	cellular_component	CC	291	21985	252	21946	39
+1507	GO:0099512	68524	1	0	supramolecular fiber	cellular_component	CC	33	68512	12	68491	21
+1508	GO:0099513	57839	1	0	polymeric cytoskeletal fiber	cellular_component	CC	29	57827	12	57810	17
+1509	GO:0099536	28556	1	0	synaptic signaling	biological_process	BP	944	27623	933	27612	11
+1510	GO:0099537	27064	1	0	trans-synaptic signaling	biological_process	BP	15	27055	9	27049	6
+1511	GO:0099572	11183	1	0	postsynaptic specialization	cellular_component	CC	719	10494	689	10464	30
+1512	GO:0099587	13803	1	0	inorganic ion import across plasma membrane	biological_process	BP	0	13803	0	13803	0
+1513	GO:0101005	29768	1	0	deubiquitinase activity	molecular_function	MF	1274	28593	1175	28494	99
+1514	GO:0104004	10542	1	0	cellular response to environmental stimulus	biological_process	BP	0	10542	0	10542	0
+1515	GO:0110053	20314	1	0	regulation of actin filament organization	biological_process	BP	40	20301	13	20274	27
+1516	GO:0110165	4471050	1	0	cellular anatomical structure	cellular_component	CC	0	4471050	0	4471050	0
+1517	GO:0120025	116033	1	0	plasma membrane bounded cell projection	cellular_component	CC	173	115993	40	115860	133
+1518	GO:0120031	31710	1	0	plasma membrane bounded cell projection assembly	biological_process	BP	11	31710	0	31699	11
+1519	GO:0120035	14562	1	0	regulation of plasma membrane bounded cell projection organization	biological_process	BP	61	14531	31	14501	30
+1520	GO:0120036	64924	1	0	plasma membrane bounded cell projection organization	biological_process	BP	13	64920	4	64911	9
+1521	GO:0120039	21987	1	0	plasma membrane bounded cell projection morphogenesis	biological_process	BP	2	21985	2	21985	0
+1522	GO:0120114	38816	1	0	Sm-like protein family complex	cellular_component	CC	18	38815	1	38798	17
+1523	GO:0120543	90943	1	0	macromolecular conformation isomerase activity	molecular_function	MF	0	90943	0	90943	0
+1524	GO:0120544	29456	1	0	polypeptide conformation or assembly isomerase activity	molecular_function	MF	0	29456	0	29456	0
+1525	GO:0120545	61491	1	0	nucleic acid conformation isomerase activity	molecular_function	MF	0	61491	0	61491	0
+1526	GO:0120569	20456	1	0	phospholipase activity	molecular_function	MF	0	20456	0	20456	0
+1527	GO:0140013	26410	1	0	meiotic nuclear division	biological_process	BP	44	26368	42	26366	2
+1528	GO:0140014	20600	1	0	mitotic nuclear division	biological_process	BP	59	20544	56	20541	3
+1529	GO:0140030	10516	1	0	modification-dependent protein binding	molecular_function	MF	8	10508	8	10508	0
+1530	GO:0140053	29702	1	0	mitochondrial gene expression	biological_process	BP	422	29283	419	29280	3
+1531	GO:0140096	747871	1	0	catalytic activity, acting on a protein	molecular_function	MF	52	747868	3	747819	49
+1532	GO:0140097	109169	1	0	catalytic activity, acting on DNA	molecular_function	MF	17	109167	2	109152	15
+1533	GO:0140098	179124	1	0	catalytic activity, acting on RNA	molecular_function	MF	12	179123	1	179112	11
+1534	GO:0140101	63747	1	0	catalytic activity, acting on a tRNA	molecular_function	MF	27	63744	3	63720	24
+1535	GO:0140102	12988	1	0	catalytic activity, acting on a rRNA	molecular_function	MF	0	12988	0	12988	0
+1536	GO:0140104	41261	1	0	molecular carrier activity	molecular_function	MF	94	41184	77	41167	17
+1537	GO:0140110	392310	1	0	transcription regulator activity	molecular_function	MF	2129	390181	2129	390181	0
+1538	GO:0140115	11262	1	0	export across plasma membrane	biological_process	BP	49	11228	34	11213	15
+1539	GO:0140142	10270	1	0	nucleocytoplasmic carrier activity	molecular_function	MF	0	10270	0	10270	0
+1540	GO:0140186	13856	1	0	protein N-acyltransferase activity	molecular_function	MF	3	13856	0	13853	3
+1541	GO:0140223	14535	1	0	general transcription initiation factor activity	molecular_function	MF	683	13869	666	13852	17
+1542	GO:0140299	16825	1	0	molecular sensor activity	molecular_function	MF	19	16807	18	16806	1
+1543	GO:0140352	45506	1	0	export from cell	biological_process	BP	8	45503	3	45498	5
+1544	GO:0140358	11503	1	0	P-type transmembrane transporter activity	molecular_function	MF	563	10974	529	10940	34
+1545	GO:0140359	30367	1	0	ABC-type transporter activity	molecular_function	MF	26165	4374	25993	4202	172
+1546	GO:0140375	10948	1	0	immune receptor activity	molecular_function	MF	36	10921	27	10912	9
+1547	GO:0140513	428235	1	0	nuclear protein-containing complex	cellular_component	CC	108	428127	108	428127	0
+1548	GO:0140522	16456	1	0	fusogenic activity	molecular_function	MF	12	16456	0	16444	12
+1549	GO:0140527	17191	1	0	reciprocal homologous recombination	biological_process	BP	0	17191	0	17191	0
+1550	GO:0140534	42908	1	0	endoplasmic reticulum protein-containing complex	cellular_component	CC	0	42908	0	42908	0
+1551	GO:0140535	287312	1	0	intracellular protein-containing complex	cellular_component	CC	42	287292	20	287270	22
+1552	GO:0140546	17736	1	0	defense response to symbiont	biological_process	BP	15	17733	3	17721	12
+1553	GO:0140612	10510	1	0	DNA damage sensor activity	molecular_function	MF	23	10487	23	10487	0
+1554	GO:0140640	301906	1	0	catalytic activity, acting on a nucleic acid	molecular_function	MF	22	301906	0	301884	22
+1555	GO:0140657	282926	1	0	ATP-dependent activity	molecular_function	MF	0	282926	0	282926	0
+1556	GO:0140658	17552	1	0	ATP-dependent chromatin remodeler activity	molecular_function	MF	16416	1161	16391	1136	25
+1557	GO:0140662	21731	1	0	ATP-dependent protein folding chaperone	molecular_function	MF	21731	0	21731	0	0
+1558	GO:0140664	10487	1	0	ATP-dependent DNA damage sensor activity	molecular_function	MF	10487	0	10487	0	0
+1559	GO:0140677	114380	1	0	molecular function activator activity	molecular_function	MF	98	114310	70	114282	28
+1560	GO:0140678	48437	1	0	molecular function inhibitor activity	molecular_function	MF	126	48350	87	48311	39
+1561	GO:0140694	61189	1	0	membraneless organelle assembly	biological_process	BP	65	61133	56	61124	9
+1562	GO:0140993	32794	1	0	histone modifying activity	molecular_function	MF	7	32794	0	32787	7
+1563	GO:0141124	53559	1	0	intracellular signaling cassette	biological_process	BP	17	53552	7	53542	10
+1564	GO:0141187	439099	1	0	nucleic acid biosynthetic process	biological_process	BP	0	439099	0	439099	0
+1565	GO:0141188	53280	1	0	nucleic acid catabolic process	biological_process	BP	0	53280	0	53280	0
+1566	GO:0160108	133218	1	0	animal gross anatomical part developmental process	biological_process	BP	0	133218	0	133218	0
+1567	GO:0160109	12970	1	0	plant gross anatomical part developmental process	biological_process	BP	0	12970	0	12970	0
+1568	GO:0160215	24970	1	0	deacylase activity	molecular_function	MF	13	24960	10	24957	3
+1569	GO:0160307	209430	1	0	protein biosynthetic process	biological_process	BP	0	209430	0	209430	0
+1570	GO:0170033	60115	1	0	L-amino acid metabolic process	biological_process	BP	14	60114	1	60101	13
+1571	GO:0170034	26716	1	0	L-amino acid biosynthetic process	biological_process	BP	1	26716	0	26715	1
+1572	GO:0170035	19984	1	0	L-amino acid catabolic process	biological_process	BP	2	19984	0	19982	2
+1573	GO:0170036	14432	1	0	import into the mitochondrion	biological_process	BP	0	14432	0	14432	0
+1574	GO:0170038	28295	1	0	proteinogenic amino acid biosynthetic process	biological_process	BP	1	28295	0	28294	1
+1575	GO:0170039	58048	1	0	proteinogenic amino acid metabolic process	biological_process	BP	3	58048	0	58045	3
+1576	GO:0170040	21926	1	0	proteinogenic amino acid catabolic process	biological_process	BP	2	21926	0	21924	2
+1577	GO:0170041	18668	1	0	non-proteinogenic amino acid metabolic process	biological_process	BP	0	18668	0	18668	0
+1578	GO:0180046	21715	1	0	GPI anchored protein biosynthesis	biological_process	BP	29	21715	0	21686	29
+1579	GO:0180051	46839	1	0	translation factor activity	molecular_function	MF	0	46839	0	46839	0
+1580	GO:1901135	205706	1	0	carbohydrate derivative metabolic process	biological_process	BP	736	205093	613	204970	123
+1581	GO:1901136	44850	1	0	carbohydrate derivative catabolic process	biological_process	BP	10	44847	3	44840	7
+1582	GO:1901137	126651	1	0	carbohydrate derivative biosynthetic process	biological_process	BP	452	126647	4	126199	448
+1583	GO:1901264	10870	1	0	carbohydrate derivative transport	biological_process	BP	21	10855	15	10849	6
+1584	GO:1901265	839428	1	0	nucleoside phosphate binding	molecular_function	MF	1	839428	0	839427	1
+1585	GO:1901292	27774	1	0	nucleoside phosphate catabolic process	biological_process	BP	3	27774	0	27771	3
+1586	GO:1901293	74752	1	0	nucleoside phosphate biosynthetic process	biological_process	BP	4	74752	0	74748	4
+1587	GO:1901363	890488	1	0	heterocyclic compound binding	molecular_function	MF	81	890435	53	890407	28
+1588	GO:1901505	14834	1	0	carbohydrate derivative transmembrane transporter activity	molecular_function	MF	0	14834	0	14834	0
+1589	GO:1901652	16978	1	0	response to peptide	biological_process	BP	54	16935	43	16924	11
+1590	GO:1901681	22751	1	0	sulfur compound binding	molecular_function	MF	0	22751	0	22751	0
+1591	GO:1901682	11762	1	0	sulfur compound transmembrane transporter activity	molecular_function	MF	6	11760	2	11756	4
+1592	GO:1901698	17552	1	0	response to nitrogen compound	biological_process	BP	4	17551	1	17548	3
+1593	GO:1901699	12673	1	0	cellular response to nitrogen compound	biological_process	BP	0	12673	0	12673	0
+1594	GO:1901700	48201	1	0	response to oxygen-containing compound	biological_process	BP	0	48201	0	48201	0
+1595	GO:1901701	30527	1	0	cellular response to oxygen-containing compound	biological_process	BP	66	30516	11	30461	55
+1596	GO:1901800	10546	1	0	positive regulation of proteasomal protein catabolic process	biological_process	BP	132	10426	120	10414	12
+1597	GO:1901981	19562	1	0	phosphatidylinositol phosphate binding	molecular_function	MF	2156	17447	2115	17406	41
+1598	GO:1901987	43924	1	0	regulation of cell cycle phase transition	biological_process	BP	772	43179	745	43152	27
+1599	GO:1901988	31879	1	0	negative regulation of cell cycle phase transition	biological_process	BP	10	31874	5	31869	5
+1600	GO:1901990	27429	1	0	regulation of mitotic cell cycle phase transition	biological_process	BP	38	27403	26	27391	12
+1601	GO:1901991	17378	1	0	negative regulation of mitotic cell cycle phase transition	biological_process	BP	29	17365	13	17349	16
+1602	GO:1902493	31621	1	0	acetyltransferase complex	cellular_component	CC	2	31621	0	31619	2
+1603	GO:1902494	497927	1	0	catalytic complex	cellular_component	CC	160	497823	104	497767	56
+1604	GO:1902495	42534	1	0	transmembrane transporter complex	cellular_component	CC	206	42364	170	42328	36
+1605	GO:1902531	72784	1	0	regulation of intracellular signal transduction	biological_process	BP	516	72355	429	72268	87
+1606	GO:1902532	19738	1	0	negative regulation of intracellular signal transduction	biological_process	BP	60	19722	16	19678	44
+1607	GO:1902533	31368	1	0	positive regulation of intracellular signal transduction	biological_process	BP	177	31318	50	31191	127
+1608	GO:1902554	34308	1	0	serine/threonine protein kinase complex	cellular_component	CC	201	34111	197	34107	4
+1609	GO:1902555	10684	1	0	endoribonuclease complex	cellular_component	CC	36	10673	11	10648	25
+1610	GO:1902562	10149	1	0	H4 histone acetyltransferase complex	cellular_component	CC	18	10146	3	10131	15
+1611	GO:1902600	29883	1	0	proton transmembrane transport	biological_process	BP	25978	3978	25905	3905	73
+1612	GO:1902652	17341	1	0	secondary alcohol metabolic process	biological_process	BP	4	17341	0	17337	4
+1613	GO:1902653	10541	1	0	secondary alcohol biosynthetic process	biological_process	BP	3	10541	0	10538	3
+1614	GO:1902679	55838	1	0	negative regulation of RNA biosynthetic process	biological_process	BP	6	55835	3	55832	3
+1615	GO:1902680	101797	1	0	positive regulation of RNA biosynthetic process	biological_process	BP	6	101794	3	101791	3
+1616	GO:1902749	12842	1	0	regulation of cell cycle G2/M phase transition	biological_process	BP	70	12772	70	12772	0
+1617	GO:1902850	21170	1	0	microtubule cytoskeleton organization involved in mitosis	biological_process	BP	14	21163	7	21156	7
+1618	GO:1902903	22614	1	0	regulation of supramolecular fiber organization	biological_process	BP	9	22611	3	22605	6
+1619	GO:1902911	37085	1	0	protein kinase complex	cellular_component	CC	18	37072	13	37067	5
+1620	GO:1902936	13587	1	0	phosphatidylinositol bisphosphate binding	molecular_function	MF	2981	10625	2962	10606	19
+1621	GO:1903046	34554	1	0	meiotic cell cycle process	biological_process	BP	0	34554	0	34554	0
+1622	GO:1903047	83407	1	0	mitotic cell cycle process	biological_process	BP	0	83407	0	83407	0
+1623	GO:1903293	12156	1	0	phosphatase complex	cellular_component	CC	5	12151	5	12151	0
+1624	GO:1903311	39929	1	0	regulation of mRNA metabolic process	biological_process	BP	12	39929	0	39917	12
+1625	GO:1903313	20466	1	0	positive regulation of mRNA metabolic process	biological_process	BP	6	20465	1	20460	5
+1626	GO:1903509	27927	1	0	liposaccharide metabolic process	biological_process	BP	0	27927	0	27927	0
+1627	GO:1903530	14294	1	0	regulation of secretion by cell	biological_process	BP	24	14289	5	14270	19
+1628	GO:1904949	36307	1	0	ATPase complex	cellular_component	CC	75	36243	64	36232	11
+1629	GO:1905037	18680	1	0	autophagosome organization	biological_process	BP	1752	16934	1746	16928	6
+1630	GO:1905039	17715	1	0	carboxylic acid transmembrane transport	biological_process	BP	56	17674	41	17659	15
+1631	GO:1905348	12165	1	0	endonuclease complex	cellular_component	CC	5	12160	5	12160	0
+1632	GO:1905354	14136	1	0	exoribonuclease complex	cellular_component	CC	6	14136	0	14130	6
+1633	GO:1905368	50948	1	0	peptidase complex	cellular_component	CC	36	50917	31	50912	5
+1634	GO:1905369	39747	1	0	endopeptidase complex	cellular_component	CC	8	39741	6	39739	2
+1635	GO:1990204	21257	1	0	oxidoreductase complex	cellular_component	CC	18	21240	17	21239	1
+1636	GO:1990234	263740	1	0	transferase complex	cellular_component	CC	1101	262667	1073	262639	28
+1637	GO:1990351	45080	1	0	transporter complex	cellular_component	CC	24	45067	13	45056	11
+1638	GO:1990542	18881	1	0	mitochondrial transmembrane transport	biological_process	BP	2057	16835	2046	16824	11
+1639	GO:1990778	16237	1	0	protein localization to cell periphery	biological_process	BP	12	16229	8	16225	4
+1640	GO:1990837	237263	1	0	sequence-specific double-stranded DNA binding	molecular_function	MF	4085	234906	2357	233178	1728
+1641	GO:1990904	302960	1	0	ribonucleoprotein complex	cellular_component	CC	17579	285681	17279	285381	300
+1642	GO:2000026	24666	1	0	regulation of multicellular organismal development	biological_process	BP	87	24641	25	24579	62
+1643	GO:2000058	11988	1	0	regulation of ubiquitin-dependent protein catabolic process	biological_process	BP	269	11729	259	11719	10
+1644	GO:2000060	10000	1	0	positive regulation of ubiquitin-dependent protein catabolic process	biological_process	BP	344	9677	323	9656	21
+1645	GO:2000145	18455	1	0	regulation of cell motility	biological_process	BP	62	18410	45	18393	17
+1646	GO:2000147	10315	1	0	positive regulation of cell motility	biological_process	BP	459	9880	435	9856	24
+1647	GO:2001141	537682	1	0	regulation of RNA biosynthetic process	biological_process	BP	15	537682	0	537667	15
+1648	GO:7770058	15804	1	0	mitochondrial protein import pathway	biological_process	BP	0	15804	0	15804	0

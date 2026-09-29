@@ -1,0 +1,20 @@
+Figure 9A. Molecular function GO-term performance by GO graph depth and binned dataset
+occurrence. Each heatmap cell groups retained true-path GO terms by ontology depth and
+by the number of sequences annotated to the term in the dataset used for vocabulary
+construction. The left panel shows the median one-vs-rest GO-term F1 at the single
+global test-selected global threshold (0.610); for each GO term, F1 is computed across
+the held-out sequences as 2TP/(2TP+FP+FN), treating that term as the positive class
+rather than averaging gene-level scores. The right panel shows the median per-term
+optimal Fmax, where each GO term is evaluated at its best threshold over the test-set
+threshold grid. Both panels are descriptive (oracle) test-set analyses: the global
+threshold was selected using all test labels, and each per-term Fmax independently
+selects that term's best test-set threshold. Neither represents performance at a
+validation-selected operating threshold. Empty gray cells contain no retained terms.
+Sparse cells are labeled n=1 through n=4, where n is the number of GO terms in that
+depth-by-occurrence bin. The heatmap includes 849 molecular function terms across
+3,092,176 sequences in the held-out MMseqs-cluster test set; the median occupied cell
+score was 0.294 for global-threshold F1 and 0.366 for per-term optimal Fmax. Exact cell
+medians, occurrence ranges, and term counts are provided in
+figure_09_go_depth_occurrence_f1_heatmap_summary.tsv. The ontology root terms molecular
+function (MF) (GO:0003674), cellular component (CC) (GO:0005575), and biological process
+(BP) (GO:0008150) were excluded from all reported metrics.

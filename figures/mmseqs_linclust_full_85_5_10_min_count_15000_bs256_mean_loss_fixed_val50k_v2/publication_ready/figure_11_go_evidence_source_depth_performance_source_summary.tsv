@@ -1,0 +1,2 @@
+assigned_priority	assigned_source_group	assigned_source_label	terms	dataset_gene_go_labels	test_positive_labels	median_f1_at_global_threshold	f1_q25	f1_q75	median_per_term_fmax	fmax_q25	fmax_q75
+1	experimental	Experimental	3381	824807633	99442231	0.07066481	0.00154799	0.2634319	0.21989842	0.12685726	0.35211451

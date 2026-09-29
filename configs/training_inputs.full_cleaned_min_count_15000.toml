@@ -1,0 +1,33 @@
+# CPU-side training-input preparation for the full cleaned completed-taxon
+# embedding set with GO vocabulary min_count = 15000.
+# Paths are resolved relative to --project-root.
+
+build_id = "all_labels_true_path_full_cleaned_min_count_15000_v1"
+build_root = "outputs/builds"
+
+embedding_root = "outputs/builds/all_labels_true_path_42taxa_human_test_min_count_100_v1/data/embeddings"
+selected_genes = "outputs/builds/all_labels_true_path_42taxa_human_test_min_count_100_v1/data/embeddings/embedding_metadata.tsv.gz"
+
+length_filtered_cds_root = "outputs/map_gene_cds/length_filtered_max_8192"
+annotations = "outputs/process_Gene2GO/processed/final/positive_gene_go_annotations.tsv.gz"
+go_basic_obo = "data/go/go-basic.obo"
+
+label_policy = "true_path_all_labels_including_iea"
+include_iea = true
+min_count = 15000
+write_gene_labels = false
+
+steps = [
+  "true_path_counts",
+  "go_adjacency",
+  "label_cache",
+]
+
+[split]
+name = "mmseqs_linclust_full_85_5_10_70id_50cov_kmer03_noadj"
+seed = "evo2-go-mmseqs-linclust-full-85-5-10-kmer03-noadj-v1"
+expected_embedding_dim = 4096
+drop_examples_without_labels = false
+
+[validation]
+expected_embedding_dim = 4096

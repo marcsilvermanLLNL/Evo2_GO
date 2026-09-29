@@ -1,0 +1,5 @@
+x	y	spearman_r
+label_count	precision	0.5161795521093179
+label_count	recall	-0.6550139490429657
+label_count	f1	-0.11721655470658907
+label_count	predicted_positive_count	0.36457545741118663

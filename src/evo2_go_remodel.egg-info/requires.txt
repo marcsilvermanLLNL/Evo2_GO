@@ -1,0 +1,11 @@
+
+[embeddings]
+torch
+
+[ontology]
+goatools
+numpy
+scipy
+
+[training]
+torch

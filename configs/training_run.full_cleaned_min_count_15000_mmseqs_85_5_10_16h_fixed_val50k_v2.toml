@@ -1,0 +1,47 @@
+# Resume the full cleaned MMseqs run with a fixed, seeded 50k validation panel.
+# The panel is generated once with `evo2-go validation-panel`; every checkpoint
+# evaluates the complete saved panel in the same order.
+
+build_id = "all_labels_true_path_full_cleaned_min_count_15000_v1"
+build_root = "outputs/builds"
+run_name = "mmseqs_linclust_full_85_5_10_min_count_15000_bs256_mean_loss_fixed_val50k_v2"
+
+embedding_root = "outputs/builds/all_labels_true_path_42taxa_human_test_min_count_100_v1/data/embeddings"
+vocabulary = "outputs/builds/all_labels_true_path_full_cleaned_min_count_15000_v1/adjacency/go_vocabulary.tsv"
+adjacency = "outputs/builds/all_labels_true_path_full_cleaned_min_count_15000_v1/adjacency/go_adjacency_sparse.npz"
+label_cache = "outputs/builds/all_labels_true_path_full_cleaned_min_count_15000_v1/data/labels/label_index.tsv.gz"
+split_manifest = "outputs/builds/mmseqs_linclust_full_85_5_10_kmer03_noadj_v1/data/splits/mmseqs_linclust_full_85_5_10_70id_50cov_kmer03_noadj_manifest.tsv"
+validation_panel = "outputs/builds/mmseqs_linclust_full_85_5_10_kmer03_noadj_v1/data/splits/mmseqs_linclust_full_85_5_10_70id_50cov_kmer03_noadj_validation_panel_50000_v1.tsv"
+
+[training]
+train_split = "train"
+val_split = "val"
+batch_size = 256
+num_workers = 2
+max_steps = 200000
+warmup_steps = 2000
+validate_every = 5000
+# The validation dataset is already the exact saved panel; always consume it all.
+validation_batches = 0
+checkpoint_every = 5000
+log_every = 100
+peak_lr = 3e-4
+weight_decay = 0.01
+loss_reduction = "mean"
+loss_positive_weight = 1.0
+loss_negative_weight = 1.0
+device = "auto"
+max_cached_shards = 2
+resume_checkpoint = "outputs/builds/all_labels_true_path_full_cleaned_min_count_15000_v1/runs/mmseqs_linclust_full_85_5_10_min_count_15000_bs256_mean_loss_16h_v1/latest_checkpoint.pt"
+# The checkpoint's old best Fmax used a different validation protocol.
+reset_best_on_resume = true
+stop_after_seconds = 55800
+
+[evaluation]
+split_name = "test"
+batch_size = 256
+num_workers = 2
+threshold_steps = 100
+device = "auto"
+save_score_matrix = true
+publication_metrics = true

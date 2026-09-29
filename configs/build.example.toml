@@ -1,0 +1,62 @@
+# Example build configuration consumed by build_database.py.
+# Paths are resolved relative to --project-root.
+
+build_id = "all_labels_true_path_42taxa_human_test_min_count_100_v1"
+build_root = "outputs/builds"
+
+selected_genes = "outputs/builds/all_labels_true_path_42taxa_human_test_min_count_100_v1/data/embeddings/embedding_metadata.tsv.gz"
+representative_cds_root = "outputs/map_gene_cds/by_tax"
+length_filtered_cds_root = "outputs/map_gene_cds/length_filtered_max_8192"
+embedding_root = "outputs/builds/all_labels_true_path_42taxa_human_test_min_count_100_v1/data/embeddings"
+annotations = "outputs/process_Gene2GO/processed/final/positive_gene_go_annotations.tsv.gz"
+go_basic_obo = "data/go/go-basic.obo"
+
+label_policy = "true_path_all_labels_including_iea"
+include_iea = true
+min_count = 100
+write_gene_labels = false
+
+steps = [
+  "true_path_counts",
+  "go_adjacency",
+  "label_cache",
+]
+
+validation_tax_id = "10116"
+test_tax_id = "9606"
+ortholog_safe = false
+
+[cds_mapping]
+enabled = false
+labels = "outputs/process_Gene2GO/processed/final/positive_gene_go_labels.tsv.gz"
+download_manifest = "data/refseq_cds/downloaded_cds.tsv"
+output_root = "outputs/map_gene_cds/by_tax"
+max_workers = 16
+
+[length_filter]
+max_tokens = 8192
+max_workers = 16
+# tax_ids = ["9606", "10090"]
+# limit_taxa = 4
+
+[embeddings]
+model_name = "evo2_7b_base"
+model_path = "evo2_model/evo2_7b_base.pt"
+expected_max_seqlen = 32768
+max_workers = 4
+gpu_ids = "0,1,2,3"
+# All jobs should write into the shared embedding_root above. The extractor
+# stores per-taxon artifacts under embedding_root/tax_<tax_id>/ and rebuilds
+# root metadata from every complete taxon in that shared root.
+#
+# Use tax_ids or tax_list for an explicit taxa set:
+# tax_ids = ["9606", "10090"]
+# tax_list = "configs/example_taxa.txt"
+#
+# Use limit_runnable_taxa for repeated queue jobs that run until wall time ends.
+# Completed taxa and completed batch shards are skipped by default.
+# limit_runnable_taxa = 2
+# no_progress_timeout_seconds = 1800
+# max_failed_batches = 1
+# bucket_batch_sizes = "bucket_1:8,bucket_2:8,bucket_3:16,bucket_4:8,bucket_5:8,bucket_6:6"
+# validation_max_records = 1000

@@ -1,0 +1,19 @@
+Figure. Evo2-GO dual-encoder architecture. Each representative CDS is represented by a
+precomputed, mean-pooled 4,096-dimensional activation from layer blocks.28.mlp.l3 of
+Evo2-7B; stored FP16 vectors are cast to FP32 at the trainable model boundary. The sequence
+encoder applies LayerNorm, a 4,096-to-2,048 linear projection, GELU, 0.1 dropout, a second
+LayerNorm, a 2,048-to-1,024 linear projection, 0.1 dropout, and L2 normalization. In
+parallel, 3,384 learned 256-dimensional GO node vectors are encoded by a two-layer GCN over
+a fixed, symmetrically normalized ontology adjacency containing self-loops and bidirectional
+is_a and part_of edges. Each graph layer aggregates with the adjacency; bias-free
+projections map 256 to 512 and then 512 to 1,024 dimensions, with LayerNorm and GELU after
+the first projection and LayerNorm followed by L2 normalization after the second. The GCN
+therefore supplies two-hop ontology context and is recomputed on each training forward pass.
+Unit-normalized sequence and GO representations are compared by a scaled dot product,
+equivalent to cosine similarity. The learned scale is initialized to 20 and clamped to [1,
+100], producing one raw logit per retained GO term; sigmoid converts logits to multilabel
+probabilities. GO vectors serve directly as output heads, with no separate classifier matrix
+or term-bias layer. Training uses dense true-path binary targets and mean-reduced asymmetric
+loss (gamma-negative 4, gamma-positive 0, probability clip 0.05). Backpropagation updates
+both encoders, the GO node features, and the logit scale, while the precomputed Evo2
+embeddings and normalized GO adjacency remain fixed.

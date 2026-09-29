@@ -1,0 +1,6 @@
+metric	value
+terms_with_test_support	3381
+median_f1_at_global_threshold	0.04407713
+median_per_term_fmax	0.21983274
+spearman_frequency_f1_at_global_threshold	0.33866958
+spearman_frequency_per_term_fmax	0.21810948

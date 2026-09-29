@@ -1,0 +1,17 @@
+Figure 2. GO-term-level performance increases with GO-term dataset frequency. Each point
+represents one retained true-path GO term with at least one positive test sequence;
+terms are colored by GO namespace. The x-axis shows the number of dataset sequences
+annotated to the term in the full cleaned 30,921,763-sequence dataset used for
+vocabulary construction. The left panel reports one-vs-rest GO-term F1 at the single
+global threshold selected by the gene-averaged test-set threshold sweep (0.584); the
+right panel reports the best one-vs-rest F1 for each GO term over the same threshold
+grid. Black lines show frequency-binned medians and shaded bands show interquartile
+ranges. The analysis includes 3,381 of 3,381 vocabulary terms with test-set support
+across 3,092,176 test sequences. Median F1 at the global threshold was 0.071, whereas
+median per-term optimal Fmax was 0.220; Spearman correlations with dataset occurrence
+were rho=0.33 and rho=0.22, respectively. Both panels are descriptive (oracle) test-set
+analyses: the global threshold was selected using all test labels, and each per-term
+Fmax independently selects that term's best test-set threshold. Neither represents
+performance at a validation-selected operating threshold. The ontology root terms
+molecular function (MF) (GO:0003674), cellular component (CC) (GO:0005575), and
+biological process (BP) (GO:0008150) were excluded from this analysis.

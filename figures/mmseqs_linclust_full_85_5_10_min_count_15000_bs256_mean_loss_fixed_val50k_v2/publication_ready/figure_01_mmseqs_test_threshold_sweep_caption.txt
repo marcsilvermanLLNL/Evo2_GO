@@ -1,0 +1,13 @@
+Figure 1. MMseqs-cluster test set threshold sweep for Evo2-GO function prediction.
+Predicted GO-term probabilities from the best checkpoint (training step 190,000) were
+thresholded over 100 evenly spaced cutoffs from 0.01 to 0.99 and evaluated on the
+held-out test partition (3,092,176 sequences; 3,381 retained non-root true-path GO
+terms). Precision and recall were computed per gene and averaged across genes; F1 was
+then computed from the averaged precision and recall at each threshold. The maximum
+gene-averaged F1 was 0.525 at threshold 0.584, with precision 0.537 and recall 0.514.
+Because threshold 0.584 was selected to maximize F1 using the test labels, this value is
+a descriptive (oracle) test-set Fmax rather than performance at a validation-selected
+operating threshold. The selected cutoff is also not a calibrated posterior-probability
+threshold. The ontology root terms molecular function (MF) (GO:0003674), cellular
+component (CC) (GO:0005575), and biological process (BP) (GO:0008150) were excluded from
+all reported metrics.
